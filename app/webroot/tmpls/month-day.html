@@ -1,0 +1,26 @@
+<div class="cal-month-day <%= cls %>">
+	<span class="pull-right" data-cal-date="<%= data_day %>" data-cal-view="day" data-toggle="tooltip" title="<%= tooltip %>"><%= day %></span>
+	<% if (events.length > 0) { %>
+		<div class="events-list" data-cal-start="<%= start %>" data-cal-end="<%= end %>">
+			<%
+			nbr_events_success = events.filter(function(e) { return (e['class'] == 'event-success'); }).length;
+			nbr_events_important = events.filter(function(e) { return (e['class'] == 'event-important'); }).length; %>
+			<% if (nbr_events_important > 0) { %>
+				<small class="cal-events-num badge badge-important pull-right"><%= nbr_events_important %></small>
+			<% } %>
+			<% if (nbr_events_success > 0) { %>
+				<small class="cal-events-num badge badge-success pull-right"><%= nbr_events_success %></small>
+			<% } %>
+
+
+			<!--
+			<% _.each(events, function(event) { %>
+				<a href="<%= event.url ? event.url : 'javascript:void(0)' %>" data-event-id="<%= event.id %>" data-event-class="<%= event['class'] %>"
+					class="pull-left event <%= event['class'] %>" data-toggle="tooltip"
+					title="<%= event.title %>"></a>
+			<% }); %>
+			-->
+			
+		</div>
+	<% } %>
+</div>

@@ -1,0 +1,4792 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-03-09 16:39+0100\n"
+"PO-Revision-Date: 2015-03-09 16:40+0100\n"
+"Last-Translator: EZYcount team <info@ezycount.ch>\n"
+"Language-Team:  <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.7.3\n"
+
+#: Controller/AccountsController.php:15
+msgid "You need to create a company first to be able to view the reports"
+msgstr "Vous devez créer une entreprise pour pouvoir voir les rapports"
+
+#: Controller/AccountsController.php:29
+msgid "You don't have the rights to execute this action"
+msgstr "Vous n'avez pas les droits pour faire cette action"
+
+#: Controller/AccountsController.php:41
+msgid ""
+"This account cannot be removed as you already inputted an opening balance."
+"<br />You can remove the booking in the opening balance step."
+msgstr ""
+"Ce compte ne peut pas être effacé car il contient un solde de départ. </br> "
+"Vous pouvez effacer cette écriture dans l'étape \"solde de départ\""
+
+#: Controller/AccountsController.php:44
+msgid ""
+"This account cannot be removed as it is already used in a previous booking."
+msgstr "Ce compte ne peut pas être effacé car il contient des écritures."
+
+#: Controller/AccountsController.php:56 View/Accounts/balance_sheet.ctp:299
+#: View/Layouts/default.ctp:363
+msgid "Balance sheet"
+msgstr "Bilan"
+
+#: Controller/AccountsController.php:252
+#: View/Accounts/income_statement.ctp:123 View/Layouts/default.ctp:364
+msgid "Income statement"
+msgstr "Compte de résultat"
+
+#: Controller/AccountsController.php:354 View/Layouts/default.ctp:372
+msgid "VAT - Check report"
+msgstr "TVA - Contrôle de la TVA"
+
+#: Controller/AccountsController.php:675 View/Layouts/default.ctp:365
+msgid "Account statement"
+msgstr "Relevé de compte"
+
+#: Controller/AdminController.php:163
+msgid "Your coupon has been saved."
+msgstr "Votre bon a été sauvé."
+
+#: Controller/AdminController.php:167
+msgid "Unable to add your coupon."
+msgstr "Impossible d'ajouter le bon"
+
+#: Controller/AdminController.php:185
+msgid "Your coupon has been updated."
+msgstr "Votre bon a été modifié."
+
+#: Controller/AdminController.php:188
+msgid "Unable to update your coupon."
+msgstr "Impossible de modifier votre bon."
+
+#: Controller/AdminController.php:200
+msgid "The coupon has been deleted"
+msgstr "Le bon a été effacé"
+
+#: Controller/BankAccountsController.php:54;77
+msgid "The bank account has been saved."
+msgstr "Le compte en banque a été sauvé."
+
+#: Controller/BankAccountsController.php:57;80
+msgid "The bank account could not be saved. Please, try again."
+msgstr "Le compte en banque n'a pas été sauvegardé. Merci de réessayer."
+
+#: Controller/BankAccountsController.php:73;100
+msgid "Invalid bank account"
+msgstr "Compte en banque non conforme"
+
+#: Controller/BankAccountsController.php:104
+msgid "The bank account has been deleted."
+msgstr "Le compte en banque a été effacé."
+
+#: Controller/BankAccountsController.php:106
+msgid "The bank account could not be deleted. Please, try again."
+msgstr "Le compte en banque n'a pas été effacé. Merci de réessayer."
+
+#: Controller/BookingsController.php:20 Controller/CurrenciesController.php:13
+#: Controller/VatAccountsController.php:14
+msgid "You need to create a company first to be able to create bookings"
+msgstr "Vous devez créer une entreprise pour pouvoir passer des écritures"
+
+#: Controller/BookingsController.php:133;750;1450;2402
+msgid "Please enter a valid id"
+msgstr "Insérez un numéro valide"
+
+#: Controller/BookingsController.php:145;771;2415 View/Bookings/multi.ctp:748
+msgid "The amount need to be a valid decimal number"
+msgstr "Le montant doit avoir une décimale valide"
+
+#: Controller/BookingsController.php:152;759;2422
+msgid "This booking should have a description."
+msgstr "Cette écriture doit avoir une description."
+
+#: Controller/BookingsController.php:172;794;2451
+msgid ""
+"A booking with this ID has already been booked. If you still want to "
+"continue please confirm by pressing \"Book\" again. The original booking "
+"will not be deleted."
+msgstr ""
+"Une écriture avec ce numéro a déjà été passée. Pour utilisez le même numéro, "
+"confirmez pas presser \"Passer\" une seconde fois. L'écriture originale ne "
+"sera pas effacée."
+
+#: Controller/BookingsController.php:183;805;1459;2240;2467
+#: View/Bookings/multi.ctp:736
+msgid "The booking should not be earlier than the blocking date."
+msgstr "L'écriture ne doit pas être avant la date de blockage."
+
+#: Controller/BookingsController.php:232;858;2516
+msgid "Account "
+msgstr "Compte"
+
+#: Controller/BookingsController.php:246;250;872;876
+msgid "This VAT code is not valid for the date you chose"
+msgstr "Ce code TVA n'est pas valable dans la période choisie"
+
+#: Controller/BookingsController.php:258;884;1595;2544
+msgid ""
+"The VAT code is not linked to any VAT account, please go to VAT settings -> "
+"VAT code to input it."
+msgstr ""
+"Le code TVA n'est pas lié à un compte. Veuillez le renseigner sous "
+"Paramétrage TVA -> Codes TVA."
+
+#: Controller/BookingsController.php:374;993
+msgid "Please provide a description."
+msgstr "Une description est obligatoire."
+
+#: Controller/BookingsController.php:388;1007;2667
+msgid "You need to provide an amount."
+msgstr "Montant manquant"
+
+#: Controller/BookingsController.php:1445
+msgid "The debit should be equal to the credit"
+msgstr "Le débit doit être égal au crédit. Merci de contrôler les données."
+
+#: Controller/BookingsController.php:1491
+msgid "A booking with this ID has already been booked."
+msgstr "Une écriture a déjà ce numéro."
+
+#: Controller/BookingsController.php:1583;1587
+msgid "This VAT code is not valid for the date you chose."
+msgstr "Ce code TVA n'est pas valable pour la date choisie."
+
+#: Controller/BookingsController.php:1583;1587;1595
+msgid "Line"
+msgstr "Ligne"
+
+#: Controller/BookingsController.php:2246
+msgid "This is an incorrect file format"
+msgstr "Format de fichier incorrect"
+
+#: Controller/BookingsController.php:2747
+msgid "Booking is booked !"
+msgstr "Ecriture passée"
+
+#: Controller/BookingsController.php:2752
+msgid "Error"
+msgstr "Erreur"
+
+#: Controller/ChargesController.php:38;77;104
+msgid "Invalid other charge"
+msgstr "Autres charges pas conforme"
+
+#: Controller/ChargesController.php:53;81
+msgid "The other charge has been saved."
+msgstr "Autre charge sauvée"
+
+#: Controller/ChargesController.php:56;84
+msgid "The other charge could not be saved. Please, try again."
+msgstr "Autre charge ne peut pas être sauvée. Merci de réessayer."
+
+#: Controller/ChargesController.php:108
+msgid "The other charge has been deleted."
+msgstr "Autre charge a été effacée."
+
+#: Controller/ChargesController.php:110
+msgid "The other charge could not be deleted. Please, try again."
+msgstr "Les autres charges n'ont pas été effacées. Merci de réessayer."
+
+#: Controller/CompaniesController.php:116;1785 View/Emails/html/invoice.ctp:14
+msgid "Billing address:"
+msgstr "Adresse de facturation:"
+
+#: Controller/CompaniesController.php:123;1792 View/Emails/html/invoice.ctp:23
+msgid "Provider"
+msgstr "Fournisseur"
+
+#: Controller/CompaniesController.php:125;1794 View/Emails/html/invoice.ctp:25
+msgid "EZYcount"
+msgstr "EZYcount"
+
+#: Controller/CompaniesController.php:126;1795 View/Contacts/index.ctp:60
+#: View/Emails/html/invoice.ctp:26
+msgid "superVX AG"
+msgstr "superVX AG"
+
+#: Controller/CompaniesController.php:127;1796 View/Contacts/index.ctp:61
+#: View/Emails/html/invoice.ctp:27
+msgid "neufeldstrasse 134"
+msgstr "neufeldstrasse 134"
+
+#: Controller/CompaniesController.php:128;1797 View/Contacts/index.ctp:62
+#: View/Emails/html/invoice.ctp:28
+msgid "3012 Bern"
+msgstr "3012 Bern"
+
+#: Controller/CompaniesController.php:130;1799 View/Emails/html/invoice.ctp:30
+msgid "VAT: CHE_481.185.632 TVA"
+msgstr "TVA: CHF_481.185.632 TVA"
+
+#: Controller/CompaniesController.php:132;1801 View/Emails/html/invoice.ctp:32
+msgid "Date: %s"
+msgstr "Date: %s"
+
+#: Controller/CompaniesController.php:137;1807 View/Emails/html/invoice.ctp:37
+msgid "Invoice number %s"
+msgstr "Numéro de facture %s"
+
+#: Controller/CompaniesController.php:139;1809 View/Emails/html/invoice.ctp:39
+msgid "Hello %s"
+msgstr "Bonjour %s"
+
+#: Controller/CompaniesController.php:141;1811 View/Emails/html/invoice.ctp:41
+msgid ""
+"Thank you very much for your purchase. We hope you will enjoy working with "
+"EZYcount."
+msgstr ""
+"Merci pour votre achat. Nous espérons que vous apprécierez travailler avec "
+"EZYcount."
+
+#: Controller/CompaniesController.php:142;1812 View/Emails/html/invoice.ctp:42
+msgid "EZYcount Team"
+msgstr "L'équipe d'EZYcount"
+
+#: Controller/CompaniesController.php:148;1837;1880
+#: View/Emails/html/invoice.ctp:48
+msgid "%s year(s) subscription for %s"
+msgstr "%s année(s) abonnement pour %s"
+
+#: Controller/CompaniesController.php:149 View/Emails/html/invoice.ctp:49
+msgid "Valid until: %s."
+msgstr "Valide jusqu'au: %s."
+
+#: Controller/CompaniesController.php:152;159;166;1840;1848;1856;1862;1869;1883;1891;1899;1905;1912
+#: View/Emails/html/invoice.ctp:52;59;66
+msgid "CHF %s"
+msgstr "CHF %s"
+
+#: Controller/CompaniesController.php:158;1861;1904
+#: View/Companies/renewstep2.ctp:49 View/Emails/html/invoice.ctp:58
+msgid "+8% VAT"
+msgstr "+8% TVA"
+
+#: Controller/CompaniesController.php:164;1867;1910
+#: View/Accounts/balance_sheet.ctp:345;378;388;442
+#: View/Accounts/income_statement.ctp:141;227 View/Companies/renewstep2.ctp:53
+#: View/Elements/Invoices/preview.ctp:33 View/Elements/Invoices/step3.ctp:21
+#: View/Emails/html/invoice.ctp:64
+msgid "Total"
+msgstr "Total"
+
+#: Controller/CompaniesController.php:178 View/Invoices/view.ctp:2
+msgid "Invoice"
+msgstr "Facture"
+
+#: Controller/CompaniesController.php:274;290
+msgid "Your coupon is not valid."
+msgstr "Votre bon n'est pas valable."
+
+#: Controller/CompaniesController.php:279
+msgid "Your coupon is not valid for this plan."
+msgstr "Votre Bon n'est pas valable pour cet abonnement."
+
+#: Controller/CompaniesController.php:284
+msgid "There is no coupon available with this code"
+msgstr "Il n'y a pas de bon correspondant à ce code"
+
+#: Controller/CompaniesController.php:332
+msgid "Please select a plan."
+msgstr "Veuillez sélectionner un abonnement."
+
+#: Controller/CompaniesController.php:619
+msgid "You need at least one account to go to the next step."
+msgstr "Ajoutez au moins un compte pour passer à l'étape suivante."
+
+#: Controller/CompaniesController.php:622
+msgid ""
+"Your company is VAT registered, you need at least one VAT paid and one VAT "
+"owed account."
+msgstr ""
+"Votre entreprise est assujettie à la TVA, vous avez besoin d'au moins un "
+"compte de TVA à payer et un compte de TVA à recevoir."
+
+#: Controller/CompaniesController.php:802
+msgid "initial account balance"
+msgstr "Solde de départ"
+
+#: Controller/CompaniesController.php:818;822;827
+msgid "You need to select an account."
+msgstr "Vous devez sélectionner un montant."
+
+#: Controller/CompaniesController.php:856
+msgid "Debit should be equal to credit. Please check your inputs."
+msgstr ""
+"Total Débit doit être égal au total Crédit. Merci de contrôler les données."
+
+#: Controller/CompaniesController.php:1036 View/Accounts/balance_sheet.ctp:181
+#: View/Layouts/default.ctp:384
+msgid "Company details"
+msgstr "Détails de l'entreprise"
+
+#: Controller/CompaniesController.php:1039
+msgid "You need to create a company first to be able to access the settings"
+msgstr "Vous devez créer une entreprise pour avoir accès à ses paramètres."
+
+#: Controller/CompaniesController.php:1084
+msgid ""
+"You changed your VAT model from effective to net, please change your VAT "
+"codes."
+msgstr ""
+"Vous avez changé le modèle TVA de la méthode effective à la méthode nette. "
+"Veuillez changer vos codes TVA."
+
+#: Controller/CompaniesController.php:1087
+msgid ""
+"You changed your VAT model from net to effective, please change your VAT "
+"codes."
+msgstr ""
+"Vous avez changé le modèle TVA de la méthode nette à la méthode effective. "
+"Veuillez changer vos codes TVA."
+
+#: Controller/CompaniesController.php:1112;1136;1282;1400
+msgid "You need to create a company first to be able to access the permissions"
+msgstr ""
+"Vous devez créer une entreprise pour avoir accès à la gestion des droits des "
+"utilisateurs."
+
+#: Controller/CompaniesController.php:1185
+msgid "%s deleted from EZYcount"
+msgstr "%s effacé d'EZYcount"
+
+#: Controller/CompaniesController.php:1276 View/Companies/accessright.ctp:2
+#: View/Layouts/default.ctp:381
+msgid "Access Rights"
+msgstr "Droits d'accès"
+
+#: Controller/CompaniesController.php:1293
+msgid ""
+"You're the last administrator for this company, you can't change your rights."
+msgstr "Chaque entreprise doit avoir au moins un administrateur."
+
+#: Controller/CompaniesController.php:1318;1329
+msgid "You already have invited this person"
+msgstr "Vous avez déjà invité cette personne."
+
+#: Controller/CompaniesController.php:1338
+#: View/Companies/accessright.ctp:25;89;104;171 View/Layouts/default.ctp:277
+#: View/Users/got_company.ctp:34
+msgid "Viewer"
+msgstr "Visiteur"
+
+#: Controller/CompaniesController.php:1341
+#: View/Companies/accessright.ctp:25;85;104;165 View/Users/got_company.ctp:32
+msgid "Editor"
+msgstr "Editeur"
+
+#: Controller/CompaniesController.php:1345 View/Layouts/default.ctp:271
+msgid "Admin"
+msgstr "Admin"
+
+#: Controller/CompaniesController.php:1352
+msgid "is already member of EZYcount, his rights have been updated"
+msgstr ""
+
+#: Controller/CompaniesController.php:1355
+msgid "Invitation sent successfully."
+msgstr ""
+
+#: Controller/CompaniesController.php:1381
+msgid "Invitation to EZYcount from %s"
+msgstr "Invitation à EZYcount par %s"
+
+#: Controller/CompaniesController.php:1424
+msgid "You already have access to this company"
+msgstr "Vous avez déjà accès à cette entreprise"
+
+#: Controller/CompaniesController.php:1564 View/Layouts/default.ctp:386
+msgid "Chart of Accounts"
+msgstr "Plan comptable"
+
+#: Controller/CompaniesController.php:1569
+msgid ""
+"You need to create a company first to be able to access the chart of accounts"
+msgstr "Vous devez créer une entreprise pour avoir accès à son plan comptable."
+
+#: Controller/CompaniesController.php:1696 View/Layouts/default.ctp:388
+msgid "EZYcount invoices"
+msgstr "Vos factures EZYcount"
+
+#: Controller/CompaniesController.php:1699;1717
+msgid "You need to create a company first to be able to access the invoices"
+msgstr "Vous devez créer une entreprise pour avoir accès à ses factures"
+
+#: Controller/CompaniesController.php:1845;1888 View/Companies/renew.ctp:281
+#: View/Companies/renewstep2.ctp:36;38
+msgid "Voucher"
+msgstr "Bon"
+
+#: Controller/CompaniesController.php:1853;1896
+#: View/Companies/renewstep2.ctp:45
+msgid "Total HT"
+msgstr "Total HT"
+
+#: Controller/CompaniesController.php:2028
+#: View/Companies/chartofaccounts.ctp:70;171;227
+#: View/Companies/step5.ctp:214;324;380 View/Layouts/admin.ctp:111
+msgid "Add"
+msgstr "Ajouter"
+
+#: Controller/CompaniesController.php:2035 View/Accounts/balance_sheet.ctp:34
+#: View/Accounts/income_statement.ctp:35 View/BankAccounts/index.ctp:42
+#: View/Bookings/cash.ctp:558;562;565 View/Bookings/cash_old.ctp:449;453
+#: View/Bookings/index.ctp:505;510;515 View/Bookings/multi.ctp:579;584
+#: View/Bookings/view_import.ctp:225 View/Charges/index.ctp:40
+#: View/Companies/accessright.ctp:110;217
+#: View/Companies/chartofaccounts.ctp:202 View/Companies/step5.ctp:356
+#: View/Conditions/index.ctp:36 View/Conditions/view.ctp:51
+#: View/Currencies/index.ctp:329 View/Customers/index.ctp:41
+#: View/Invoices/index.ctp:47 View/Invoices/view.ctp:120
+#: View/ModelInvoices/index.ctp:26 View/ModelInvoices/view.ctp:82
+#: View/Products/index.ctp:42 View/VatAccounts/index.ctp:208
+msgid "Edit"
+msgstr "Modifier"
+
+#: Controller/CompaniesController.php:2036
+msgid "Are you sure you wish to delete this account?"
+msgstr "Êtes-vous sûre de vouloir effacer ce compte?"
+
+#: Controller/CompaniesController.php:2036 View/Accounts/balance_sheet.ctp:36
+#: View/Accounts/income_statement.ctp:37 View/BankAccounts/index.ctp:43
+#: View/Bookings/cash.ctp:571 View/Bookings/cash_old.ctp:460
+#: View/Bookings/import.ctp:150 View/Bookings/index.ctp:521
+#: View/Bookings/multi.ctp:589 View/Charges/index.ctp:41
+#: View/Companies/accessright.ctp:117 View/Conditions/edit.ctp:17
+#: View/Conditions/index.ctp:37 View/Conditions/view.ctp:52
+#: View/Currencies/index.ctp:335 View/Customers/index.ctp:42
+#: View/Invoices/index.ctp:48 View/Invoices/view.ctp:121
+#: View/ModelInvoices/edit.ctp:20 View/ModelInvoices/index.ctp:27
+#: View/ModelInvoices/view.ctp:83 View/Products/index.ctp:43
+#: View/Users/got_company.ctp:62
+msgid "Delete"
+msgstr "Effacer"
+
+#: Controller/ConditionsController.php:40;94;119
+msgid "Invalid payment condition"
+msgstr "Condition de paiement non conforme"
+
+#: Controller/ConditionsController.php:56;98
+msgid "The payment condition has been saved."
+msgstr "Condition de paiement sauvée."
+
+#: Controller/ConditionsController.php:69;74;101
+msgid "The payment condition could not be saved. Please, try again."
+msgstr "La condition de paiement n'a pas été sauvée. Merci de réessayer."
+
+#: Controller/ConditionsController.php:123
+msgid "The payment condition has been deleted."
+msgstr "Condition de paiement effacée."
+
+#: Controller/ConditionsController.php:125
+msgid "The payment condition could not be deleted. Please, try again."
+msgstr "La condition de paiement n'a pas été effacée. Merci de réessayer."
+
+#: Controller/ContactsController.php:17
+msgid "Contact"
+msgstr "Contact"
+
+#: Controller/ContactsController.php:41;68
+msgid "Your message has been sent !"
+msgstr "Votre message a bien été envoyé !"
+
+#: Controller/ContactsController.php:50;63 View/Contacts/trustees.ctp:6
+#: View/Layouts/default.ctp:176;437 View/Layouts/login.ctp:131
+msgid "Trustees"
+msgstr "Fiduciaires"
+
+#: Controller/CurrenciesController.php:21 View/Layouts/default.ctp:379
+msgid "Currencies"
+msgstr "Devises"
+
+#: Controller/CurrenciesController.php:34
+msgid "Currency saved"
+msgstr "Devise enregistrées"
+
+#: Controller/CurrenciesController.php:37
+msgid "Currency created"
+msgstr "Devise créée"
+
+#: Controller/CurrenciesController.php:73
+msgid "This currency cannot be deleted."
+msgstr "La devise ne peut pas être effacée."
+
+#: Controller/CustomersController.php:30
+msgid "You need to create a company first to be able to create a customer"
+msgstr "Vous devez créer une entreprise pour pouvoir créer un client"
+
+#: Controller/CustomersController.php:79;106
+msgid "The customer has been saved."
+msgstr "Le client est sauvé."
+
+#: Controller/CustomersController.php:82
+msgid "The customer could not be saved. Please, try again !"
+msgstr "Le client n'a pas été sauvegardé. Merci de réessayer."
+
+#: Controller/CustomersController.php:102;129
+msgid "Invalid customer"
+msgstr "Client non conforme"
+
+#: Controller/CustomersController.php:109
+msgid "The customer could not be saved. Please, try again."
+msgstr "Le client n'a pas été sauvegardé. Merci de réessayer."
+
+#: Controller/CustomersController.php:134
+msgid "You cannot delete this customer."
+msgstr "Vous ne pouvez pas effacer ce client."
+
+#: Controller/CustomersController.php:139
+msgid "The customer has been deleted."
+msgstr "Le client a été effacé."
+
+#: Controller/CustomersController.php:141
+msgid "The customer could not be deleted. Please, try again."
+msgstr "Le client ne peut pas être effacé. Merci de réessayer."
+
+#: Controller/InvoicesController.php:39 Controller/ProductsController.php:32
+msgid "You need to create a company first to be able to create a product"
+msgstr "Vous devez créer une entreprise pour pouvoir créer un produit"
+
+#: Controller/InvoicesController.php:63;195;227
+msgid "Invalid invoice"
+msgstr "Facture non conforme"
+
+#: Controller/InvoicesController.php:144;199
+msgid "The invoice has been saved."
+msgstr "Facture sauvée"
+
+#: Controller/InvoicesController.php:147;202
+msgid "The invoice could not be saved. Please, try again."
+msgstr "La facture n'a pas été sauvegardé. Merci de réessayer."
+
+#: Controller/InvoicesController.php:231
+msgid "The invoice has been deleted."
+msgstr "Facture effacée."
+
+#: Controller/InvoicesController.php:233
+msgid "The invoice could not be deleted. Please, try again."
+msgstr "La facture n'a pas été effacée. Merci de réessayer."
+
+#: Controller/ModelInvoicesController.php:38;70;95
+msgid "Invalid model invoice"
+msgstr "Modèle de facture non conforme"
+
+#: Controller/ModelInvoicesController.php:53;74
+msgid "The model invoice has been saved."
+msgstr "Modèle de facture effacé."
+
+#: Controller/ModelInvoicesController.php:56;77
+msgid "The model invoice could not be saved. Please, try again."
+msgstr "Le modèle de facture n'a pas été sauvegardé. Merci de réessayer."
+
+#: Controller/ModelInvoicesController.php:99
+msgid "The model invoice has been deleted."
+msgstr "Modèle de facture effacé."
+
+#: Controller/ModelInvoicesController.php:101
+msgid "The model invoice could not be deleted. Please, try again."
+msgstr "Le modèle de facture n'a pas été effacé. Merci de réessayer."
+
+#: Controller/ProductsController.php:82;134
+msgid "The product has been saved."
+msgstr "Produit sauvé."
+
+#: Controller/ProductsController.php:85;137
+msgid "The product could not be saved. Please, try again."
+msgstr "Le produit n'a pas été sauvegardé. Merci de réessayer."
+
+#: Controller/ProductsController.php:125;177
+msgid "Invalid product"
+msgstr "Produit non conforme"
+
+#: Controller/ProductsController.php:182
+msgid "You cannot delete this product."
+msgstr "Vous ne pouvez pas effacer ce produit."
+
+#: Controller/ProductsController.php:187
+msgid "The product has been deleted."
+msgstr "Produit effacé."
+
+#: Controller/ProductsController.php:189
+msgid "The product could not be deleted. Please, try again."
+msgstr "Le produit n'a pas été effacé. Merci de réessayer."
+
+#: Controller/UsersController.php:45
+msgid ""
+"The payment was not successful.<br />\n"
+"\t\t\tPlease retry.<br />\n"
+"\t\t\tif the problem persists, please contact our support."
+msgstr ""
+"Le paiement n'a pas été réussi.<br />\n"
+"\t\t\tMerci de réessayer.<br />\n"
+"\t\t\tSi le problème persiste, veuillez contacter l'équipe du support "
+"d'EZYcount."
+
+#: Controller/UsersController.php:54 View/Emails/html/forgot.ctp:6
+#: View/Layouts/default.ctp:282 View/Users/change_password.ctp:15
+#: View/Users/forgot_change.ctp:15
+msgid "Change my password"
+msgstr "Changer mon mot de passe"
+
+#: Controller/UsersController.php:58
+msgid "Your password is invalid, please check your inputs."
+msgstr "Votre mot de passe est non valable, merci de contrôler votre entrée."
+
+#: Controller/UsersController.php:61;255
+msgid "The password don't match"
+msgstr "Le mot de passe ne correspond pas"
+
+#: Controller/UsersController.php:67
+msgid "Your password has been changed"
+msgstr "Votre mot de passe a été changé"
+
+#: Controller/UsersController.php:77 View/Layouts/default.ctp:258
+#: View/Users/got_company.ctp:9
+msgid "My companies"
+msgstr "Mes entreprises"
+
+#: Controller/UsersController.php:90
+msgid ""
+"Thank you for the purchase.<br />\n"
+"\t\t\tThe invoice has been sent to your email address: %s<br />\n"
+"\t\t\tA copy of the invoice will be available to you in Company Settings."
+msgstr ""
+"Merci pour votre achat.<br />\n"
+"\t\t\tLa facture vous a été envoyée à votre adresse email: %s<br />\n"
+"\t\t\tUne copie de la facture sera disponible dans le menu paramétrage de "
+"l'entreprise."
+
+#: Controller/UsersController.php:113 View/Layouts/default.ctp:281
+msgid "My account"
+msgstr "Mon compte"
+
+#: Controller/UsersController.php:129
+msgid "Your details have been changed"
+msgstr "Vos données personnelles ont été changé"
+
+#: Controller/UsersController.php:149
+msgid "Change your email"
+msgstr "Changer votre adresse email"
+
+#: Controller/UsersController.php:153
+msgid ""
+"A validation email has been sent, you need to validate your new email "
+"address for the change to be effective."
+msgstr ""
+"Un email de confirmation vous a été envoyé. Vous devez confirmer votre "
+"nouvelle adresse email pour rendre ce changement effectif."
+
+#: Controller/UsersController.php:177
+msgid "This company has been disabled, please contact us for more information."
+msgstr ""
+"Cette entreprise a été désactivée, merci de contacter l'équipe de support "
+"pour plus de détails."
+
+#: Controller/UsersController.php:199
+msgid "Your email has been changed."
+msgstr "Votre adresse email a été changée."
+
+#: Controller/UsersController.php:202
+msgid "An error occured while changing your email. Please try again."
+msgstr ""
+"Une erreur s'est produite lors du changement de votre adresse email. Merci "
+"de réessayer."
+
+#: Controller/UsersController.php:260
+msgid "Your password has been changed."
+msgstr "Votre mot de passe a été changé."
+
+#: Controller/UsersController.php:266
+msgid "This link is not valid anymore"
+msgstr "Ce lien n'est plus valable"
+
+#: Controller/UsersController.php:305
+msgid "Change your password"
+msgstr "Changer votre mot de passe"
+
+#: Controller/UsersController.php:308
+msgid ""
+"An email has been sent with a link to change your password. It will stay "
+"active for 2 hours."
+msgstr ""
+"Un email vous a été envoyé avec un lien pour changer votre mot de passe. Ce "
+"lien reste actif pendant 2 heures."
+
+#: Controller/UsersController.php:312
+msgid "Couldn't find an account with this email."
+msgstr "Nous n'avons trouvé aucun compte avec cette adresse email."
+
+#: Controller/UsersController.php:342
+msgid ""
+"Your account has been disabled, please contact the support for more "
+"information."
+msgstr ""
+"Votre compte a été désactivé, merci de contacter l'équipe de support "
+"d'EZYcount pour plus d'information."
+
+#: Controller/UsersController.php:348
+msgid ""
+"Your account has not been activated yet. Please check your emails and click "
+"on the confirmation link to activate your account.<br />\n"
+"\t\t\t\t\t\tIf you want us to resend the validation email please click <a "
+"href=\"%s\">here</a>."
+msgstr ""
+"Votre compte n'a pas encore été activé. Merci de contrôler vos emails et de "
+"cliquer sur le lien de confirmation pour activer votre compte.<br />\n"
+"\t\t\t\t\t\tPour recevoir un nouvel email de confirmation, merci de cliquer "
+"<a href=\"%s\">ici</a>."
+
+#: Controller/UsersController.php:391
+msgid "The account / password is invalid."
+msgstr "Le compte ou le mot de passe est non valable."
+
+#: Controller/UsersController.php:435 View/Emails/html/validation.ctp:3
+msgid "Validate your account"
+msgstr "Valider votre compte"
+
+#: Controller/UsersController.php:439
+msgid ""
+"A validation email has been sent, you need to validate your account before "
+"you can log in."
+msgstr ""
+"Un email de validation vous a été envoyé. Vous devez valider votre compte "
+"avant de pouvoir vous connecter."
+
+#: Controller/UsersController.php:459
+msgid "You need to accept the Terms of Services"
+msgstr "Vous devez accepter les Conditions Générales"
+
+#: Controller/UsersController.php:479
+msgid "The account does not exist."
+msgstr "Le compte n'existe pas."
+
+#: Controller/UsersController.php:486
+msgid "The validation key is wrong."
+msgstr "La clef de validation est incorrecte."
+
+#: Controller/UsersController.php:490
+msgid "Your account has been activated, you can now sign in."
+msgstr "Votre compte a été activé, vous pouvez vous connectez."
+
+#: Controller/VatAccountsController.php:58;249
+msgid "You need to provide a description"
+msgstr "Une description est obligatoire."
+
+#: Controller/VatAccountsController.php:410 View/Layouts/default.ctp:378
+msgid "VAT Code"
+msgstr "Code TVA"
+
+#: Controller/VatAccountsController.php:446
+msgid "VAT code saved"
+msgstr "Code TVA sauvegardé"
+
+#: Controller/VatAccountsController.php:449
+msgid "VAT code created"
+msgstr "Code TVA créé"
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:18
+msgid "Debug setting does not allow access to this url."
+msgstr "Le paramétrage de débogage ne vous permet pas d'accéder à cette url."
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:27
+#: Plugin/BoostCake/View/Elements/bootstrap2/alerts.ctp:6
+msgid "Alert notice message testing..."
+msgstr "Message d'alerte de rappel test..."
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:30;41
+#: Plugin/BoostCake/View/Elements/bootstrap2/alerts.ctp:10
+#: Plugin/BoostCake/View/Elements/bootstrap3/alerts.ctp:6
+msgid "Alert success message testing..."
+msgstr "Message d'alerte de réussite pour test..."
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:34
+#: Plugin/BoostCake/View/Elements/bootstrap2/alerts.ctp:15
+msgid "Alert error message testing..."
+msgstr "Message d'alerte d'erreur pour test..."
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:45
+#: Plugin/BoostCake/View/Elements/bootstrap3/alerts.ctp:11
+msgid "Alert info message testing..."
+msgstr "Message d'alerte d'information pour test..."
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:49
+#: Plugin/BoostCake/View/Elements/bootstrap3/alerts.ctp:16
+msgid "Alert warning message testing..."
+msgstr "Message d'alerte d'avertissement pour test..."
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:53
+#: Plugin/BoostCake/View/Elements/bootstrap3/alerts.ctp:21
+msgid "Alert danger message testing..."
+msgstr "Message d'alerte de danger pour test..."
+
+#: View/Accounts/account_statement.ctp:41 View/Bookings/cash.ctp:130
+#: View/Bookings/cash_old.ctp:56 View/Bookings/multi.ctp:75;258
+#: View/Companies/step6.ctp:185
+msgid "Account"
+msgstr "Compte"
+
+#: View/Accounts/account_statement.ctp:50
+#: View/Accounts/income_statement.ctp:60 View/Accounts/vat_check.ctp:22
+#: View/VatAccounts/official_effectif.ctp:46
+msgid "Date from"
+msgstr "Depuis"
+
+#: View/Accounts/account_statement.ctp:60
+#: View/Accounts/income_statement.ctp:67 View/Accounts/vat_check.ctp:27
+#: View/VatAccounts/official_effectif.ctp:50
+msgid "Date until"
+msgstr "jusqu'à"
+
+#: View/Accounts/account_statement.ctp:75 View/Accounts/balance_sheet.ctp:54
+#: View/Accounts/income_statement.ctp:83 View/Accounts/vat_check.ctp:60
+#: View/Elements/Invoices/step4.ctp:12
+#: View/VatAccounts/official_effectif.ctp:65;123
+#: View/VatAccounts/official_net.ctp:65;122
+msgid "Preview"
+msgstr "Aperçu"
+
+#: View/Accounts/account_statement.ctp:100
+msgid "Account statement:"
+msgstr " Relevé de compte"
+
+#: View/Accounts/account_statement.ctp:101
+msgid "from:"
+msgstr "depuis:"
+
+#: View/Accounts/account_statement.ctp:102
+msgid "until:"
+msgstr "jusqu'à:"
+
+#: View/Accounts/account_statement.ctp:108 View/Admin/users.ctp:15
+#: View/Bookings/cash.ctp:470 View/Bookings/cash_old.ctp:402
+#: View/Bookings/index.ctp:425 View/Bookings/multi.ctp:494
+#: View/Customers/index.ctp:27 View/VatAccounts/official_effectif.ctp:560
+#: View/VatAccounts/official_net.ctp:559
+msgid "#"
+msgstr "#"
+
+#: View/Accounts/account_statement.ctp:109 View/Accounts/balance_sheet.ctp:46
+#: View/Bookings/cash.ctp:79;276;472 View/Bookings/cash_old.ctp:54;403
+#: View/Bookings/import.ctp:117 View/Bookings/index.ctp:44;227;427
+#: View/Bookings/multi.ctp:51;196;496 View/Bookings/view_import.ctp:47
+#: View/Companies/dashboard.ctp:32 View/Companies/invoices.ctp:10
+#: View/Invoices/view.ctp:14 View/ModelInvoices/view.ctp:54
+#: View/Users/invoices.ctp:10 View/VatAccounts/official_effectif.ctp:561
+#: View/VatAccounts/official_net.ctp:560
+msgid "Date"
+msgstr "Date"
+
+#: View/Accounts/account_statement.ctp:110 View/Accounts/vat_check.ctp:275
+#: View/Admin/coupon_create.ctp:80 View/Admin/coupon_edit.ctp:80
+#: View/Admin/coupons.ctp:40;75 View/Bookings/cash.ctp:173;286;473
+#: View/Bookings/cash_old.ctp:62;404 View/Bookings/index.ctp:121;237;428
+#: View/Bookings/multi.ctp:61;206;259;497 View/Currencies/index.ctp:226;262
+#: View/Elements/Products/form.ctp:138
+#: View/VatAccounts/official_effectif.ctp:56;107;562
+#: View/VatAccounts/official_net.ctp:106;561
+msgid "Description"
+msgstr "Description"
+
+#: View/Accounts/account_statement.ctp:111
+msgid "Offset"
+msgstr "Contrepartie"
+
+#: View/Accounts/account_statement.ctp:112 View/Bookings/cash.ctp:188;479
+#: View/Bookings/cash_old.ctp:59;408 View/Bookings/index.ctp:136;434
+#: View/Bookings/multi.ctp:119;503 View/Bookings/view_import.ctp:54
+#: View/Companies/chartofaccounts.ctp:26 View/Companies/settings.ctp:196;201
+#: View/Companies/step3.ctp:202 View/Elements/Invoices/preview.script.ctp:135
+#: View/VatAccounts/official_effectif.ctp:566
+#: View/VatAccounts/official_net.ctp:565
+msgid "VAT"
+msgstr "TVA"
+
+#: View/Accounts/account_statement.ctp:113 View/Accounts/vat_check.ctp:278;285
+#: View/Bookings/cash.ctp:350;353;358;474
+#: View/Bookings/cash_old.ctp:269;272;277;405
+#: View/Bookings/index.ctp:70;302;305;310;429
+#: View/Bookings/multi.ctp:90;93;96;99;307;345;498;798;1409
+#: View/Bookings/view_import.ctp:48 View/Companies/step6.ctp:242
+#: View/VatAccounts/official_effectif.ctp:563
+#: View/VatAccounts/official_net.ctp:562
+msgid "Debit"
+msgstr "Débit"
+
+#: View/Accounts/account_statement.ctp:114 View/Accounts/vat_check.ctp:281;288
+#: View/Bookings/cash.ctp:351;354;359;475
+#: View/Bookings/cash_old.ctp:270;273;278;406
+#: View/Bookings/index.ctp:83;303;306;311;430
+#: View/Bookings/multi.ctp:90;93;96;99;309;347;499;801
+#: View/Bookings/view_import.ctp:49 View/Companies/step6.ctp:242
+#: View/VatAccounts/official_effectif.ctp:564
+#: View/VatAccounts/official_net.ctp:563
+msgid "Credit"
+msgstr "Crédit"
+
+#: View/Accounts/account_statement.ctp:115
+msgid "Cumulated"
+msgstr "Cumulée"
+
+#: View/Accounts/account_statement.ctp:124
+msgid "Starting amount"
+msgstr "Montant de départ"
+
+#: View/Accounts/account_statement.ctp:192 View/Bookings/cash.ctp:892
+#: View/Bookings/cash_old.ctp:546 View/Bookings/index.ctp:616;622;823
+#: View/Bookings/multi.ctp:1203 View/Bookings/view_import.ctp:331
+#: View/Companies/step6.ctp:330
+msgid "Select an account"
+msgstr "Sélectionnez un compte"
+
+#: View/Accounts/balance_sheet.ctp:21 View/Accounts/income_statement.ctp:22
+msgid "Sheet design"
+msgstr "Edition du document"
+
+#: View/Accounts/balance_sheet.ctp:81 View/Accounts/income_statement.ctp:91
+msgid "Show empty accounts"
+msgstr "Montrer les comptes vides"
+
+#: View/Accounts/balance_sheet.ctp:115
+msgid "Logo"
+msgstr "Logo"
+
+#: View/Accounts/balance_sheet.ctp:116
+msgid "left"
+msgstr "gauche"
+
+#: View/Accounts/balance_sheet.ctp:116
+msgid "right"
+msgstr "droite"
+
+#: View/Accounts/balance_sheet.ctp:125
+msgid "Design"
+msgstr "Désign"
+
+#: View/Accounts/balance_sheet.ctp:128 View/Admin/companies.ctp:16
+#: View/Charges/view.ctp:14 View/Companies/accessright.ctp:44
+#: View/Companies/chartofaccounts.ctp:23 View/Companies/renew.ctp:216
+#: View/Companies/step5.ctp:184 View/Currencies/index.ctp:40;260
+#: View/Elements/Invoices/preview.ctp:26 View/ModelInvoices/view.ctp:14
+#: View/VatAccounts/index.ctp:44;161
+msgid "Name"
+msgstr "Nom"
+
+#: View/Accounts/balance_sheet.ctp:133
+msgid "General font"
+msgstr "Police générale"
+
+#: View/Accounts/balance_sheet.ctp:140
+msgid "Categories"
+msgstr "Catégories"
+
+#: View/Accounts/balance_sheet.ctp:152
+msgid "before & after"
+msgstr "avant & après"
+
+#: View/Accounts/balance_sheet.ctp:152
+msgid "after"
+msgstr "après"
+
+#: View/Accounts/balance_sheet.ctp:160
+msgid "Accounts"
+msgstr "Compte"
+
+#: View/Accounts/balance_sheet.ctp:169 View/Admin/coupon_edit.ctp:91
+#: View/Admin/edit_user.ctp:24 View/Companies/accessright.ctp:206
+#: View/Companies/chartofaccounts.ctp:128 View/Currencies/index.ctp:238
+#: View/Users/change_password.ctp:24 View/Users/details.ctp:29
+#: View/Users/forgot_change.ctp:23 View/VatAccounts/index.ctp:141
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: View/Accounts/balance_sheet.ctp:170 View/Bookings/cash.ctp:253;263
+#: View/Bookings/cash_old.ctp:226;231 View/Bookings/index.ctp:206;216
+#: View/Bookings/multi.ctp:425;435 View/Companies/chartofaccounts.ctp:76
+#: View/Companies/delete.ctp:31 View/Elements/Invoices/step1.ctp:179
+#: View/VatAccounts/index.ctp:259 View/VatAccounts/official_effectif.ctp:14
+#: View/VatAccounts/official_net.ctp:14
+msgid "Cancel"
+msgstr "Annuler"
+
+#: View/Accounts/balance_sheet.ctp:178 View/Bookings/import.ctp:96
+#: View/Companies/accessright.ctp:133 View/Companies/settings.ctp:234
+#: View/Currencies/index.ctp:351 View/Elements/BankAccounts/form.ctp:108
+#: View/Elements/Charges/form.ctp:108 View/Elements/Customers/form.ctp:138
+#: View/Elements/Products/form.ctp:162 View/VatAccounts/index.ctp:223
+msgid "Tips"
+msgstr "Conseils"
+
+#: View/Accounts/balance_sheet.ctp:180
+msgid ""
+"You can change the balance sheet the way you want in a couple of clicks!"
+msgstr "Changez le bilan comme vous le voulez en quelques cliques!"
+
+#: View/Accounts/balance_sheet.ctp:181
+msgid "To integrate your logo, go to %s"
+msgstr "Pour intégrer votre logo, allez à %s"
+
+#: View/Accounts/balance_sheet.ctp:183
+msgid ""
+"Edit the Element or the group of elements. Change their <b>Font, size</b> or "
+"make it <b> bold or underline</b>"
+msgstr ""
+"Modifiez l'élément ou le groupe d'éléments. Changez la police, la taille ou "
+"mettez le en gras ou souligné"
+
+#: View/Accounts/balance_sheet.ctp:184
+msgid ""
+"Expand or shrink the category. Shrink a group to only see the total of a "
+"category without the detail of each account."
+msgstr ""
+"Elargir ou réduire la catégorie. Réduisez un groupe de comptes pour voir "
+"uniquement le total de la catégorie."
+
+#: View/Accounts/balance_sheet.ctp:185
+msgid ""
+"Insert a page break and decide where the current page end and where the next "
+"page start."
+msgstr ""
+"Insérez un saut de page et décidez quand la page actuelle s'arrête et quand "
+"la nouvelle page débute."
+
+#: View/Accounts/balance_sheet.ctp:186
+msgid ""
+"For more information on how to customize your balance sheet, go to <a href="
+"\"http://support.ezycount.ch/\">EZYcount support website</a>"
+msgstr ""
+"Pour plus d'information sur la personnalisation du bilan, aller à EZYcount "
+"support site"
+
+#: View/Accounts/balance_sheet.ctp:187
+msgid "<b>Don't forget to save after editing</b>"
+msgstr "<b>N'oubliez pas de sauver après avoir modifié</b>"
+
+#: View/Accounts/balance_sheet.ctp:488 View/Accounts/income_statement.ctp:176
+msgid "Result of the year"
+msgstr "Résultat de l'année"
+
+#: View/Accounts/balance_sheet.ctp:493
+msgid "Total "
+msgstr "Total"
+
+#: View/Accounts/balance_sheet.ctp:503
+msgid "Total %s and %s"
+msgstr "Total %s et %s"
+
+#: View/Accounts/balance_sheet.ctp:530
+msgid "Are you sure you want to delete this design ?"
+msgstr "Êtes-vous sûr de vouloir effacer ce document ?"
+
+#: View/Accounts/income_statement.ctp:31
+msgid "Standard"
+msgstr "Standard"
+
+#: View/Accounts/income_statement.ctp:151
+msgid "Gross Margin"
+msgstr "Marge brute"
+
+#: View/Accounts/income_statement.ctp:164
+msgid "EBITDA"
+msgstr "EBITDA"
+
+#: View/Accounts/income_statement.ctp:187
+msgid "EBIT"
+msgstr "EBIT"
+
+#: View/Accounts/vat_check.ctp:67
+msgid "Show balance sheet accounts"
+msgstr "Montrer les comptes du bilan"
+
+#: View/Accounts/vat_check.ctp:81
+msgid "VAT Check"
+msgstr "Vérification TVA"
+
+#: View/Accounts/vat_check.ctp:88 View/Elements/Invoices/step3.ctp:127
+msgid "Total VAT"
+msgstr "Total TVA"
+
+#: View/Accounts/vat_check.ctp:89
+msgid "Total Booking"
+msgstr "Total des écritures"
+
+#: View/Accounts/vat_check.ctp:108
+msgid "Assets"
+msgstr "Actifs"
+
+#: View/Accounts/vat_check.ctp:122
+msgid "Liabilities"
+msgstr "Passifs"
+
+#: View/Accounts/vat_check.ctp:134
+msgid "Equities"
+msgstr "Fonds propres"
+
+#: View/Accounts/vat_check.ctp:171
+msgid "Details"
+msgstr "Détails"
+
+#: View/Accounts/vat_check.ctp:333
+msgid "Summary"
+msgstr "Résumé"
+
+#: View/Admin/companies.ctp:8 View/Admin/index.ctp:59
+#: View/Layouts/admin.ctp:94
+msgid "Companies"
+msgstr "Mes entreprises"
+
+#: View/Admin/companies.ctp:19
+msgid "Owner"
+msgstr "Propriétaire"
+
+#: View/Admin/companies.ctp:22 View/Admin/edit_user.ctp:20
+msgid "Disabled"
+msgstr "Désactiver"
+
+#: View/Admin/companies.ctp:25 View/Admin/coupons.ctp:25
+msgid "Created"
+msgstr "Créé"
+
+#: View/Admin/companies.ctp:28 View/Admin/coupons.ctp:46;81
+#: View/Admin/users.ctp:40 View/Bookings/import.ctp:123
+#: View/Companies/accessright.ctp:50
+msgid "Action"
+msgstr "Action"
+
+#: View/Admin/companies.ctp:62 View/Admin/coupons.ctp:124
+#: View/Admin/users.ctp:77
+msgid "Delete coupon"
+msgstr "Effacer le bon"
+
+#: View/Admin/companies.ctp:65 View/Admin/coupons.ctp:127
+#: View/Admin/users.ctp:80
+msgid "Are you sure you want to delete this coupon ?"
+msgstr "Êtes-vous sûr de vouloir effacer ce bon?"
+
+#: View/Admin/companies.ctp:69 View/Admin/coupons.ctp:131
+#: View/Admin/users.ctp:84 View/Bookings/cash.ctp:626;642;661
+#: View/Bookings/cash_old.ctp:494 View/Bookings/index.ctp:570
+msgid "OK"
+msgstr "OK"
+
+#: View/Admin/coupon_create.ctp:14 View/Admin/coupon_edit.ctp:14
+#: View/Admin/coupons.ctp:16;54 View/Charges/view.ctp:19
+#: View/Elements/Charges/form.ctp:47;58 View/VatAccounts/index.ctp:42;160
+msgid "Code"
+msgstr "Code"
+
+#: View/Admin/coupon_create.ctp:14 View/Admin/coupon_edit.ctp:14
+msgid "Generate coupon code"
+msgstr "Générer le code du bon"
+
+#: View/Admin/coupon_create.ctp:27 View/Admin/coupon_edit.ctp:27
+#: View/Admin/coupons.ctp:19;57 View/Currencies/index.ctp:227;263
+#: View/VatAccounts/index.ctp:131;166
+msgid "Valid from"
+msgstr "Valide depuis"
+
+#: View/Admin/coupon_create.ctp:35 View/Admin/coupon_edit.ctp:35
+#: View/Admin/coupons.ctp:22;60 View/Currencies/index.ctp:228;264
+#: View/VatAccounts/index.ctp:133;167
+msgid "Valid until"
+msgstr "Valide jusqu'au"
+
+#: View/Admin/coupon_create.ctp:48 View/Admin/coupon_edit.ctp:48
+msgid "Number of coupons"
+msgstr "Nombre de bons"
+
+#: View/Admin/coupon_create.ctp:54 View/Admin/coupon_edit.ctp:54
+msgid "Validity"
+msgstr "Valide jusqu'au"
+
+#: View/Admin/coupon_create.ctp:64 View/Admin/coupon_edit.ctp:64
+#: View/Admin/coupons.ctp:31;66 View/Bookings/cash.ctp:106
+#: View/Bookings/cash_old.ctp:55 View/Bookings/import.ctp:118
+#: View/Bookings/multi.ctp:85;260 View/Companies/chartofaccounts.ctp:22
+#: View/Companies/step6.ctp:186 View/Contacts/index.ctp:37
+msgid "Type"
+msgstr "Type"
+
+#: View/Admin/coupon_create.ctp:70 View/Admin/coupon_edit.ctp:70
+#: View/Admin/coupons.ctp:34;69 View/Charges/view.ctp:24
+msgid "Value"
+msgstr "Valeur"
+
+#: View/Admin/coupons.ctp:28
+msgid "Remaining"
+msgstr "Restant"
+
+#: View/Admin/coupons.ctp:37;72 View/Companies/invoices.ctp:11
+#: View/Companies/renew.ctp:206 View/Users/invoices.ctp:12
+msgid "Plan"
+msgstr "Plan"
+
+#: View/Admin/coupons.ctp:43;78 View/Currencies/index.ctp:279;289
+#: View/VatAccounts/index.ctp:135;168
+msgid "Active"
+msgstr "Actif"
+
+#: View/Admin/coupons.ctp:63
+msgid "Coupon"
+msgstr "Bon"
+
+#: View/Admin/edit_user.ctp:17 View/Pages/de/home.ctp:155
+#: View/Pages/en/home.ctp:152 View/Pages/fr/home.ctp:155
+#: View/Users/details.ctp:25 View/Users/subscribe.ctp:26
+msgid "Email / Login"
+msgstr "Email / Identifiant"
+
+#: View/Admin/index.ctp:3
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: View/Admin/index.ctp:4
+msgid "Control pannel"
+msgstr "Panneau de contrôle"
+
+#: View/Admin/index.ctp:21
+msgid "Orders"
+msgstr "Orders"
+
+#: View/Admin/index.ctp:28;47;66;85
+msgid "More info"
+msgstr "Plus d'information"
+
+#: View/Admin/index.ctp:40 View/Admin/users.ctp:7 View/Layouts/admin.ctp:83
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: View/Admin/index.ctp:78 View/Layouts/admin.ctp:105
+msgid "Coupons"
+msgstr "Bons"
+
+#: View/Admin/users.ctp:17 View/Companies/accessright.ctp:23
+#: View/Users/forgot.ctp:17 View/Users/login.ctp:15
+msgid "Email"
+msgstr "Email"
+
+#: View/Admin/users.ctp:20 View/Pages/de/home.ctp:142
+#: View/Pages/en/home.ctp:139 View/Pages/fr/home.ctp:142
+#: View/Users/details.ctp:19 View/Users/subscribe.ctp:22
+msgid "First name"
+msgstr "Prénom"
+
+#: View/Admin/users.ctp:23 View/Pages/de/home.ctp:145
+#: View/Pages/en/home.ctp:142 View/Pages/fr/home.ctp:145
+#: View/Users/details.ctp:20 View/Users/subscribe.ctp:23
+msgid "Last name"
+msgstr "Nom de famille"
+
+#: View/Admin/users.ctp:26 View/Bookings/import.ctp:84;87
+msgid "Import"
+msgstr "Importation"
+
+#: View/Admin/users.ctp:29
+msgid "Registration date"
+msgstr "Date d'enregistrement"
+
+#: View/Admin/users.ctp:32
+msgid "Last connection"
+msgstr "Dernière connexion"
+
+#: View/Admin/users.ctp:35
+msgid "Language"
+msgstr "Langue"
+
+#: View/Admin/users.ctp:37
+msgid "Disable"
+msgstr "Désactiver "
+
+#: View/BankAccounts/index.ctp:5
+msgid "Bank Accounts"
+msgstr "Compte en banque"
+
+#: View/BankAccounts/index.ctp:10 View/Invoices/view.ctp:78
+msgid "New Bank Account"
+msgstr "Nouveau compte en banque"
+
+#: View/BankAccounts/index.ctp:31 View/Bookings/cash.ctp:483
+#: View/Bookings/index.ctp:438 View/Bookings/multi.ctp:507
+#: View/Charges/index.ctp:30 View/Charges/view.ctp:32
+#: View/Companies/dashboard.ctp:38 View/Conditions/add.ctp:35
+#: View/Conditions/edit.ctp:14 View/Conditions/index.ctp:28
+#: View/Conditions/view.ctp:22;41 View/Currencies/index.ctp:265
+#: View/Invoices/index.ctp:31 View/Invoices/view.ctp:67;103
+#: View/ModelInvoices/add.ctp:16 View/ModelInvoices/edit.ctp:17
+#: View/ModelInvoices/index.ctp:12;44 View/ModelInvoices/view.ctp:37;64
+#: View/Products/index.ctp:31 View/Products/view.ctp:57
+msgid "Actions"
+msgstr "Action"
+
+#: View/BankAccounts/index.ctp:43 View/Charges/index.ctp:41
+#: View/Charges/view.ctp:35 View/Conditions/edit.ctp:17
+#: View/Conditions/index.ctp:37 View/Conditions/view.ctp:25;52
+#: View/Customers/index.ctp:42 View/Invoices/index.ctp:48
+#: View/Invoices/view.ctp:70;121 View/ModelInvoices/edit.ctp:20
+#: View/ModelInvoices/index.ctp:27 View/ModelInvoices/view.ctp:40;83
+#: View/Products/index.ctp:43 View/Products/view.ctp:60
+msgid "Are you sure you want to delete # %s?"
+msgstr "Êtes-vous sûr de vouloir effacer # %s?"
+
+#: View/Bookings/cash.ctp:4 View/Bookings/index.ctp:5
+msgid "Booking"
+msgstr "Ecritures"
+
+#: View/Bookings/cash.ctp:65 View/Bookings/cash_old.ctp:53
+#: View/Bookings/index.ctp:30 View/Bookings/multi.ctp:36
+#: View/Bookings/view_import.ctp:46 View/Companies/invoices.ctp:9
+#: View/VatAccounts/index.ctp:49;162
+msgid "Number"
+msgstr "Numéro"
+
+#: View/Bookings/cash.ctp:71;73 View/Bookings/cash_old.ctp:73;75
+#: View/Bookings/index.ctp:36;38 View/Bookings/multi.ctp:43;45
+#: View/Bookings/view_import.ctp:106;108
+msgid "Automatic"
+msgstr "Automatique"
+
+#: View/Bookings/cash.ctp:111;115;120
+#: View/Bookings/cash_old.ctp:111;114;117;120
+msgid "Receive"
+msgstr "Reçoit"
+
+#: View/Bookings/cash.ctp:111;115;120
+#: View/Bookings/cash_old.ctp:111;114;117;120
+msgid "Pay"
+msgstr "Paie"
+
+#: View/Bookings/cash.ctp:155;476 View/Bookings/cash_old.ctp:407
+#: View/Bookings/index.ctp:96;431 View/Bookings/multi.ctp:106;261;500
+#: View/Bookings/view_import.ctp:50 View/Companies/invoices.ctp:12
+#: View/Companies/step6.ctp:187 View/Elements/Invoices/preview.script.ctp:136
+#: View/Users/invoices.ctp:13 View/VatAccounts/official_effectif.ctp:565
+#: View/VatAccounts/official_net.ctp:564
+msgid "Amount"
+msgstr "Montant"
+
+#: View/Bookings/cash.ctp:188 View/Bookings/cash_old.ctp:60
+#: View/Bookings/index.ctp:136 View/Bookings/multi.ctp:119
+msgid "GROSS = VAT + NET"
+msgstr "BRUT = TVA + NET"
+
+#: View/Bookings/cash.ctp:200 View/Bookings/cash_old.ctp:60
+#: View/Bookings/index.ctp:148 View/Bookings/multi.ctp:131
+msgid "Net"
+msgstr "Net"
+
+#: View/Bookings/cash.ctp:225;827 View/Bookings/index.ctp:175;761
+#: View/Bookings/multi.ctp:187;1507
+msgid "Add reminder"
+msgstr "Ajouter un rappel"
+
+#: View/Bookings/cash.ctp:231;237;810 View/Bookings/index.ctp:181;187;744
+msgid "Add currency"
+msgstr "Ajouter une devise"
+
+#: View/Bookings/cash.ctp:247;257 View/Bookings/cash_old.ctp:228;233
+#: View/Bookings/index.ctp:200;210 View/Bookings/multi.ctp:419;429
+#: View/Bookings/view_import.ctp:222;229;440
+msgid "Book"
+msgstr "Enregistrer"
+
+#: View/Bookings/cash.ctp:250;260 View/Bookings/cash_old.ctp:227;232
+#: View/Bookings/index.ctp:203;213 View/Bookings/multi.ctp:422;432
+msgid "Save for later"
+msgstr "Finir plus tard "
+
+#: View/Bookings/cash.ctp:278;280 View/Bookings/cash_old.ctp:192
+#: View/Bookings/index.ctp:229;231 View/Bookings/multi.ctp:198;200
+msgid "Due date"
+msgstr "Date d'échéance"
+
+#: View/Bookings/cash.ctp:288;290 View/Bookings/index.ctp:239;241
+#: View/Bookings/multi.ctp:208;210 View/Companies/dashboard.ctp:35
+msgid "Text"
+msgstr "Texte"
+
+#: View/Bookings/cash.ctp:298;477 View/Bookings/index.ctp:250;432
+#: View/Bookings/multi.ctp:155;262;501
+msgid "Currency"
+msgstr "Devise"
+
+#: View/Bookings/cash.ctp:309 View/Bookings/index.ctp:261
+#: View/Bookings/multi.ctp:166 View/Currencies/index.ctp:261
+#: View/Elements/Charges/form.ctp:86 View/VatAccounts/index.ctp:101;163
+msgid "Rate"
+msgstr "Taux"
+
+#: View/Bookings/cash.ctp:327 View/Bookings/cash_old.ctp:246
+#: View/Bookings/index.ctp:279
+msgid "T-view"
+msgstr "Vue en T"
+
+#: View/Bookings/cash.ctp:330 View/Bookings/cash_old.ctp:249
+#: View/Bookings/index.ctp:282
+msgid "Hide"
+msgstr "Cacher"
+
+#: View/Bookings/cash.ctp:364 View/Bookings/cash_old.ctp:283
+#: View/Bookings/index.ctp:316
+msgid "Current"
+msgstr "Actuel"
+
+#: View/Bookings/cash.ctp:382 View/Bookings/cash_old.ctp:301
+#: View/Bookings/index.ctp:334
+msgid "Current total"
+msgstr "Total actuel"
+
+#: View/Bookings/cash.ctp:400 View/Bookings/cash_old.ctp:319
+#: View/Bookings/index.ctp:352
+msgid "New booking"
+msgstr "Nouvelle écriture"
+
+#: View/Bookings/cash.ctp:418 View/Bookings/cash_old.ctp:337
+#: View/Bookings/index.ctp:370
+msgid "New total"
+msgstr "Nouveau total"
+
+#: View/Bookings/cash.ctp:471 View/Bookings/import.ctp:122
+#: View/Bookings/index.ctp:426 View/Bookings/multi.ctp:495
+#: View/Currencies/index.ctp:259
+msgid "State"
+msgstr "Statut"
+
+#: View/Bookings/cash.ctp:496 View/Bookings/index.ctp:453
+#: View/Bookings/multi.ctp:522
+msgid "Saved"
+msgstr "Sauvegarder"
+
+#: View/Bookings/cash.ctp:497 View/Bookings/index.ctp:454
+#: View/Bookings/multi.ctp:523
+msgid "Booked"
+msgstr "Comptabilisé"
+
+#: View/Bookings/cash.ctp:498 View/Bookings/index.ctp:455
+#: View/Bookings/multi.ctp:524
+msgid "Definitive"
+msgstr "Définitif"
+
+#: View/Bookings/cash.ctp:521 View/Bookings/cash_old.ctp:437
+#: View/Bookings/index.ctp:478 View/Bookings/multi.ctp:552
+#: View/Companies/settings.ctp:156;165 View/Companies/step3.ctp:187
+#: View/VatAccounts/index.ctp:192;204
+#: View/VatAccounts/official_effectif.ctp:600
+#: View/VatAccounts/official_net.ctp:599
+msgid "Yes"
+msgstr "Oui"
+
+#: View/Bookings/cash.ctp:523 View/Bookings/cash_old.ctp:439
+#: View/Bookings/index.ctp:480 View/Bookings/multi.ctp:554
+#: View/Companies/settings.ctp:130;157;166 View/Companies/step3.ctp:186
+#: View/VatAccounts/index.ctp:192;204
+#: View/VatAccounts/official_effectif.ctp:602
+#: View/VatAccounts/official_net.ctp:601
+msgid "No"
+msgstr "Non"
+
+#: View/Bookings/cash.ctp:540;544;579;584;589;1334
+#: View/Bookings/cash_old.ctp:449;453;999 View/Bookings/import.ctp:144
+#: View/Bookings/index.ctp:493;529;534;539;1262
+#: View/Bookings/multi.ctp:567;596;1611 View/Companies/invoices.ctp:38
+#: View/Currencies/index.ctp:329 View/VatAccounts/index.ctp:208
+msgid "Show"
+msgstr "Montrer"
+
+#: View/Bookings/cash.ctp:550;598 View/Bookings/cash_old.ctp:467
+#: View/Bookings/index.ctp:497;545 View/Bookings/multi.ctp:571;601
+msgid "No change allowed"
+msgstr "Modification interdite"
+
+#: View/Bookings/cash.ctp:574 View/Bookings/cash_old.ctp:463
+#: View/Bookings/index.ctp:524 View/Bookings/multi.ctp:592
+msgid "Are you sure you wish to delete this booking ?"
+msgstr "Êtes-vous sûr de vouloir effacer cette écriture?"
+
+#: View/Bookings/cash.ctp:619;635;653 View/Bookings/cash_old.ctp:487
+#: View/Bookings/index.ctp:563
+msgid "Redirection"
+msgstr "Redirigé"
+
+#: View/Bookings/cash.ctp:622 View/Bookings/cash_old.ctp:490
+msgid ""
+"This booking is not a cash booking, you will be redirected on the simple "
+"booking page."
+msgstr ""
+"Cette écriture n'est pas une écriture de cash, vous allez être redirigé vers "
+"l'écriture simple."
+
+#: View/Bookings/cash.ctp:638
+msgid ""
+"This booking is not a cash booking, you will be redirected on the multi "
+"booking page."
+msgstr ""
+"Cette écriture n'est pas une écriture de cash, vous allez être redirigé vers "
+"l'écriture multiple."
+
+#: View/Bookings/cash.ctp:656 View/Bookings/index.ctp:566
+msgid "To add a currency, you will be redirected on the currencies page."
+msgstr "Pour ajouter une devise, vous allez être redirigé sur la page devise."
+
+#: View/Bookings/cash.ctp:720;813 View/Bookings/index.ctp:747
+msgid "Remove currency"
+msgstr "Enlever une devise"
+
+#: View/Bookings/cash.ctp:830 View/Bookings/index.ctp:764
+#: View/Bookings/multi.ctp:1510
+msgid "Remove reminder"
+msgstr "Enlever un rappel"
+
+#: View/Bookings/cash.ctp:874 View/Bookings/cash_old.ctp:528
+#: View/Bookings/index.ctp:805
+msgid "Please put a VAT code"
+msgstr "Insérez un code TVA"
+
+#: View/Bookings/cash.ctp:883 View/Bookings/cash_old.ctp:537
+#: View/Bookings/index.ctp:814
+msgid "This booking will be done without VAT, Ok ?"
+msgstr "Cette écriture sera passée sans TVA, OK?"
+
+#: View/Bookings/cash.ctp:1337 View/Bookings/cash_old.ctp:1002
+#: View/Bookings/index.ctp:1265 View/Bookings/multi.ctp:1614
+#: View/VatAccounts/official_effectif.ctp:5
+#: View/VatAccounts/official_net.ctp:5
+msgid "Close"
+msgstr "Fermer"
+
+#: View/Bookings/cash.ctp:1359 View/Bookings/index.ctp:1286
+#: View/Bookings/multi.ctp:1635
+msgid "Remove Reminder"
+msgstr "Enlever un rappel"
+
+#: View/Bookings/cash_old.ctp:5 View/Layouts/default.ctp:343
+msgid "Cash Booking"
+msgstr "Ecriture de cash"
+
+#: View/Bookings/cash_old.ctp:42;44 View/Bookings/import.ctp:74;76
+msgid "Choose your cash account: "
+msgstr "Choisissez votre compte de cash:"
+
+#: View/Bookings/cash_old.ctp:57
+msgid "Amount (CHF)"
+msgstr "Montant (CHF)"
+
+#: View/Bookings/cash_old.ctp:134;215
+msgid "Set a reminder"
+msgstr "Définir un rappel"
+
+#: View/Bookings/cash_old.ctp:188
+msgid "Debitor's Name"
+msgstr "Nom du Débiteur"
+
+#: View/Bookings/cash_old.ctp:364
+msgid "Show all"
+msgstr "Tout montrer"
+
+#: View/Bookings/cash_old.ctp:369
+msgid "Show only saved"
+msgstr "Montrer seulement sauvées"
+
+#: View/Bookings/import.ctp:2
+msgid "Import bookings"
+msgstr "Importation écritures"
+
+#: View/Bookings/import.ctp:5
+msgid "New import"
+msgstr "Nouvel importation"
+
+#: View/Bookings/import.ctp:46
+msgid "Bookings files"
+msgstr "Fichier d'écritures"
+
+#: View/Bookings/import.ctp:53
+msgid "File"
+msgstr "Fichier"
+
+#: View/Bookings/import.ctp:62
+msgid "File type"
+msgstr "Type de fichier"
+
+#: View/Bookings/import.ctp:62
+msgid "Currently, only MT940 and Postfinance's CAMT053 files can be imported."
+msgstr ""
+"Actuellement, seulement les fichiers MT940 et Postfinance CAMT053 peuvent "
+"être importé."
+
+#: View/Bookings/import.ctp:64;66
+msgid "File type (automatic)"
+msgstr "Type de fichier (automatique)"
+
+#: View/Bookings/import.ctp:97
+msgid "Currently, only CHF bank accounts can be imported."
+msgstr "Actuellement, seulement les comptes en CHF peuvent être importé."
+
+#: View/Bookings/import.ctp:102
+msgid "Import lists"
+msgstr "Liste d'imports"
+
+#: View/Bookings/import.ctp:112
+msgid "No existing import"
+msgstr "Pas d'import existant"
+
+#: View/Bookings/import.ctp:119
+msgid "Bank"
+msgstr "Banque"
+
+#: View/Bookings/import.ctp:120
+msgid "Total bookings"
+msgstr "Total des écritures"
+
+#: View/Bookings/import.ctp:153
+msgid ""
+"Are you sure you want to delete this import ? All linked bookings will be "
+"lost."
+msgstr ""
+"Êtes-vous sûr de vouloir effacer cette importation? Toute écriture liée sera "
+"effacée."
+
+#: View/Bookings/import.ctp:185
+msgid "Unknown format"
+msgstr "Format inconnu"
+
+#: View/Bookings/index.ctp:107
+msgid "Switch"
+msgstr "Echanger"
+
+#: View/Bookings/index.ctp:654 View/Bookings/multi.ctp:1468
+msgid "Remove currenccy"
+msgstr "Enlever devise"
+
+#: View/Bookings/multi.ctp:10 View/Layouts/default.ctp:345
+msgid "Multi Booking"
+msgstr "Ecriture collective"
+
+#: View/Bookings/multi.ctp:179
+msgid "Add<br/>booking"
+msgstr "Ajouter<br/>écriture"
+
+#: View/Bookings/multi.ctp:261
+msgid "CHF"
+msgstr "CHF"
+
+#: View/Bookings/multi.ctp:401 View/Companies/step6.ctp:252
+msgid "Total Debit:"
+msgstr "Total Débit:"
+
+#: View/Bookings/multi.ctp:405 View/Companies/step6.ctp:257
+msgid "Total Credit:"
+msgstr "Total Crédit:"
+
+#: View/Bookings/multi.ctp:409 View/Companies/step6.ctp:262
+msgid "Difference:"
+msgstr "Différence:"
+
+#: View/Bookings/multi.ctp:695;1011
+msgid "Add booking"
+msgstr "Ajouter écriture"
+
+#: View/Bookings/multi.ctp:727 View/Bookings/view_import.ctp:464
+msgid "Please fill all the fields"
+msgstr "Merci de remplir tout les champs"
+
+#: View/Bookings/multi.ctp:764
+msgid "The amount need to be rounded at 0.00 or 0.05"
+msgstr "Le montant doit être arrondi à 0.00 ou 0.05"
+
+#: View/Bookings/multi.ctp:1290
+msgid "Edit this<br/>booking"
+msgstr "Modifier cette<br/>écriture"
+
+#: View/Bookings/view_import.ctp:15
+msgid "Import list"
+msgstr "Liste d'import"
+
+#: View/Bookings/view_import.ctp:233;387;525;530
+msgid "Add row"
+msgstr "Ajoutez une ligne"
+
+#: View/Bookings/view_import.ctp:247
+msgid "There is no booking to show"
+msgstr "Il n'y a pas d'écriture dans ce fichier"
+
+#: View/Bookings/view_import.ctp:256
+msgid "Back to import page"
+msgstr "Retour à la page d'importation"
+
+#: View/Bookings/view_import.ctp:438 View/Conditions/add.ctp:22
+msgid "Remove"
+msgstr "Enlever"
+
+#: View/Charges/index.ctp:5
+msgid "Other charges"
+msgstr "Autres charges"
+
+#: View/Charges/index.ctp:10 View/Charges/view.ctp:37
+msgid "New other charge"
+msgstr "Nouvelle: autres charges"
+
+#: View/Charges/view.ctp:2
+msgid "Other charge"
+msgstr "Autre charge"
+
+#: View/Charges/view.ctp:4 View/Conditions/view.ctp:37
+#: View/Invoices/view.ctp:4;92 View/ModelInvoices/view.ctp:4;52
+#: View/Products/view.ctp:4
+msgid "Id"
+msgstr "Numéro"
+
+#: View/Charges/view.ctp:9 View/Invoices/view.ctp:34 View/Products/view.ctp:49
+#: View/Users/invoices.ctp:11
+msgid "Company"
+msgstr "Entreprise"
+
+#: View/Charges/view.ctp:34 View/Elements/Charges/form.ctp:26
+msgid "Edit other charge"
+msgstr "Modifier autres charges"
+
+#: View/Charges/view.ctp:35
+msgid "Delete other charge"
+msgstr "Effacer autres charges"
+
+#: View/Charges/view.ctp:36
+msgid "List other charge"
+msgstr "Liste des autres charges"
+
+#: View/Charges/view.ctp:38 View/Invoices/view.ctp:79
+#: View/Products/view.ctp:63
+msgid "List Companies"
+msgstr "Liste des entreprises"
+
+#: View/Charges/view.ctp:39 View/Invoices/view.ctp:80
+#: View/Products/view.ctp:64
+msgid "New Company"
+msgstr "Nouvelle entreprise"
+
+#: View/Companies/accessright.ctp:6
+msgid "Who would you like to invite ?"
+msgstr "Qui voulez-vous inviter?"
+
+#: View/Companies/accessright.ctp:18;210
+msgid "Are you sure you want to do this ?"
+msgstr "Êtes-vous sûr de vouloir faire cela?"
+
+#: View/Companies/accessright.ctp:24
+msgid "Access right"
+msgstr "Droits d'accès"
+
+#: View/Companies/accessright.ctp:25;81;104;159 View/Users/got_company.ctp:30
+msgid "Administrator"
+msgstr "Administrateur"
+
+#: View/Companies/accessright.ctp:27
+msgid "Invite"
+msgstr "Inviter"
+
+#: View/Companies/accessright.ctp:38
+msgid "Multiple Access Rights status"
+msgstr "Droits d'accès multiples"
+
+#: View/Companies/accessright.ctp:47
+msgid "Status"
+msgstr "Statut"
+
+#: View/Companies/accessright.ctp:72
+msgid "(Request sent)"
+msgstr "(Demande envoyée)"
+
+#: View/Companies/accessright.ctp:121
+msgid "Are you sure you wish to delete this right ?"
+msgstr "Est-ce que vous êtes sûr de vouloir effacer ce droit?"
+
+#: View/Companies/accessright.ctp:136
+msgid ""
+"Invite other people (e.g. a colleague, your fiduciary, a friend) to "
+"participate to your accounting."
+msgstr ""
+"Invitez d'autres personnes (par exemple collègues, votre fiduciaire ou un "
+"ami) à participer à votre comptabilité."
+
+#: View/Companies/accessright.ctp:137
+msgid ""
+"Choose between 3 statuses: <b>Administrator</b>, <b>Editor</b> or <b>Viewer</"
+"b>."
+msgstr ""
+"Choisissez entre 3 statuts: <b>Administrateur</b>, <b>Editeur</b> ou "
+"<b>Visiteur</b>."
+
+#: View/Companies/accessright.ctp:146
+msgid "Look"
+msgstr "Voir"
+
+#: View/Companies/accessright.ctp:149
+msgid "Write"
+msgstr "Ecrire"
+
+#: View/Companies/accessright.ctp:152
+msgid "Manage"
+msgstr "Gérer"
+
+#: View/Companies/chartofaccounts.ctp:21 View/Companies/step5.ctp:183
+msgid "Account number"
+msgstr "Numéro de compte"
+
+#: View/Companies/chartofaccounts.ctp:24 View/Companies/step5.ctp:185
+msgid "Cash"
+msgstr "Cash"
+
+#: View/Companies/chartofaccounts.ctp:26
+msgid "If this account has VAT, please select the box."
+msgstr "Si le compte a de la TVA, sélectionnez la boîte."
+
+#: View/Companies/chartofaccounts.ctp:29
+msgid "Debit green"
+msgstr ""
+
+#: View/Companies/chartofaccounts.ctp:29
+msgid ""
+"If debit green selected: Debit is green, Credit is red. If debit green is "
+"not selected: Debit is red, Credit is green."
+msgstr ""
+"Si Débit vert sélectionné: Débit est vert, Crédit est rouge. Si Débit vert "
+"n'est pas sélectionné: Débit est rouge, Crédit est vert"
+
+#: View/Companies/chartofaccounts.ctp:31 View/Companies/step5.ctp:186
+msgid "Description (max. 100 characters)"
+msgstr "Description (max. 100 caractères)"
+
+#: View/Companies/chartofaccounts.ctp:45
+msgid "Should be between %s and %s"
+msgstr "Doit être entre %s et %s"
+
+#: View/Companies/chartofaccounts.ctp:49
+msgid "Actif"
+msgstr "Actif"
+
+#: View/Companies/chartofaccounts.ctp:49
+msgid "Passiv"
+msgstr "Passif"
+
+#: View/Companies/chartofaccounts.ctp:49
+msgid "Revenue"
+msgstr "Revenu"
+
+#: View/Companies/chartofaccounts.ctp:50
+msgid "Charge"
+msgstr "Charge"
+
+#: View/Companies/chartofaccounts.ctp:50
+msgid "Equity"
+msgstr "Fonds propres"
+
+#: View/Companies/chartofaccounts.ctp:92;326 View/Companies/step5.ctp:234;472
+msgid "Add accounts"
+msgstr "Ajouter un compte"
+
+#: View/Companies/chartofaccounts.ctp:98
+msgid "<b>Standard</b> Chart of accounts "
+msgstr "Plan comptable <b>standard</b>"
+
+#: View/Companies/chartofaccounts.ctp:98;113 View/Companies/step5.ctp:255;268
+msgid "Expand all"
+msgstr "Elargir tout"
+
+#: View/Companies/chartofaccounts.ctp:98;113 View/Companies/step5.ctp:255;268
+msgid "Shrink all"
+msgstr "Réduire tout"
+
+#: View/Companies/chartofaccounts.ctp:101
+msgid ""
+"<b>Tip:</b> <i> To add an account : <li>click on the button \"Add accounts"
+"\"</li><li>select the account that you want to add.</li><li>click on \"Add\" "
+"next to its name</li><li>edit the details of the accounts in the fields at "
+"the top</li><li>confirm it with the button \"Add\"</li></i>"
+msgstr ""
+"<b>Conseil:</b> <i> Pour ajouter un compte : <li>appuyer sur le bouton "
+"\"Ajouter un compte\"</li><li>sélectionner le compte que vous voulez ajouter."
+"</li><li>appuyer sur le bouton \"Ajouter\" à côté de son nom</"
+"li><li>modifier les informations des champs au sommet de la page</"
+"li><li>confirmer grâce au bouton \"Ajouter\"</li></i>"
+
+#: View/Companies/chartofaccounts.ctp:113
+msgid "<b>Your</b> Chart of accounts "
+msgstr "<b>Votre</b> Plan comptable"
+
+#: View/Companies/chartofaccounts.ctp:321 View/Companies/step5.ctp:467
+msgid "Hide standard chart"
+msgstr "Masquer le plan comptable standard"
+
+#: View/Companies/chartofaccounts.ctp:351
+msgid "You need to provide a valid account number"
+msgstr "Il manque un numéro de compte valide"
+
+#: View/Companies/dashboard.ctp:4
+msgid "Your Reminders"
+msgstr "Vos Rappels"
+
+#: View/Companies/dashboard.ctp:11
+msgid "Today"
+msgstr "Aujourd'hui"
+
+#: View/Companies/dashboard.ctp:22
+msgid "To do"
+msgstr "Rappels"
+
+#: View/Companies/dashboard.ctp:25
+msgid "No task is due soon."
+msgstr "Pas de rappels dans les prochains jours"
+
+#: View/Companies/dashboard.ctp:52
+msgid "Done"
+msgstr "Faire"
+
+#: View/Companies/dashboard.ctp:120 View/Layouts/default.ctp:923
+msgid "en_EN"
+msgstr "fr_FR"
+
+#: View/Companies/dashboard.ctp:157
+msgid "January"
+msgstr "Janvier"
+
+#: View/Companies/dashboard.ctp:160
+msgid "February"
+msgstr "Février"
+
+#: View/Companies/dashboard.ctp:163
+msgid "March"
+msgstr "Mars"
+
+#: View/Companies/dashboard.ctp:166
+msgid "April"
+msgstr "Avril"
+
+#: View/Companies/dashboard.ctp:169
+msgid "May"
+msgstr "Mai"
+
+#: View/Companies/dashboard.ctp:172
+msgid "Juny"
+msgstr "Juin"
+
+#: View/Companies/dashboard.ctp:175
+msgid "July"
+msgstr "Juillet"
+
+#: View/Companies/dashboard.ctp:178
+msgid "August"
+msgstr "Août"
+
+#: View/Companies/dashboard.ctp:181
+msgid "September"
+msgstr "Septembre"
+
+#: View/Companies/dashboard.ctp:184
+msgid "October"
+msgstr "Octobre"
+
+#: View/Companies/dashboard.ctp:187
+msgid "November"
+msgstr "Novembre"
+
+#: View/Companies/dashboard.ctp:190
+msgid "December"
+msgstr "Décembre"
+
+#: View/Companies/delete.ctp:3
+msgid "Warning : you are going to delete company %s"
+msgstr "Attention: vous allez effacer votre entreprise %s"
+
+#: View/Companies/delete.ctp:4
+msgid ""
+"Do you confirm that you don't need this company anymore, all booking will be "
+"deleted."
+msgstr ""
+"Vous confirmez que vous n'avez plus besoin de cette entreprise. Toutes les "
+"écritures vont être effacé."
+
+#: View/Companies/delete.ctp:5
+msgid "All data will be deleted from our server, this is irreversible."
+msgstr ""
+"Toutes les données vont être effacé de nos serveurs. Cela est irréversible."
+
+#: View/Companies/delete.ctp:17 View/Users/got_company.ctp:265;372
+msgid "Are you sure you want to delete this company ?"
+msgstr "Êtes-vous sûr de vouloir effacer votre entreprise?"
+
+#: View/Companies/delete.ctp:23
+msgid "Confirm and delete"
+msgstr "Confirmer et Effacer"
+
+#: View/Companies/invoices.ctp:4
+msgid "Your EZYcount invoices"
+msgstr "Vos factures EZYcount"
+
+#: View/Companies/invoices.ctp:20 View/Users/invoices.ctp:21
+msgid "You have no invoices yet"
+msgstr "Vous n'avez pas encore de factures"
+
+#: View/Companies/invoices.ctp:31 View/Users/invoices.ctp:35
+msgid "%d year(s)"
+msgstr "%d an(s)"
+
+#: View/Companies/renew.ctp:23
+msgid "Choose your subscription"
+msgstr "Choisissez votre abonnement"
+
+#: View/Companies/renew.ctp:54;209 View/Helper/EZYCountHelper.php:714
+msgid "3 years"
+msgstr "3 ans"
+
+#: View/Companies/renew.ctp:58;83;107;146 View/Users/index.ctp:51
+msgid "Unlimited users"
+msgstr "Nombre d'utilisateurs illimité"
+
+#: View/Companies/renew.ctp:59;84;108
+msgid "Access 365 days per year"
+msgstr "Accès 365 jours par an"
+
+#: View/Companies/renew.ctp:64;89;113
+msgid "Buy Now"
+msgstr "Achetez Maintenant"
+
+#: View/Companies/renew.ctp:79;210 View/Helper/EZYCountHelper.php:714
+msgid "2 years"
+msgstr "2 ans"
+
+#: View/Companies/renew.ctp:103;211
+msgid "1 year"
+msgstr "1 an"
+
+#: View/Companies/renew.ctp:123
+msgid "* price are per month and without VAT"
+msgstr "* prix par mois et sans TVA"
+
+#: View/Companies/renew.ctp:136 View/Users/index.ctp:40
+msgid "Our features"
+msgstr "Nos caractéristiques"
+
+#: View/Companies/renew.ctp:147
+msgid "Share your accounting with as many users as you want."
+msgstr "Partager votre comptabilité avec autant de personnes que vous voulez."
+
+#: View/Companies/renew.ctp:154 View/Users/index.ctp:59
+msgid "Booking w/ VAT & visual T-Help"
+msgstr "Ecritures avec ou sans TVA et aide visuelle en compte en T"
+
+#: View/Companies/renew.ctp:155
+msgid "Avoid basic accounting mistakes with visual help."
+msgstr "Evitez les erreurs de base de comptabilité grâce aux aides visuelles."
+
+#: View/Companies/renew.ctp:164 View/Users/index.ctp:69
+msgid "365 days per year access"
+msgstr "Accès 365 jours par an"
+
+#: View/Companies/renew.ctp:165
+msgid "Access your accounting anytime with a simple internet connection."
+msgstr "Accédez votre comptabilité à chaque instant par internet."
+
+#: View/Companies/renew.ctp:172 View/Users/index.ctp:77
+msgid "All accounting reports"
+msgstr "Rapports comptables"
+
+#: View/Companies/renew.ctp:173
+msgid "Balance sheet, income statement, account statement and VAT reports."
+msgstr "Bilan, compte de résultat, releveé de compte et rapports TVA."
+
+#: View/Companies/renew.ctp:181 View/Users/index.ctp:86
+msgid "Full access to support website"
+msgstr "Accès complet au site de support"
+
+#: View/Companies/renew.ctp:182
+msgid "Help and examples guide you through EZYcount."
+msgstr "Aides et exemples vous guident à travers EZYcount."
+
+#: View/Companies/renew.ctp:189 View/Users/index.ctp:94
+msgid "Daily automated back-up"
+msgstr "Sauvegarde automatique journalière"
+
+#: View/Companies/renew.ctp:190
+msgid "Your data is stored confidentially on secure Swiss servers."
+msgstr "Vos données sont en sûreté sur des serveurs en Suisse."
+
+#: View/Companies/renew.ctp:198 View/Companies/renewstep2.ctp:62
+msgid "Billing address"
+msgstr "Adresse de facturation"
+
+#: View/Companies/renew.ctp:218 View/Companies/settings.ctp:74;77
+#: View/Companies/step1.ctp:188 View/Elements/Invoices/preview.ctp:27
+msgid "Address"
+msgstr "Adresse"
+
+#: View/Companies/renew.ctp:222 View/Companies/settings.ctp:84;90
+#: View/Companies/step1.ctp:195 View/Elements/selectCity.widget.ctp:23;29
+msgid "ZIP / City"
+msgstr "NPA / Localité"
+
+#: View/Companies/renew.ctp:230 View/Companies/settings.ctp:101;108
+#: View/Companies/step1.ctp:204 View/Elements/selectCountry.widget.ctp:24;31
+msgid "Country"
+msgstr "Pays"
+
+#: View/Companies/renew.ctp:239
+msgid "I accept the EZYcount's"
+msgstr "J'accepte les conditions générale d'EZYcount"
+
+#: View/Companies/renew.ctp:239 View/Pages/de/home.ctp:170
+#: View/Pages/en/home.ctp:167 View/Pages/fr/home.ctp:170
+#: View/Users/subscribe.ctp:39
+msgid "Terms of Services"
+msgstr "Conditions Générales"
+
+#: View/Companies/renew.ctp:252
+msgid "On the next screen you will review the order."
+msgstr "Sur l'écran suivant, vous pouvez passer en revue votre commande."
+
+#: View/Companies/renew.ctp:261
+msgid "Then you will be redirected to Postfinance for payment."
+msgstr ""
+"Vous êtes redirigé vers le site de Postfinance pour procéder au paiement. "
+
+#: View/Companies/renew.ctp:270
+msgid ""
+"After successful payment, you will be redirected to EZYcount website where "
+"you can print the invoice."
+msgstr ""
+"Après le paiement, votre abonnement est renouvelé et vous êtes redirigé sur "
+"le site d'EZYcount."
+
+#: View/Companies/renew.ctp:284
+msgid "Continue"
+msgstr "Continuer"
+
+#: View/Companies/renewstep2.ctp:3
+msgid "Confirm your order"
+msgstr "Confirmer votre commande"
+
+#: View/Companies/renewstep2.ctp:7;29
+msgid "Subscription"
+msgstr "Abonnement"
+
+#: View/Companies/renewstep2.ctp:11
+msgid "1 year subscription for 12.49 CHF per month or 149.90 CHF per year"
+msgstr "1 année d'abonnement pour 12.49 CHF par mois ou 149.90 CHF par année"
+
+#: View/Companies/renewstep2.ctp:12
+msgid "2 years subscription for 11.49 CHF per month or 137.90 CHF per year"
+msgstr "2 ans d'abonnement pour 11.49 CHF par mois ou 137.90 CHF par année"
+
+#: View/Companies/renewstep2.ctp:13
+msgid "3 years subscription for only 9.90 CHF per month or 118.80 CHF per year"
+msgstr ""
+"3 ans d'abonnement pour seulement 9.90 CHF par mois ou 118.80 CHF par année"
+
+#: View/Companies/renewstep2.ctp:83
+msgid "Edit my order"
+msgstr "Modifier ma commande"
+
+#: View/Companies/renewstep2.ctp:90
+msgid "Confirm"
+msgstr "Confirmer"
+
+#: View/Companies/settings.ctp:25
+msgid "Recommended size is 200 x 100px."
+msgstr "La taille recommandée est 200 x 100px."
+
+#: View/Companies/settings.ctp:26
+msgid "Maximum size is 2Mo and 200 x 100px."
+msgstr "La taille maximale est de 2Mo et 200 x 100px."
+
+#: View/Companies/settings.ctp:27
+msgid "Accepted format: png, jpeg, jpg, gif"
+msgstr "Formats acceptés: png, jpeg, JPG, gif"
+
+#: View/Companies/settings.ctp:44
+msgid "Remove logo"
+msgstr "Enlever le logo"
+
+#: View/Companies/settings.ctp:50;53 View/Companies/step1.ctp:180
+msgid "Company name"
+msgstr "Nom de l'entreprise"
+
+#: View/Companies/settings.ctp:56;59 View/Companies/step1.ctp:181
+msgid "Company number or UID"
+msgstr "Numéro de l'entreprise ou IDE"
+
+#: View/Companies/settings.ctp:62;68 View/Companies/step1.ctp:183
+msgid "Company type"
+msgstr "Type d'entreprise"
+
+#: View/Companies/settings.ctp:64;70 View/Companies/step1.ctp:185
+msgid "Sole trader"
+msgstr "Raison individuelle"
+
+#: View/Companies/settings.ctp:64;70 View/Companies/step1.ctp:185
+msgid "General partnership"
+msgstr "Société en nom collectif"
+
+#: View/Companies/settings.ctp:64;70 View/Companies/step1.ctp:185
+msgid "Limited Liability Company"
+msgstr "Société à responsabilité limitée Sàrl"
+
+#: View/Companies/settings.ctp:64;70 View/Companies/step1.ctp:185
+msgid "Public Limited Company"
+msgstr "Société anonyme SA"
+
+#: View/Companies/settings.ctp:64;70 View/Companies/step1.ctp:185
+msgid "Co-operative Company"
+msgstr "Coopérative"
+
+#: View/Companies/settings.ctp:64;70 View/Companies/step1.ctp:185
+msgid "Association"
+msgstr "Association"
+
+#: View/Companies/settings.ctp:64;70 View/Companies/step1.ctp:185
+#: View/Contacts/index.ctp:39
+msgid "Other"
+msgstr "Autre"
+
+#: View/Companies/settings.ctp:111;114 View/Companies/step2.ctp:180
+msgid "Start of the first accounting year"
+msgstr "Début de la première année comptable"
+
+#: View/Companies/settings.ctp:117;121 View/Companies/step2.ctp:183
+msgid "End of the accounting year"
+msgstr "Fin de l'année comptable"
+
+#: View/Companies/settings.ctp:129
+msgid "Blocking date"
+msgstr "Date de blocage"
+
+#: View/Companies/settings.ctp:139;142 View/Companies/step2.ctp:186
+msgid "Base currency"
+msgstr "Devise de base"
+
+#: View/Companies/settings.ctp:145;148 View/Companies/step2.ctp:188
+msgid "Rounding"
+msgstr "Arrondi"
+
+#: View/Companies/settings.ctp:154;163 View/Companies/step3.ctp:184
+msgid "Are you VAT registered ?"
+msgstr "Êtes-vous enregistré à la TVA?"
+
+#: View/Companies/settings.ctp:176;185 View/Companies/step3.ctp:196
+msgid "Which model do you use to report the VAT ?"
+msgstr "Quel modèle de TVA utilisez-vous?"
+
+#: View/Companies/settings.ctp:178;187 View/Companies/step3.ctp:198
+msgid "Effective rate"
+msgstr "Taux effectif"
+
+#: View/Companies/settings.ctp:179;188 View/Companies/step3.ctp:199
+msgid "Net tax rate"
+msgstr "Taux net"
+
+#: View/Companies/settings.ctp:195;200 View/Companies/step3.ctp:201
+msgid "VAT Number"
+msgstr "Numéro TVA"
+
+#: View/Companies/settings.ctp:206;209 View/Companies/step3.ctp:203
+msgid "Starting date of the VAT"
+msgstr "Date de début de l'assujettissement à la TVA"
+
+#: View/Companies/settings.ctp:222 View/Companies/step1.ctp:210
+#: View/Companies/step2.ctp:190 View/Companies/step3.ctp:210
+#: View/Companies/step5.ctp:240;281 View/Companies/step6.ctp:287
+#: View/Elements/BankAccounts/form.ctp:97 View/Elements/Charges/form.ctp:97
+#: View/Elements/Customers/form.ctp:127 View/Elements/Products/form.ctp:151
+msgid "Save and continue"
+msgstr "Sauvegarder et continuer"
+
+#: View/Companies/settings.ctp:235
+msgid "You can edit your company settings on this page."
+msgstr "Vous pouvez modifier le paramétrage de votre entreprise."
+
+#: View/Companies/step1.ctp:5 View/Companies/step2.ctp:5
+#: View/Companies/step3.ctp:6 View/Companies/step4.ctp:6
+#: View/Companies/step5.ctp:5 View/Companies/step6.ctp:5
+msgid "Company information"
+msgstr "Information de l'entreprise"
+
+#: View/Companies/step1.ctp:11;14 View/Companies/step2.ctp:11;14
+#: View/Companies/step3.ctp:12;15 View/Companies/step4.ctp:12;15
+#: View/Companies/step5.ctp:11;14 View/Companies/step6.ctp:11;14
+msgid "Accounting information"
+msgstr "Information de la comptabilité"
+
+#: View/Companies/step1.ctp:23;26 View/Companies/step2.ctp:23;26
+#: View/Companies/step3.ctp:24;27 View/Companies/step4.ctp:24;27
+#: View/Companies/step5.ctp:23;26 View/Companies/step6.ctp:23;26
+msgid "VAT setup"
+msgstr "Réglage TVA"
+
+#: View/Companies/step1.ctp:35;38 View/Companies/step2.ctp:35;38
+#: View/Companies/step3.ctp:36;39 View/Companies/step4.ctp:36;39
+#: View/Companies/step5.ctp:35;38 View/Companies/step6.ctp:35;38
+msgid "Chart of accounts - 1"
+msgstr "Plan comptable - 1"
+
+#: View/Companies/step1.ctp:47;50 View/Companies/step2.ctp:47;50
+#: View/Companies/step3.ctp:48;51 View/Companies/step4.ctp:48;51
+#: View/Companies/step5.ctp:47;50 View/Companies/step6.ctp:47;50
+msgid "Chart of accounts - 2"
+msgstr "Plan comptable - 2"
+
+#: View/Companies/step1.ctp:59;62 View/Companies/step2.ctp:59;62
+#: View/Companies/step3.ctp:60;63 View/Companies/step4.ctp:60;63
+#: View/Companies/step5.ctp:59;62 View/Companies/step6.ctp:59;62
+msgid "Opening balances"
+msgstr "Soldes de départ"
+
+#: View/Companies/step1.ctp:221
+msgid "Step 1 of 6"
+msgstr "Etape 1 à 6"
+
+#: View/Companies/step1.ctp:222
+msgid "Tip:"
+msgstr "Conseils:"
+
+#: View/Companies/step1.ctp:224
+msgid ""
+"You can find your <b>company number or UID</b> under <a href=\"http://www."
+"uid.admin.ch\" target=\"_blank\">www.uid.admin.ch</a> (ex: "
+"CHE-123.456.789)<br />\n"
+"                    If you are not registered, please input \"not registered"
+"\" in the field.<br />"
+msgstr ""
+"Vous trouvez votre <b>numéro d'identification des entreprises ou IDE</b> "
+"sous <a href=\"http://www.uid.admin.ch\" target=\"_blank\">www.uid.admin.ch</"
+"a> (ex: CHE-123.456.789)<br />\n"
+"                   Si vous n'êtes pas enregistré au registre du commerce, "
+"merci d'écrire \"non enregistré\" and le champ.<br />"
+
+#: View/Companies/step1.ctp:228
+msgid ""
+"\"Save and continue\" saves your information and allows you to come back to "
+"this step at any time."
+msgstr ""
+"\"Sauvegarder et continuer\" Sauvegarde vos informations et vous permet de "
+"revenir à cette étape en tout temps."
+
+#: View/Companies/step2.ctp:200
+msgid "Step 2 of 6"
+msgstr "Etape 2 de 6"
+
+#: View/Companies/step2.ctp:201 View/Companies/step3.ctp:221
+#: View/Companies/step6.ctp:299
+msgid "Tips:"
+msgstr "Conseils:"
+
+#: View/Companies/step2.ctp:203
+msgid ""
+"An accounting year has a start and an end. You can make booking within that "
+"period. Most companies uses as start the 01.01 and as end the 31.12."
+msgstr ""
+"L'année comptable a un début et une fin. Vous pouvez passer des écritures "
+"dans cette période. La plus part des entreprises Suisse démarre le 01.01 et "
+"finissent le 31.12."
+
+#: View/Companies/step2.ctp:206
+msgid ""
+"The base currency should be CHF in Switzerland. This will make your tax "
+"process easier."
+msgstr ""
+"La devise de base devrait être le CHF en Suisse. Cela facilite votre "
+"processus fiscal."
+
+#: View/Companies/step3.ctp:220
+msgid "Step 3 of 6"
+msgstr "Etape 3 de 6"
+
+#: View/Companies/step3.ctp:223
+msgid ""
+"If you are registered for VAT you use automatically the <b>effective rate</"
+"b>. For the <b>net tax rate</b> you have to make a special registration."
+msgstr ""
+"Si vous êtes enregistré à la TVA, vous utilisez automatiquement le <b>taux "
+"effectif</b>. Pour le <b>taux net</b>, vous devez faire une demande spéciale "
+"aux autorités."
+
+#: View/Companies/step3.ctp:225
+msgid ""
+"<b>VAT number</b> You can find your <b>company number or UID</b> under <a "
+"href=\"http://www.uid.admin.ch\" target=\"_blank\">www.uid.admin.ch</a> (ex: "
+"CHE-123.456.789 VAT)."
+msgstr ""
+"<b>Numéro TVA</b> Vous trouvez votre <b>numéro d'entreprise ou IDE</b> sous "
+"<a href=\"http://www.uid.admin.ch\" target=\"_blank\">www.uid.admin.ch</a> "
+"(ex: CHE-123.456.789 TVA)."
+
+#: View/Companies/step3.ctp:227
+msgid ""
+"The starting date of the VAT year is the date from when you want to create "
+"booking with VAT. Usually it is the same date as the start of your "
+"accounting year."
+msgstr ""
+"Le début de l'assujettissement à la TVA est la date à laquelle vous voulez "
+"commencer à passer des écritures avec TVA. Habituellement celle-ci est la "
+"même que le début de votre année comptable."
+
+#: View/Companies/step4.ctp:171
+msgid "To build your chart of accounts, you have two options:"
+msgstr "Pour faire votre plan comptable, vous avez deux options:"
+
+#: View/Companies/step4.ctp:173
+msgid "Import a chart of accounts<br />AND edit it"
+msgstr "Importer un plan comptable <br /> ET le modifier"
+
+#: View/Companies/step4.ctp:176
+msgid "Manually select the accounts you need"
+msgstr "Sélectionner manuellement chaque compte"
+
+#: View/Companies/step4.ctp:184
+msgid "Simplified version"
+msgstr "Version simplifiée"
+
+#: View/Companies/step4.ctp:192
+msgid "Official SME"
+msgstr "Plan PME officiel"
+
+#: View/Companies/step4.ctp:204
+msgid "Manually select"
+msgstr "Sélectionner manuellement"
+
+#: View/Companies/step4.ctp:226
+msgid ""
+"Are you sure to change the chart of accounts ? All saved accounts will be "
+"deleted."
+msgstr ""
+"Êtes-vous sûr de vouloir modifier le plan comptable? Tous les comptes "
+"actuels seront effacé."
+
+#: View/Companies/step5.ctp:255
+msgid "<b>Standard</b> Chart of accounts"
+msgstr "Plan comptable <b>standard</b> "
+
+#: View/Companies/step5.ctp:258
+msgid ""
+"<b>Tip:</b> <i>To add an account, select the closest one in this standard "
+"chart of accounts.</i>"
+msgstr ""
+"<b>Conseil:</b> <i>Pour ajouter un compte, sélectionnez dans le plan "
+"comptable standard le compte avec la signification la plus proche.</i>"
+
+#: View/Companies/step5.ctp:268
+msgid "<b>Your</b> Chart of accounts"
+msgstr "<b>Votre</b> plan comptable"
+
+#: View/Companies/step6.ctp:211
+msgid "debit"
+msgstr "débit"
+
+#: View/Companies/step6.ctp:211
+msgid "credit"
+msgstr "crédit"
+
+#: View/Companies/step6.ctp:225
+msgid "Add a booking"
+msgstr "Ajouter une écriture"
+
+#: View/Companies/step6.ctp:298
+msgid "Step 6 of 6"
+msgstr "Etape 6 de 6"
+
+#: View/Companies/step6.ctp:301
+msgid "Enter the starting balance sheet of your accounting."
+msgstr "Entrez le montant de départ de chaque compte de votre plan comptable."
+
+#: View/Companies/step6.ctp:315
+msgid "Please select an account"
+msgstr "Veuillez sélectionner un compte"
+
+#: View/Companies/step6.ctp:322
+msgid "Please put an amount"
+msgstr "Insérez un montant"
+
+#: View/Companies/step6.ctp:368
+msgid "All numbers should be positive numbers"
+msgstr "Tout chiffre doit être positif."
+
+#: View/Companies/step6.ctp:420
+msgid "Please enter a valid number"
+msgstr "Insérez un numéro valide "
+
+#: View/Companies/step6.ctp:428
+msgid "Debit has to be equal to credit. Please correct your inputs."
+msgstr ""
+"Le total du débit doit être équivalent au total du crédit. Merci de corriger "
+"vos données."
+
+#: View/Companies/step6.ctp:430
+msgid "Confirm that all information are inputed."
+msgstr "Confirmer que toutes les informations sont correctes."
+
+#: View/Conditions/add.ctp:4
+msgid "Add payment condition"
+msgstr "Ajouter une condition de paiement"
+
+#: View/Conditions/add.ctp:28
+msgid "Add discout day"
+msgstr "Ajouter Discount day"
+
+#: View/Conditions/add.ctp:32 View/Conditions/edit.ctp:11
+#: View/ModelInvoices/add.ctp:13 View/ModelInvoices/edit.ctp:14
+#: View/Users/forgot.ctp:21
+msgid "Submit"
+msgstr "Valider"
+
+#: View/Conditions/add.ctp:38 View/Conditions/edit.ctp:18
+msgid "List payment condition"
+msgstr "Liste des conditions de paiement"
+
+#: View/Conditions/add.ctp:39 View/Conditions/edit.ctp:19
+#: View/Conditions/view.ctp:28
+msgid "List Discount Days"
+msgstr "Liste des discount days"
+
+#: View/Conditions/add.ctp:40 View/Conditions/edit.ctp:20
+#: View/Conditions/view.ctp:29;61
+msgid "New Discount Day"
+msgstr "Nouveau discount day"
+
+#: View/Conditions/edit.ctp:4
+msgid "Edit payment condition"
+msgstr "Modifier condition de paiement"
+
+#: View/Conditions/index.ctp:5
+msgid "Conditions"
+msgstr "Conditions de paiement"
+
+#: View/Conditions/index.ctp:10
+msgid "New Conditions"
+msgstr "Nouvelle condition de paiement"
+
+#: View/Conditions/view.ctp:2
+msgid "Condition"
+msgstr "Condition de paiement"
+
+#: View/Conditions/view.ctp:24
+msgid "Edit Condition"
+msgstr "Modifier condition de paiement"
+
+#: View/Conditions/view.ctp:25
+msgid "Delete Condition"
+msgstr "Effacer la condition de paiement"
+
+#: View/Conditions/view.ctp:26 View/Invoices/view.ctp:75
+msgid "List Conditions"
+msgstr "Liste des conditions de paiement"
+
+#: View/Conditions/view.ctp:27 View/Invoices/view.ctp:76
+msgid "New Condition"
+msgstr "Nouvelle condition de paiement"
+
+#: View/Conditions/view.ctp:33
+msgid "Related Discount Days"
+msgstr ""
+
+#: View/Conditions/view.ctp:38 View/Helper/EZYCountHelper.php:718
+msgid "Discount"
+msgstr "Rabais"
+
+#: View/Conditions/view.ctp:39
+msgid "Days"
+msgstr "Jours"
+
+#: View/Conditions/view.ctp:40 View/ModelInvoices/view.ctp:56
+msgid "Condition Id"
+msgstr "Numéro de condition"
+
+#: View/Conditions/view.ctp:50 View/Invoices/view.ctp:119
+#: View/ModelInvoices/index.ctp:25 View/ModelInvoices/view.ctp:81
+msgid "View"
+msgstr "Vue"
+
+#: View/Contacts/index.ctp:5
+msgid "Contact <b>us</b>"
+msgstr "Nous contacter"
+
+#: View/Contacts/index.ctp:21
+msgid ""
+"You can contact us for any question about EZYcount. We will answer you "
+"within 48 hours."
+msgstr ""
+"Vous pouvez nous contacter pour toutes questions sur EZYcount. Nous vous "
+"répondons sous 48 heures."
+
+#: View/Contacts/index.ctp:39
+msgid "Sales"
+msgstr "Ventes"
+
+#: View/Contacts/index.ctp:39
+msgid "Technic"
+msgstr "Technique"
+
+#: View/Contacts/index.ctp:39
+msgid "Accounting"
+msgstr "Comptabilité"
+
+#: View/Contacts/index.ctp:42 View/Contacts/trustees.ctp:103
+msgid "Subject"
+msgstr "Objet"
+
+#: View/Contacts/index.ctp:45 View/Contacts/trustees.ctp:106
+msgid "Your email"
+msgstr "Votre adresse email"
+
+#: View/Contacts/index.ctp:48 View/Contacts/trustees.ctp:109
+msgid "Message"
+msgstr "Message"
+
+#: View/Contacts/index.ctp:50
+msgid "Contact us"
+msgstr "Nous contacter"
+
+#: View/Contacts/index.ctp:59
+msgid "About us"
+msgstr "À propos"
+
+#: View/Contacts/index.ctp:63
+msgid "email: support@ezycount.ch"
+msgstr "email: support@ezycount.ch"
+
+#: View/Contacts/trustees.ctp:17
+msgid "Be more efficient"
+msgstr "Soyez plus efficace"
+
+#: View/Contacts/trustees.ctp:21
+msgid "Boost your revenues"
+msgstr "Augmentez votre chiffre d'affaire"
+
+#: View/Contacts/trustees.ctp:25
+msgid "Grow your practice"
+msgstr "Trouvez de nouveaux clients"
+
+#: View/Contacts/trustees.ctp:34
+msgid "No costs"
+msgstr "Sans coût"
+
+#: View/Contacts/trustees.ctp:35
+msgid "Included in your customer license are your rights to work with it."
+msgstr "Vos droits sont inclus dans la licence de vos clients."
+
+#: View/Contacts/trustees.ctp:39
+msgid "Simple"
+msgstr "Simple"
+
+#: View/Contacts/trustees.ctp:40
+msgid "EZYcount is user friendly so that usual mistakes can easily be avoided."
+msgstr ""
+"EZYcount est facile d'utilisation et réduit la probabilité de fautes grâce à "
+"des aides visuelles"
+
+#: View/Contacts/trustees.ctp:44
+msgid "No Installation / No update"
+msgstr "Pas d'installation / pas de mise à jour"
+
+#: View/Contacts/trustees.ctp:45
+msgid ""
+"EZYcount is always up to date with the latest regulations. You don't need to "
+"install it or update it."
+msgstr ""
+"EZYcount est toujours à jour avec les dernières règles comptables. Vous "
+"n'avez pas besoin d'installation ou de faire des mises à jour."
+
+#: View/Contacts/trustees.ctp:52
+msgid "Improved communication"
+msgstr "Une meilleur communication"
+
+#: View/Contacts/trustees.ctp:53
+msgid ""
+"No transfer of data needed between you and your customers. You and your "
+"customers will always work on the latest information."
+msgstr ""
+"Aucun transfert de données nécessaire entre vous et vos clients. Vous "
+"travaillez directement sur les même informations."
+
+#: View/Contacts/trustees.ctp:57
+msgid "Dedicated support"
+msgstr "Aide dédiée"
+
+#: View/Contacts/trustees.ctp:58
+msgid ""
+"A dedicated support contact to answer all your questions by phone or email."
+msgstr "Un service d'aide spéciale qui vous répond par email ou téléphone."
+
+#: View/Contacts/trustees.ctp:62
+msgid "Improved collaboration"
+msgstr "Plus de collaboration"
+
+#: View/Contacts/trustees.ctp:63
+msgid "Work collaboratively within your team and with your customers."
+msgstr "Travaillez collaborativement avec votre équipe et vos clients."
+
+#: View/Contacts/trustees.ctp:70
+msgid "Easy Transfer"
+msgstr "Importation simplifiée"
+
+#: View/Contacts/trustees.ctp:71
+msgid ""
+"Switching to EZYcount doesn't need to happen all at once. After you've tried "
+"it with a couple of clients, we can help you move more to EZYcount."
+msgstr ""
+"Changer pour EZYcount n'a pas besoin d'arriver d'un coup. Après avoir essayé "
+"le programme avec quelques clients, nous pouvons vous aidez pour "
+"l'importation."
+
+#: View/Contacts/trustees.ctp:75
+msgid "Increase your value"
+msgstr "Améliorez votre service"
+
+#: View/Contacts/trustees.ctp:76
+msgid "Invoice your added value, know-how and professionalism not your time."
+msgstr ""
+"Facturez votre plus-value, savoir et professionnalisme et non votre temps."
+
+#: View/Contacts/trustees.ctp:80
+msgid "More time"
+msgstr "Plus de temps"
+
+#: View/Contacts/trustees.ctp:81
+msgid "Have more time to build real relationships with your customers."
+msgstr ""
+"Ayez plus de temps pour construire de vrais relations avec vos clients."
+
+#: View/Contacts/trustees.ctp:88
+msgid ""
+"Are you a trustee ? Get in touch with the EZYcount team for more information"
+msgstr ""
+"Êtes-vous une fiduciaire? Contactez l'équipe EZYcount pour plus "
+"d'informations"
+
+#: View/Contacts/trustees.ctp:110
+msgid "Send"
+msgstr "Envoyé"
+
+#: View/Currencies/index.ctp:17
+msgid "Your Currencies"
+msgstr "Vos Devises"
+
+#: View/Currencies/index.ctp:36
+msgid "Add a currency"
+msgstr "Ajoutez une devise"
+
+#: View/Currencies/index.ctp:43
+msgid "Main currencies"
+msgstr "Devises de base"
+
+#: View/Currencies/index.ctp:47
+msgid "Others currencies"
+msgstr "Autres devises"
+
+#: View/Currencies/index.ctp:220
+msgid "Official rate (from today)"
+msgstr "Taux officiel (aujourd'hui)"
+
+#: View/Currencies/index.ctp:231
+msgid "No limit date"
+msgstr "Sans date limite"
+
+#: View/Currencies/index.ctp:254
+msgid "List of Currencies"
+msgstr "Liste des devises"
+
+#: View/Currencies/index.ctp:286
+msgid "Not active"
+msgstr "désactivé"
+
+#: View/Currencies/index.ctp:303
+msgid "Main currency"
+msgstr "Devise de base"
+
+#: View/Currencies/index.ctp:352
+msgid "Add the currencies you need to use in your bookings."
+msgstr "Ajoutez les monnaies dont vous avez besoin pour faire vos écritures."
+
+#: View/Currencies/index.ctp:354
+msgid ""
+"Official page of the \"average currency rate\" of the FTA (Swiss Federal Tax "
+"Administration)"
+msgstr ""
+"Page officielle des \"cours moyens mensuels\" de l'AFC (Administration "
+"Fédérale des Contributions)"
+
+#: View/Currencies/index.ctp:356;359;362
+msgid "Link"
+msgstr "Lien"
+
+#: View/Customers/index.ctp:5 View/Layouts/default.ctp:355
+msgid "Customers"
+msgstr "Clients"
+
+#: View/Customers/index.ctp:10 View/Invoices/view.ctp:74
+msgid "New Customer"
+msgstr "Nouveau client"
+
+#: View/Elements/BankAccounts/form.ctp:24
+msgid "Add BankAccount"
+msgstr "Ajouter un compte en banque"
+
+#: View/Elements/BankAccounts/form.ctp:26
+msgid "Edit BankAccount"
+msgstr "Modifier un compte en banque"
+
+#: View/Elements/BankAccounts/form.ctp:33
+msgid "Institute"
+msgstr "Banque"
+
+#: View/Elements/BankAccounts/form.ctp:44
+msgid "Account num"
+msgstr "Numéro de compte"
+
+#: View/Elements/BankAccounts/form.ctp:62 View/Elements/Customers/form.ctp:86
+#: View/Elements/Invoices/step1.ctp:77
+msgid "Main street"
+msgstr "Adresse"
+
+#: View/Elements/BankAccounts/form.ctp:66 View/Elements/Customers/form.ctp:90
+#: View/Elements/Invoices/step1.ctp:81
+msgid "Second street"
+msgstr "Adresse suppl."
+
+#: View/Elements/BankAccounts/form.ctp:109
+msgid "You can easily manage your different bank/post accounts."
+msgstr "Vous pouvez modifier facilement votre compte en banque."
+
+#: View/Elements/Charges/form.ctp:24
+msgid "Add other charge"
+msgstr "Ajouter une autre charge"
+
+#: View/Elements/Charges/form.ctp:33
+msgid "Other charge name"
+msgstr "Nom autre charge"
+
+#: View/Elements/Charges/form.ctp:63
+msgid "Set custom code other charge"
+msgstr "Modifier numéro autre charge"
+
+#: View/Elements/Charges/form.ctp:109
+msgid ""
+"The other charge number is automatically generated, but you can specify your "
+"own."
+msgstr ""
+"Le numéro d'une autre charge est automatiquement généré, mais vous pouvez "
+"spécifier le votre."
+
+#: View/Elements/Charges/form.ctp:151 View/Elements/Customers/form.ctp:181
+#: View/Elements/Invoices/customer.script.ctp:149
+#: View/Elements/Products/form.ctp:203
+msgid "Generate for me"
+msgstr "Générer pour moi"
+
+#: View/Elements/Charges/form.ctp:162
+msgid "Set other charge number"
+msgstr "Modifier le numéro de l'autre charge"
+
+#: View/Elements/Customers/form.ctp:24
+msgid "Add Customer"
+msgstr "Ajouter un client"
+
+#: View/Elements/Customers/form.ctp:26
+msgid "Edit Customer"
+msgstr "Modifier un client"
+
+#: View/Elements/Customers/form.ctp:33 View/Elements/Invoices/step1.ctp:40
+msgid "Customer name"
+msgstr "Nom de client"
+
+#: View/Elements/Customers/form.ctp:47;58 View/Elements/Invoices/step1.ctp:55
+msgid "Customer number"
+msgstr "Numéro de client"
+
+#: View/Elements/Customers/form.ctp:63;192 View/Elements/Invoices/step1.ctp:60
+msgid "Set customer number"
+msgstr "Numéro de client"
+
+#: View/Elements/Customers/form.ctp:139
+msgid ""
+"The customer number is automatically generated, but you can specify your own."
+msgstr ""
+"Le numéro de client est automatiquement généré, mais vous pouvez le "
+"spécifier."
+
+#: View/Elements/Invoices/customer.script.ctp:160
+msgid "Set custom num customer"
+msgstr "Modifier le numéro de client"
+
+#: View/Elements/Invoices/header.ctp:6
+msgid "Choose customer"
+msgstr "Choisir un client"
+
+#: View/Elements/Invoices/header.ctp:14
+msgid "Invoice informations"
+msgstr "Information de la facture"
+
+#: View/Elements/Invoices/header.ctp:23
+msgid "Products / services"
+msgstr "Produits / Services"
+
+#: View/Elements/Invoices/header.ctp:34
+msgid "Confirmation"
+msgstr "Confirmation"
+
+#: View/Elements/Invoices/navigation.script.ctp:109
+msgid "Please choose a customer"
+msgstr "Veuillez sélectionner un client"
+
+#: View/Elements/Invoices/navigation.script.ctp:125
+msgid "Invoice number is missing."
+msgstr "Numéro de facture manquant."
+
+#: View/Elements/Invoices/preview.ctp:4
+msgid "Editable preview"
+msgstr "Prévisualisation modifiable"
+
+#: View/Elements/Invoices/preview.ctp:10
+msgid "Dynamic fields"
+msgstr "Champ dynamique"
+
+#: View/Elements/Invoices/preview.ctp:12
+msgid "BankAccount"
+msgstr "Compte en banque"
+
+#: View/Elements/Invoices/preview.ctp:14 View/Elements/Invoices/step2.ctp:17
+msgid "Invoice number"
+msgstr "Numéro de facture"
+
+#: View/Elements/Invoices/preview.ctp:16
+msgid "Invoice date"
+msgstr "Date de la facture"
+
+#: View/Elements/Invoices/preview.ctp:20 View/Elements/Invoices/step1.ctp:156
+#: View/Invoices/view.ctp:19
+msgid "Customer"
+msgstr "Client"
+
+#: View/Elements/Invoices/preview.ctp:28
+msgid "Locality"
+msgstr "Localité"
+
+#: View/Elements/Invoices/preview.ctp:39
+#: View/Elements/Invoices/preview.script.ctp:142
+#: View/Elements/Invoices/step3.ctp:119
+msgid "Total excl. VAT"
+msgstr "Total sans TVA"
+
+#: View/Elements/Invoices/preview.ctp:40 View/Elements/Invoices/step3.ctp:123
+msgid "Total incl. VAT"
+msgstr "Total avec TVA"
+
+#: View/Elements/Invoices/preview.ctp:47
+msgid "Template"
+msgstr "Modèle"
+
+#: View/Elements/Invoices/preview.ctp:56
+msgid "Choose the template"
+msgstr "Choisir le modèle"
+
+#: View/Elements/Invoices/preview.ctp:73
+msgid "Ok"
+msgstr "Ok"
+
+#: View/Elements/Invoices/preview.script.ctp:132
+msgid "Quantity"
+msgstr "Quantité"
+
+#: View/Elements/Invoices/preview.script.ctp:133
+#: View/Elements/Invoices/step3.ctp:19 View/Layouts/default.ctp:175;260
+#: View/Products/view.ctp:2
+msgid "Product"
+msgstr "Produit"
+
+#: View/Elements/Invoices/preview.script.ctp:134
+msgid "Price"
+msgstr "Prix"
+
+#: View/Elements/Invoices/products.script.ctp:94
+msgid "You must provide a least 1 product !"
+msgstr "Il faut au moins un produit."
+
+#: View/Elements/Invoices/step1.ctp:154
+msgid "Choose a customer"
+msgstr "Sélectionnez un client"
+
+#: View/Elements/Invoices/step1.ctp:168
+msgid "New customer"
+msgstr "Nouveau client"
+
+#: View/Elements/Invoices/step1.ctp:180 View/Elements/Invoices/step2.ctp:63
+#: View/Elements/Invoices/step3.ctp:139
+msgid "Next"
+msgstr "Suivant"
+
+#: View/Elements/Invoices/step2.ctp:27 View/Invoices/view.ctp:24
+msgid "Payment condition"
+msgstr "Condition de paiement"
+
+#: View/Elements/Invoices/step2.ctp:62 View/Elements/Invoices/step3.ctp:138
+#: View/Elements/Invoices/step4.ctp:24
+msgid "Previous"
+msgstr "Précédent"
+
+#: View/Elements/Invoices/step3.ctp:18
+msgid "Qte"
+msgstr "Qte"
+
+#: View/Elements/Invoices/step3.ctp:20
+msgid "Unit price"
+msgstr "Prix unitaire"
+
+#: View/Elements/Invoices/step3.ctp:99
+msgid "Add a product"
+msgstr "Ajouter un produit"
+
+#: View/Elements/Invoices/step4.ctp:26
+msgid "Save and print"
+msgstr "Sauvegarder et imprimer"
+
+#: View/Elements/Products/form.ctp:24
+msgid "Add Product"
+msgstr "Ajouter un produit"
+
+#: View/Elements/Products/form.ctp:26 View/Products/view.ctp:59
+msgid "Edit Product"
+msgstr "Modifier un produit"
+
+#: View/Elements/Products/form.ctp:33
+msgid "Product name"
+msgstr "Nom de produit"
+
+#: View/Elements/Products/form.ctp:47;58
+msgid "Product number"
+msgstr "Numéro de produit"
+
+#: View/Elements/Products/form.ctp:63
+msgid "Set custom num product"
+msgstr "Numéro de produit"
+
+#: View/Elements/Products/form.ctp:87
+msgid "Product quantity <span class=\"field-required\">*</span>"
+msgstr "Quantité de produit <span class=\"field-required\">*</span>"
+
+#: View/Elements/Products/form.ctp:91
+msgid "Product unit <span class=\"field-required\">*</span>"
+msgstr "Produit <span class=\"field-required\">*</span>"
+
+#: View/Elements/Products/form.ctp:95
+msgid "Product price/unit <span class=\"field-required\">*</span>"
+msgstr "Prix par unité<span class=\"field-required\">*</span>"
+
+#: View/Elements/Products/form.ctp:101
+msgid "All Account"
+msgstr "Tous les comptes"
+
+#: View/Elements/Products/form.ctp:111
+msgid "Account  <span class=\"field-required\">*</span>"
+msgstr "Compte <span class=\"field-required\">*</span>"
+
+#: View/Elements/Products/form.ctp:122
+msgid "All VatAccount"
+msgstr "Tous les comptes TVA"
+
+#: View/Elements/Products/form.ctp:132
+msgid "TVA Code <span class=\"field-required\">*</span>"
+msgstr "Code TVA <span class=\"field-required\">*</span>"
+
+#: View/Elements/Products/form.ctp:142
+msgid "Service"
+msgstr "Service"
+
+#: View/Elements/Products/form.ctp:163
+msgid ""
+"The product number is automatically generated, but you can specify your own."
+msgstr ""
+"Le numéro de produit est automatiquement généré, mais vous pouvez le "
+"spécifier."
+
+#: View/Elements/Products/form.ctp:214
+msgid "Define product number "
+msgstr "Définir le numéro de produit"
+
+#: View/Emails/html/changemail.ctp:3
+msgid "Change of email"
+msgstr "Changez votre adresse email"
+
+#: View/Emails/html/changemail.ctp:4 View/Emails/html/expired.ctp:4
+#: View/Emails/html/forgot.ctp:4 View/Emails/html/renew.ctp:4
+#: View/Emails/html/validation.ctp:4
+msgid "Hello %s,"
+msgstr "Bonjour %s,"
+
+#: View/Emails/html/changemail.ctp:5
+msgid ""
+"To complete the change of your new email address, please click on the link "
+"below:"
+msgstr ""
+"Pour terminer le changement de votre adresse email, merci de cliquer sur le "
+"lien ci-dessous:"
+
+#: View/Emails/html/changemail.ctp:6
+msgid "Confirm my new email address"
+msgstr "Confirmer votre nouvelle adresse email"
+
+#: View/Emails/html/changemail.ctp:7
+msgid ""
+"If you didn't ask to change your email address, please contact the EZYcount "
+"support."
+msgstr ""
+"Si vous n'avez pas demandé le changement de votre adresse email, merci de "
+"prendre contact avec le support d'EZYcount."
+
+#: View/Emails/html/changemail.ctp:8 View/Emails/html/expired.ctp:17
+#: View/Emails/html/forgot.ctp:8 View/Emails/html/renew.ctp:17
+#: View/Emails/html/validation.ctp:7
+msgid "Thank you."
+msgstr "Merci."
+
+#: View/Emails/html/changemail.ctp:9 View/Emails/html/deletion.ctp:7
+#: View/Emails/html/expired.ctp:18 View/Emails/html/forgot.ctp:9
+#: View/Emails/html/invitation.ctp:25 View/Emails/html/renew.ctp:18
+#: View/Emails/html/validation.ctp:8
+msgid "The EZYcount team"
+msgstr "L'équipe d'EZYcount"
+
+#: View/Emails/html/deletion.ctp:3
+msgid "Company deletion"
+msgstr "Entreprise effacée"
+
+#: View/Emails/html/deletion.ctp:4
+msgid "Dear  Administrator of %s,"
+msgstr "Cher Administrateur de %s,"
+
+#: View/Emails/html/deletion.ctp:5
+msgid "Please note that, today, %s was deleted from EZYcount by %s %s"
+msgstr ""
+"Nous vous informons qu'aujourd'hui, %s a été effacé d'EZYcount par %s %s"
+
+#: View/Emails/html/deletion.ctp:6 View/Emails/html/invitation.ctp:24
+msgid "Thank you for your collaboration with EZYcount."
+msgstr "Merci pour avoir choisi EZYcount"
+
+#: View/Emails/html/expired.ctp:3 View/Emails/html/renew.ctp:3
+msgid "Your subscription expires !"
+msgstr "Votre abonnement est expiré !"
+
+#: View/Emails/html/expired.ctp:5
+msgid "Your subscription at EZYcount for %s expires today !"
+msgstr "Votre abonnement à EZYcount pour %s expire aujourd'hui !"
+
+#: View/Emails/html/expired.ctp:6 View/Emails/html/renew.ctp:6
+msgid "You can renew it from the end of your current subscription."
+msgstr "Vous pouvez le renouveler depuis la fin de votre abonnement actuel."
+
+#: View/Emails/html/expired.ctp:7 View/Emails/html/renew.ctp:7
+msgid ""
+"Please visit \"My account\" webpage by clicking on the link below, to "
+"discover our packages starting from just CHF 9.90 per month."
+msgstr ""
+"Merci de visiter \"Mon compte\" en cliquant sur le lien ci-dessous pour "
+"découvrir nos abonnements dès CHF 9.90 par mois."
+
+#: View/Emails/html/expired.ctp:9 View/Emails/html/renew.ctp:9
+msgid "Renew here"
+msgstr "Renouveler ici"
+
+#: View/Emails/html/expired.ctp:16
+msgid ""
+"From tomorrow onwards, you will not be able to edit your acccounting anymore."
+msgstr "Dès demain, vous ne pourrez plus faire votre comptabilité."
+
+#: View/Emails/html/forgot.ctp:3 View/Users/login.ctp:18
+msgid "Forgot password"
+msgstr "Mot de passe oublié"
+
+#: View/Emails/html/forgot.ctp:5
+msgid ""
+"You requested a password change on EZYcount, to change it please go to the "
+"link below that will be available for 2 hours."
+msgstr ""
+"Vous avez demandé le changement de votre mot de passe sur EZYcount, pour "
+"cela merci de cliquer sur le lien ci-dessous. Le lien est activé pendant 2 "
+"heures."
+
+#: View/Emails/html/forgot.ctp:7
+msgid ""
+"If you didn't ask to change your password, please contact the EZYcount "
+"support."
+msgstr ""
+"Si vous n'avez pas demandé le changement de votre mot de passe, merci de "
+"contacter le support d'EZYcount."
+
+#: View/Emails/html/invitation.ctp:1
+msgid "him"
+msgstr "lui"
+
+#: View/Emails/html/invitation.ctp:1
+msgid "her"
+msgstr "sa"
+
+#: View/Emails/html/invitation.ctp:6
+msgid "Invitation"
+msgstr "Inviter"
+
+#: View/Emails/html/invitation.ctp:7
+msgid "Hello,"
+msgstr "Bonjour,"
+
+#: View/Emails/html/invitation.ctp:8
+msgid ""
+"%s %s has invited you to collaborate with %s for the accounting of <b>%s</b> "
+"as a &laquo; <b>%s</b> &raquo;."
+msgstr ""
+"%s %s vous a invité à travailler avec %s sur la comptabilité de <b>%s</b> "
+"comme &laquo; <b>%s</b> &raquo;."
+
+#: View/Emails/html/invitation.ctp:11
+msgid ""
+"To access the company’s information, please %s and accept this invitation by "
+"clicking on this %s"
+msgstr ""
+"Pour accéder aux informations de l'entreprise, merci %s et d'accepter cette "
+"invitation en cliquant sur %s"
+
+#: View/Emails/html/invitation.ctp:12
+msgid "create an account"
+msgstr "Créer un compte"
+
+#: View/Emails/html/invitation.ctp:13;17
+msgid "link"
+msgstr "lien"
+
+#: View/Emails/html/invitation.ctp:16
+msgid ""
+"To access the company’s information, please connect to EZYcount by clicking "
+"on this %s"
+msgstr ""
+"Pour accéder aux informations de l'entreprise, merci de vous connectez à "
+"EZYcount en cliquant sur %s"
+
+#: View/Emails/html/renew.ctp:5
+msgid "Your subscription at EZYcount for %s will expire in <b>%d days</b> !"
+msgstr "Votre abonnement à EZYcount pour %s expire dans <b>%d jours</b> !"
+
+#: View/Emails/html/renew.ctp:16
+msgid ""
+"Note that after the expiration date, you will not be able to edit your "
+"acccounting anymore."
+msgstr ""
+"Après la date d'expiration, vous ne pourrez plus faire votre comptabilité."
+
+#: View/Emails/html/validation.ctp:5
+msgid ""
+"To complete your registration to EZYcount, please click on the link below to "
+"activate your account:"
+msgstr ""
+"Pour terminer votre inscription à EZYcount, merci d'activer votre compte en "
+"cliquant sur le lien ci-dessous."
+
+#: View/Emails/html/validation.ctp:6
+msgid "Validate my email"
+msgstr "Valider votre compte"
+
+#: View/Errors/error400.ctp:22
+msgid "This page isn't available. Sorry about that."
+msgstr "Cette page n'est pas disponible. Nous nous en excusons."
+
+#: View/Errors/error400.ctp:23 View/Errors/error500.ctp:22
+msgid "Go back to homepage"
+msgstr "Retourner à la page d'accueil"
+
+#: View/Errors/error500.ctp:21
+msgid "Oops something happened. Sorry about that."
+msgstr "Oops quelque chose c'est passé. Nous nous en excusons."
+
+#: View/Errors/error500.ctp:23
+msgid ""
+"Contact an <a href=\"mailto:support@ezycount.ch\">administrator</a> if it "
+"persists."
+msgstr ""
+"Contactez le<a href=\"mailto:support@ezycount.ch\">support</a> si cela "
+"persiste."
+
+#: View/Helper/EZYCountHelper.php:710
+msgid "Mr."
+msgstr "Mr."
+
+#: View/Helper/EZYCountHelper.php:710
+msgid "Ms."
+msgstr "Mme."
+
+#: View/Helper/EZYCountHelper.php:714
+msgid "1 years"
+msgstr "1 an "
+
+#: View/Helper/EZYCountHelper.php:718
+msgid "Percent"
+msgstr "Pourcentage"
+
+#: View/Helper/EZYCountHelper.php:723
+msgid "French"
+msgstr "Français"
+
+#: View/Helper/EZYCountHelper.php:723
+msgid "English"
+msgstr "Anglais"
+
+#: View/Helper/EZYCountHelper.php:724
+msgid "Deutsch"
+msgstr "Allemand"
+
+#: View/Helper/EZYCountHelper.php:769
+msgid "Switzerland"
+msgstr "Suisse"
+
+#: View/Invoices/index.ctp:5 View/Layouts/default.ctp:350;353
+msgid "Invoices"
+msgstr "Factures"
+
+#: View/Invoices/index.ctp:10 View/Invoices/view.ctp:72
+#: View/ModelInvoices/add.ctp:21 View/ModelInvoices/edit.ctp:23
+#: View/ModelInvoices/index.ctp:48 View/ModelInvoices/view.ctp:44;92
+msgid "New Invoice"
+msgstr "Nouvelle facture"
+
+#: View/Invoices/view.ctp:9 View/ModelInvoices/view.ctp:53
+msgid "Num"
+msgstr "Numéro"
+
+#: View/Invoices/view.ctp:29
+msgid "Bank Account"
+msgstr "Compte en banque"
+
+#: View/Invoices/view.ctp:39 View/ModelInvoices/view.ctp:2
+msgid "Model Invoice"
+msgstr "Modèle de facture"
+
+#: View/Invoices/view.ctp:44 View/ModelInvoices/view.ctp:9;60
+msgid "Header Content"
+msgstr "Entête"
+
+#: View/Invoices/view.ctp:49 View/ModelInvoices/view.ctp:19;61
+msgid "Body Content"
+msgstr "Contenu central"
+
+#: View/Invoices/view.ctp:54 View/ModelInvoices/view.ctp:24;62
+msgid "Products Content"
+msgstr "Produit"
+
+#: View/Invoices/view.ctp:59 View/ModelInvoices/view.ctp:29;63
+msgid "Footer Content"
+msgstr "Pied de page"
+
+#: View/Invoices/view.ctp:69
+msgid "Edit Invoice"
+msgstr "Modifier la facture"
+
+#: View/Invoices/view.ctp:70
+msgid "Delete Invoice"
+msgstr "Effacer la facture"
+
+#: View/Invoices/view.ctp:71 View/ModelInvoices/add.ctp:20
+#: View/ModelInvoices/edit.ctp:22 View/ModelInvoices/index.ctp:47
+#: View/ModelInvoices/view.ctp:43
+msgid "List Invoices"
+msgstr "Liste des factures"
+
+#: View/Invoices/view.ctp:73
+msgid "List Customers"
+msgstr "Liste des clients"
+
+#: View/Invoices/view.ctp:77
+msgid "List Bank Accounts"
+msgstr "Liste des comptes en banque"
+
+#: View/Invoices/view.ctp:81 View/ModelInvoices/add.ctp:19
+#: View/ModelInvoices/edit.ctp:21 View/ModelInvoices/view.ctp:41
+msgid "List Model Invoices"
+msgstr "Liste des modèles de factures"
+
+#: View/Invoices/view.ctp:82 View/ModelInvoices/index.ctp:46
+#: View/ModelInvoices/view.ctp:42
+msgid "New Model Invoice"
+msgstr "Nouveau modèle de facture"
+
+#: View/Invoices/view.ctp:83 View/Products/view.ctp:61
+msgid "List Products"
+msgstr "Liste des produits"
+
+#: View/Invoices/view.ctp:84;130 View/Products/index.ctp:10
+#: View/Products/view.ctp:62
+msgid "New Product"
+msgstr "Nouveau produit"
+
+#: View/Invoices/view.ctp:88
+msgid "Related Products"
+msgstr "Produit lié"
+
+#: View/Invoices/view.ctp:93 View/Products/view.ctp:9
+msgid "Product Num"
+msgstr "Numéro"
+
+#: View/Invoices/view.ctp:94 View/Products/view.ctp:14
+msgid "Product Name"
+msgstr "Nom"
+
+#: View/Invoices/view.ctp:95 View/Products/view.ctp:19
+msgid "Product Unit"
+msgstr "Unité"
+
+#: View/Invoices/view.ctp:96 View/Products/view.ctp:24
+msgid "Product Quantity"
+msgstr "Quantité"
+
+#: View/Invoices/view.ctp:97 View/Products/view.ctp:29
+msgid "Product Price Unity"
+msgstr "Produit Prix Unité"
+
+#: View/Invoices/view.ctp:98 View/Products/view.ctp:34
+msgid "Id Code Tva"
+msgstr "Code TVA"
+
+#: View/Invoices/view.ctp:99 View/Products/view.ctp:39
+msgid "Product Description"
+msgstr "Description"
+
+#: View/Invoices/view.ctp:100 View/Products/view.ctp:44
+msgid "Product Is Service"
+msgstr "Produit est Service"
+
+#: View/Invoices/view.ctp:101 View/ModelInvoices/view.ctp:58
+msgid "Company Id"
+msgstr "Numéro d'entreprise"
+
+#: View/Invoices/view.ctp:102
+msgid "Id Account"
+msgstr "Numéro de compte"
+
+#: View/Layouts/admin.ctp:87;98;109
+msgid "List"
+msgstr "Liste"
+
+#: View/Layouts/default.ctp:150
+msgid "Please enable Javascript for better browser functionality"
+msgstr "Merci d'activer Javascript pour une meilleur fonctionnalité du site"
+
+#: View/Layouts/default.ctp:167;251
+msgid "Homepage"
+msgstr "Accueil"
+
+#: View/Layouts/default.ctp:174;431
+msgid "Home"
+msgstr "Accueil"
+
+#: View/Layouts/default.ctp:177
+msgid "Login"
+msgstr "Connexion"
+
+#: View/Layouts/default.ctp:185;188;200;203;215;218
+msgid "Try for free"
+msgstr "Test gratuit"
+
+#: View/Layouts/default.ctp:225;308
+msgid "EN"
+msgstr "EN"
+
+#: View/Layouts/default.ctp:226;309
+msgid "FR"
+msgstr "FR"
+
+#: View/Layouts/default.ctp:227;310
+msgid "DE"
+msgstr "DE"
+
+#: View/Layouts/default.ctp:274
+msgid "Writer"
+msgstr "Ecrire"
+
+#: View/Layouts/default.ctp:283
+msgid "Log out"
+msgstr "Déconnexion"
+
+#: View/Layouts/default.ctp:289;444;447;450 View/Layouts/login.ctp:110;113;116
+msgid "Support"
+msgstr "Support"
+
+#: View/Layouts/default.ctp:295;298;301
+msgid "Support website"
+msgstr "Site d'aide"
+
+#: View/Layouts/default.ctp:305
+msgid "Launch tour"
+msgstr "Présentation"
+
+#: View/Layouts/default.ctp:340
+msgid "Bookings"
+msgstr "Ecriture"
+
+#: View/Layouts/default.ctp:344
+msgid "Simple Booking"
+msgstr "Ecriture simple"
+
+#: View/Layouts/default.ctp:346
+msgid "Import Bookings"
+msgstr "Importation des écritures"
+
+#: View/Layouts/default.ctp:354 View/Products/index.ctp:5
+msgid "Products"
+msgstr "Produits"
+
+#: View/Layouts/default.ctp:356
+msgid "Bank accounts"
+msgstr "Compte en banque"
+
+#: View/Layouts/default.ctp:361
+msgid "Reports"
+msgstr "Rapports"
+
+#: View/Layouts/default.ctp:367
+msgid "VAT - Official report effective"
+msgstr "TVA - Rapport effectif officiel"
+
+#: View/Layouts/default.ctp:370
+msgid "VAT - Official report net"
+msgstr "TVA - Rapport net officiel"
+
+#: View/Layouts/default.ctp:375
+msgid "Company settings"
+msgstr "Paramétrage de l'entreprise"
+
+#: View/Layouts/default.ctp:397
+msgid " tasks to do during the next week"
+msgstr "Rappels jusqu'à la semaine prochaine"
+
+#: View/Layouts/default.ctp:397
+msgid "No task to do"
+msgstr "Pas de rappel"
+
+#: View/Layouts/default.ctp:428 View/Layouts/login.ctp:97
+msgid "Learn about EzyCount"
+msgstr "En savoir plus sur EZYcount"
+
+#: View/Layouts/default.ctp:434
+msgid "Solution"
+msgstr "Solution"
+
+#: View/Layouts/default.ctp:440 View/Layouts/login.ctp:106
+msgid "Terms of services"
+msgstr "Conditions générales"
+
+#: View/Layouts/default.ctp:459 View/Layouts/login.ctp:125
+msgid "Contact and Info"
+msgstr "Contact et informations"
+
+#: View/Layouts/default.ctp:462 View/Layouts/login.ctp:128
+msgid "Contact & About us"
+msgstr "Contact & À propos"
+
+#: View/Layouts/default.ctp:478
+msgid "Payments possible by"
+msgstr "Paiement possible avec "
+
+#: View/Layouts/default.ctp:485 View/Layouts/login.ctp:145
+msgid ""
+"Copyright 2014 SuperVX AG All rights reserved 'EZYcount' is a Trademark of "
+"SuperVX AG"
+msgstr ""
+"Droit d'auteur SuperVX AG 2014. Tous droits réservés. 'EZYcount' est une "
+"marque déposée par SuperVX AG."
+
+#: View/Layouts/login.ctp:100
+msgid "Why EZYcount ?"
+msgstr "Pourquoi EZYcount?"
+
+#: View/Layouts/login.ctp:103
+msgid "Features"
+msgstr "Caractéristiques"
+
+#: View/Layouts/Emails/html/beautiful.ctp:27
+msgid "Access EZYcount"
+msgstr "Accès à EZYcount"
+
+#: View/Layouts/Emails/html/beautiful.ctp:39
+msgid "Copyright 2014 SuperVX AG"
+msgstr "Droits d'auteur 2014 superVX AG"
+
+#: View/Layouts/Emails/html/beautiful.ctp:45
+msgid ""
+"You receive this email because you are registered with \"%s\" on http://www."
+"ezycount.ch. EZYcount simplify your accounting."
+msgstr ""
+"Cet email vous a été envoyé car vous êtes enregistré sous \"%s\" sur http://"
+"www.ezycount.ch. Simplifiez votre comptabilité avec EZYcount."
+
+#: View/Layouts/Emails/html/beautiful.ctp:46
+msgid "EZYcount is a service of superVX AG, registered company in 3012 Bern"
+msgstr ""
+"EZYcount est un service de superVX AG, entreprise enregistrée à 3012 Bern"
+
+#: View/Layouts/Emails/html/beautiful.ctp:47
+msgid "Our Terms of Services"
+msgstr "Conditions Générales"
+
+#: View/ModelInvoices/add.ctp:4
+msgid "Add Model Invoice"
+msgstr "Ajouter un modèle de facture"
+
+#: View/ModelInvoices/edit.ctp:4 View/ModelInvoices/view.ctp:39
+msgid "Edit Model Invoice"
+msgstr "Modifier le modèle de facture"
+
+#: View/ModelInvoices/index.ctp:2
+msgid "Model Invoices"
+msgstr "Modèle de facture"
+
+#: View/ModelInvoices/index.ctp:37
+msgid "previous"
+msgstr "précédent"
+
+#: View/ModelInvoices/index.ctp:39
+msgid "next"
+msgstr "suivant"
+
+#: View/ModelInvoices/view.ctp:40
+msgid "Delete Model Invoice"
+msgstr "Effacer le modèle de facture"
+
+#: View/ModelInvoices/view.ctp:48
+msgid "Related Invoices"
+msgstr "Factures liée"
+
+#: View/ModelInvoices/view.ctp:55
+msgid "Customer Id"
+msgstr "Numéro de client"
+
+#: View/ModelInvoices/view.ctp:57
+msgid "Bank Account Id"
+msgstr "Numéro de compte en banque"
+
+#: View/ModelInvoices/view.ctp:59
+msgid "Model Invoice Id"
+msgstr "Numéro de modèle de facture"
+
+#: View/Pages/de/home.ctp:137 View/Pages/en/home.ctp:134
+#: View/Pages/fr/home.ctp:137 View/Users/details.ctp:17
+#: View/Users/subscribe.ctp:20
+msgid "Title"
+msgstr "Titre"
+
+#: View/Pages/de/home.ctp:150 View/Pages/en/home.ctp:147
+#: View/Pages/fr/home.ctp:150 View/Users/details.ctp:21
+#: View/Users/subscribe.ctp:24
+msgid "Country of residence"
+msgstr "Pays de domicile"
+
+#: View/Pages/de/home.ctp:160 View/Pages/en/home.ctp:157
+#: View/Pages/fr/home.ctp:160 View/Users/login.ctp:16
+#: View/Users/subscribe.ctp:27
+msgid "Password"
+msgstr "Mot de passe"
+
+#: View/Pages/de/home.ctp:163 View/Pages/en/home.ctp:160
+#: View/Pages/fr/home.ctp:163
+msgid "Confirm Password"
+msgstr "Confirmer le mot de passe"
+
+#: View/Pages/de/home.ctp:170 View/Pages/en/home.ctp:167
+#: View/Pages/fr/home.ctp:170 View/Users/subscribe.ctp:39
+msgid "I accept the EZYcount's %s"
+msgstr "J'accepte les %s d'EZYcount"
+
+#: View/Pages/de/home.ctp:177 View/Pages/en/home.ctp:174
+#: View/Pages/fr/home.ctp:177 View/Users/subscribe.ctp:17;45
+msgid "Register"
+msgstr "Enregistrer"
+
+#: View/Products/view.ctp:60
+msgid "Delete Product"
+msgstr "Effacer le produit"
+
+#: View/Users/change_password.ctp:17
+msgid "Current password"
+msgstr "Mot de passe actuel"
+
+#: View/Users/change_password.ctp:18 View/Users/forgot_change.ctp:17
+msgid "New password"
+msgstr "Nouveau mot de passe"
+
+#: View/Users/change_password.ctp:19 View/Users/forgot_change.ctp:18
+msgid "Confirm new password"
+msgstr "Confirmer votre mot de passe"
+
+#: View/Users/details.ctp:15
+msgid "Change your details"
+msgstr "Modifier vos renseignements"
+
+#: View/Users/details.ctp:23
+msgid "Preferred Language"
+msgstr "Langue préférée"
+
+#: View/Users/details.ctp:52
+msgid "Are you sure you want to delete your account ?"
+msgstr "Êtes-vous sûr de vouloir effacer votre compte?"
+
+#: View/Users/details.ctp:61;74
+msgid "Delete my account"
+msgstr "Effacer mon compte"
+
+#: View/Users/forgot.ctp:15 View/Users/subscribe.ctp:32
+msgid "Forgot my password"
+msgstr "Mot de passe oublié"
+
+#: View/Users/got_company.ctp:11
+msgid ""
+"Choose the company you want to work with. Use the menu above to start "
+"booking."
+msgstr ""
+"Choisissez l'entreprise avec laquelle vous souhaitez travailler. Faites une "
+"écriture comptable en cliquant sur le menu ci-dessus."
+
+#: View/Users/got_company.ctp:28
+msgid "Test"
+msgstr "Test"
+
+#: View/Users/got_company.ctp:43
+msgid "Fast actions"
+msgstr "Actions"
+
+#: View/Users/got_company.ctp:50
+msgid "Renew my subscription"
+msgstr "Renouveler mon abonnement"
+
+#: View/Users/got_company.ctp:54;129
+msgid "Subscribe"
+msgstr "Abonnement "
+
+#: View/Users/got_company.ctp:59
+msgid "Remove my access"
+msgstr "Supprimer mon accès"
+
+#: View/Users/got_company.ctp:74
+msgid "Select company"
+msgstr "Sélectionner"
+
+#: View/Users/got_company.ctp:88
+msgid "%d year(s) %d day(s) left"
+msgstr "%d année(s) %d jour(s) restant"
+
+#: View/Users/got_company.ctp:91
+msgid "%d day(s) left"
+msgstr "%d jour(s) restant"
+
+#: View/Users/got_company.ctp:103
+msgid "Expired"
+msgstr "expirée"
+
+#: View/Users/got_company.ctp:126
+msgid "Renew"
+msgstr "Renouveler"
+
+#: View/Users/got_company.ctp:144
+msgid "Continue creation"
+msgstr "Continuer création"
+
+#: View/Users/got_company.ctp:155
+msgid "Create a new company"
+msgstr "Créer une nouvelle entreprise"
+
+#: View/Users/got_company.ctp:158
+msgid "or"
+msgstr "ou"
+
+#: View/Users/got_company.ctp:161
+msgid "Try with an Example"
+msgstr "Essayer avec un exemple"
+
+#: View/Users/got_company.ctp:237
+msgid "Until %s - %d year(s) %d day(s) left"
+msgstr "jusqu'au %s - %d année(s) %d jour(s) restant"
+
+#: View/Users/got_company.ctp:240
+msgid "Until %s - %d day(s) left"
+msgstr "Jusqu'au %s - %d jour(s) restant"
+
+#: View/Users/got_company.ctp:269;367
+msgid "Are you sure you want to delete your access right ?"
+msgstr "Êtes-vous sûr de vouloir supprimer vos droits d'accès?"
+
+#: View/Users/got_company.ctp:309
+msgid ""
+"Welcome on 'My companies' page.<br/><br/>This tour takes 2min and shows you "
+"how to use EZYcount."
+msgstr ""
+"Bienvenu sur la page 'Mes entreprises'.<br/><br/>Cette présentation prend "
+"2min et vous montre comment utiliser EZYcount."
+
+#: View/Users/got_company.ctp:313
+msgid "Select which company you want to work with."
+msgstr "Sélectionnez avec quelle entreprise vous voulez travailler."
+
+#: View/Users/got_company.ctp:318
+msgid ""
+"Add a new company or add a test company to try on.<br/><br/>You will always "
+"have 30 days free for a new company."
+msgstr ""
+"Ajoutez une nouvelle entreprise ou une entreprise test.<br/><br/>Vous "
+"recevez 30 jours gratuit pour chaque nouvelle entreprise."
+
+#: View/Users/got_company.ctp:324
+msgid ""
+"Book, print a report or manage the settings of the company you selected.<br/"
+"><br/>On the left you see which company you selected."
+msgstr ""
+"Passer une écriture, imprimer un rapport ou changer le paramétrage de votre "
+"entreprise sélectionnée.<br/><br/>Sur la gauch vous pouvez voir le nom de "
+"l'entreprise sélectionnée."
+
+#: View/Users/got_company.ctp:329
+msgid "This is the link to the reminders."
+msgstr "Lien notification."
+
+#: View/Users/got_company.ctp:335
+msgid "This is your User menu."
+msgstr "Votre menu utilisateur"
+
+#: View/Users/got_company.ctp:340
+msgid "Change your password, manage your information or log out."
+msgstr ""
+"Modifiez votre mot de passe, vos informations personnelles ou déconnectez-"
+"vous"
+
+#: View/Users/got_company.ctp:345
+msgid ""
+"Go to the support website to find answers to your questions. Don't forget, "
+"you can always send us an email at support@ezycount.ch and we answer you "
+"within 2 days."
+msgstr ""
+"Vous trouvez les réponses à vos question sur le site d'aide. N'oubliez pas "
+"que vous pouvez toujours nous envoyer un email à support@ezycount.ch et nous "
+"répondons sous 48 heures."
+
+#: View/Users/got_company.ctp:350
+msgid ""
+"Thank you for following this first short tour. We hope you will enjoy "
+"working on EZYcount."
+msgstr ""
+"Merci pour avoir suivi cette visite. Nous espérons que vous apprécierez "
+"travailler avec EZYcount."
+
+#: View/Users/index.ctp:26
+msgid "Welcome to EZYcount !"
+msgstr "Bienvenue sur EZYcount !"
+
+#: View/Users/index.ctp:27
+msgid "Before using our service, you need to add your company."
+msgstr ""
+"Avant de pouvoir utiliser EZYcount, vous devez ajouter votre compagnie. "
+
+#: View/Users/index.ctp:31
+msgid "Create your Company's<br /> Accounting"
+msgstr "Créer la comptabilité<br />de son entreprise?"
+
+#: View/Users/index.ctp:32
+msgid "OR"
+msgstr "OU"
+
+#: View/Users/index.ctp:33
+msgid "Try with an Example<br />&nbsp;"
+msgstr "Essayer avec un Exemple<br />&nbsp;"
+
+#: View/Users/invoices.ctp:4
+msgid "Your invoices"
+msgstr "Vos factures"
+
+#: View/Users/invoices.ctp:9
+msgid "ID"
+msgstr "Num"
+
+#: View/Users/invoices.ctp:42 View/VatAccounts/official_effectif.ctp:15;70
+#: View/VatAccounts/official_net.ctp:15;70
+msgid "Print"
+msgstr "Imprimer"
+
+#: View/Users/login.ctp:19
+msgid "Log in"
+msgstr "Connexion"
+
+#: View/Users/payment_success.ctp:24
+msgid "Thank you for the purchase"
+msgstr "Merci pour votre achat"
+
+#: View/Users/payment_success.ctp:26
+msgid "The invoice has been sent to your email address:"
+msgstr "La facture a été envoyée à votre adresse email."
+
+#: View/Users/payment_success.ctp:28
+msgid "A copy of the invoice will be available to you in Company Settings."
+msgstr ""
+"Une copie de la facture sera disponible dans le menu paramétrage de votre "
+"entreprise."
+
+#: View/Users/payment_success.ctp:29
+msgid "You will be redirected in %s seconds."
+msgstr "Vous allez être redirigé dans %s secondes. "
+
+#: View/Users/payment_success.ctp:32
+msgid "Back"
+msgstr "Retour"
+
+#: View/Users/subscribe.ctp:28
+msgid "Confirm password"
+msgstr "Confirmer le mot de passe"
+
+#: View/Users/subscribe.ctp:32
+msgid "If you have lost your password please go to : %s"
+msgstr "Si vous avez perdu votre mot de passe, allez à %s"
+
+#: View/VatAccounts/index.ctp:5
+msgid "VAT codes"
+msgstr "Codes TVA"
+
+#: View/VatAccounts/index.ctp:10;264
+msgid "Create new VAT code"
+msgstr "Créer un nouveau code TVA"
+
+#: View/VatAccounts/index.ctp:38
+msgid "Add an account"
+msgstr "Ajouter un compte"
+
+#: View/VatAccounts/index.ctp:92
+msgid "Add an item"
+msgstr "Ajouter un code"
+
+#: View/VatAccounts/index.ctp:104
+msgid "Example : 0.00 / 2.50 / 3.80 / 8.00"
+msgstr "Exemple:  0.00 / 2.50 / 3.80 / 8.00"
+
+#: View/VatAccounts/index.ctp:112;164
+msgid "VAT due"
+msgstr "TVA dûe"
+
+#: View/VatAccounts/index.ctp:127
+msgid "VAT Account"
+msgstr "Compte TVA"
+
+#: View/VatAccounts/index.ctp:155
+msgid "List of VAT codes"
+msgstr "Liste des codes TVA"
+
+#: View/VatAccounts/index.ctp:165
+msgid "VAT account"
+msgstr "Compte TVA"
+
+#: View/VatAccounts/index.ctp:169;279
+msgid "Show all codes"
+msgstr "Montrer tous les codes"
+
+#: View/VatAccounts/index.ctp:224
+msgid ""
+"When your company is VAT registered you can make a booking with a VAT "
+"account. <br />It will automatically book the right amount related to the "
+"VAT rate into the related VAT account."
+msgstr ""
+"Quand votre entreprise est enregistrée à la TVA, vous pouvez entrer des "
+"écritures avec la TVA. <br />Elles seront automatiquement entrées sur le bon "
+"compte et avec le bon montant relatif au code TVA."
+
+#: View/VatAccounts/index.ctp:225
+msgid ""
+"By default you have several VAT accounts that will suit you most of the "
+"time, you can deactivate the accounts that you don't need or add more if you "
+"need."
+msgstr ""
+"Par défaut quelques code TVA vous conviennent le mieux. Vous pouvez "
+"désactiver les comptes dont vous n'avez pas besoin ou créez de nouveaux si "
+"besoin."
+
+#: View/VatAccounts/index.ctp:274
+msgid "Hide inactive codes"
+msgstr "Cacher les codes inactifs"
+
+#: View/VatAccounts/official_effectif.ctp:6
+#: View/VatAccounts/official_net.ctp:6
+msgid "Warning"
+msgstr "Attention"
+
+#: View/VatAccounts/official_effectif.ctp:9
+#: View/VatAccounts/official_net.ctp:9
+msgid ""
+"All booking between the %s and the %s will be made definitive and cannot be "
+"changed in the future."
+msgstr ""
+"Toutes écritures entre le %s et le %s vont avoir comme statut définitif et "
+"ne pourrons plus être changées dans le futur."
+
+#: View/VatAccounts/official_effectif.ctp:11
+#: View/VatAccounts/official_net.ctp:11
+msgid "Make bookings definitive"
+msgstr "Rendre les écritures définitives"
+
+#: View/VatAccounts/official_effectif.ctp:81
+#: View/VatAccounts/official_net.ctp:81
+msgid "Include definitive booking"
+msgstr "Inclure les écritures définitives"
+
+#: View/VatAccounts/official_effectif.ctp:98
+#: View/VatAccounts/official_net.ctp:97
+msgid "Reports already printed"
+msgstr "Rapports déjà imprimé"
+
+#: View/VatAccounts/official_effectif.ctp:108
+#: View/VatAccounts/official_net.ctp:107
+msgid "From"
+msgstr "Depuis"
+
+#: View/VatAccounts/official_effectif.ctp:109
+#: View/VatAccounts/official_net.ctp:108
+msgid "Until"
+msgstr "Jusqu'au"
+
+#: View/VatAccounts/official_effectif.ctp:110
+#: View/VatAccounts/official_net.ctp:109
+msgid "Printed on"
+msgstr "Imprimé le"
+
+#: View/VatAccounts/official_effectif.ctp:111
+#: View/VatAccounts/official_net.ctp:110
+msgid "By"
+msgstr "Par"
+
+#: View/VatAccounts/official_effectif.ctp:127
+#: View/VatAccounts/official_net.ctp:126
+msgid "Print definitive"
+msgstr "Imprimer de façon définitive"
+
+#: View/VatAccounts/official_effectif.ctp:164
+msgid "Période de décompte: "
+msgstr "Période de décompte"
+
+#: View/VatAccounts/official_effectif.ctp:165
+#: View/VatAccounts/official_net.ctp:164
+msgid "A remettre et à payer jusqu'au:"
+msgstr "A remettre et à payer jusqu'au:"
+
+#: View/VatAccounts/official_effectif.ctp:166
+#: View/VatAccounts/official_net.ctp:165
+msgid "Valeur (intérêts moratoires à partir du):"
+msgstr "Valeur (intérêts moratoires à partir du):"
+
+#: View/VatAccounts/official_effectif.ctp:167
+#: View/VatAccounts/official_net.ctp:166
+msgid "N° TVA:"
+msgstr "N° TVA:"
+
+#: View/VatAccounts/official_effectif.ctp:168
+#: View/VatAccounts/official_net.ctp:167
+msgid "N° de réf.:"
+msgstr "N° de réf.:"
+
+#: View/VatAccounts/official_effectif.ctp:174
+#: View/VatAccounts/official_net.ctp:173
+msgid "CHIFFRE D’AFFAIRES"
+msgstr "CHIFFRE D’AFFAIRES"
+
+#: View/VatAccounts/official_effectif.ctp:174
+#: View/VatAccounts/official_net.ctp:173
+msgid "(les articles cités se réfèrent à la loi sur la TVA du 12.06.2009)"
+msgstr "(les articles cités se réfèrent à la loi sur la TVA du 12.06.2009)"
+
+#: View/VatAccounts/official_effectif.ctp:175
+#: View/VatAccounts/official_net.ctp:174
+msgid "Chiffre"
+msgstr "Chiffre"
+
+#: View/VatAccounts/official_effectif.ctp:176;177
+#: View/VatAccounts/official_net.ctp:175;176
+msgid "Chiffre d'affaires CHF"
+msgstr "Chiffre d'affaires CHF"
+
+#: View/VatAccounts/official_effectif.ctp:183
+#: View/VatAccounts/official_net.ctp:182
+msgid ""
+"Total des contre-prestations convenues ou reçues (art. 39), y c. celles "
+"provenant de transferts\n"
+"avec la procédure de déclaration et de prestations fournies à l’étranger"
+msgstr ""
+"Total des contre-prestations convenues ou reçues (art. 39), y c. celles "
+"provenant de transferts\n"
+"avec la procédure de déclaration et de prestations fournies à l’étranger"
+
+#: View/VatAccounts/official_effectif.ctp:196
+msgid ""
+"Contre-prestations déclarées sous ch. 200 qui proviennent de prestations "
+"exclues du champ\n"
+"de l’impôt (art. 21) pour lesquelles il a été opté en vertu de l’art. 22"
+msgstr ""
+"Contre-prestations déclarées sous ch. 200 qui proviennent de prestations "
+"exclues du champ\n"
+"de l’impôt (art. 21) pour lesquelles il a été opté en vertu de l’art. 22"
+
+#: View/VatAccounts/official_effectif.ctp:207
+#: View/VatAccounts/official_net.ctp:205
+msgid "Déductions:"
+msgstr "Déductions:"
+
+#: View/VatAccounts/official_effectif.ctp:208
+#: View/VatAccounts/official_net.ctp:206
+msgid ""
+"Prestations exonérées (p. ex. exportations, art. 23), prestations exonérées "
+"fournies\n"
+"                à des institutions et à des personnes bénéficiaires (art. "
+"107, al. 1, let. a)"
+msgstr ""
+"Prestations exonérées (p. ex. exportations, art. 23), prestations exonérées "
+"fournies\n"
+"                à des institutions et à des personnes bénéficiaires (art. "
+"107, al. 1, let. a)"
+
+#: View/VatAccounts/official_effectif.ctp:219
+#: View/VatAccounts/official_net.ctp:217
+msgid "Prestations fournies à l’étranger"
+msgstr "Prestations fournies à l’étranger"
+
+#: View/VatAccounts/official_effectif.ctp:229
+#: View/VatAccounts/official_net.ctp:228
+msgid ""
+"Transferts avec la procédure de déclaration (art. 38, veuillez, s.v.p., "
+"joindre le formulaire n° 764)"
+msgstr ""
+"Transferts avec la procédure de déclaration (art. 38, veuillez, s.v.p., "
+"joindre le formulaire n° 764)"
+
+#: View/VatAccounts/official_effectif.ctp:239
+#: View/VatAccounts/official_net.ctp:238
+msgid ""
+"Prestations exclues du champ de l’impôt (art. 21) pour lesquelles il n’a pas "
+"été opté selon l’art. 22"
+msgstr ""
+"Prestations exclues du champ de l’impôt (art. 21) pour lesquelles il n’a pas "
+"été opté selon l’art. 22"
+
+#: View/VatAccounts/official_effectif.ctp:249
+#: View/VatAccounts/official_net.ctp:248
+msgid "Diminutions de la contre-prestation"
+msgstr "Diminutions de la contre-prestation"
+
+#: View/VatAccounts/official_effectif.ctp:253
+#: View/VatAccounts/official_net.ctp:252
+msgid "Total ch. 220 à 280"
+msgstr "Total ch. 220 à 280"
+
+#: View/VatAccounts/official_effectif.ctp:259
+#: View/VatAccounts/official_net.ctp:258
+msgid "Divers (p.ex. valeur du terrain)"
+msgstr "Divers (p.ex. valeur du terrain)"
+
+#: View/VatAccounts/official_effectif.ctp:279
+#: View/VatAccounts/official_net.ctp:278
+msgid "Total du chiffre d’affaires imposable"
+msgstr "Total du chiffre d’affaires imposable"
+
+#: View/VatAccounts/official_effectif.ctp:279
+#: View/VatAccounts/official_net.ctp:278
+msgid "(ch. 200 moins ch. 289)"
+msgstr "(ch. 200 moins ch. 289)"
+
+#: View/VatAccounts/official_effectif.ctp:294
+#: View/VatAccounts/official_net.ctp:293
+msgid "CALCUL DE L'IMPÔT"
+msgstr "CALCUL DE L'IMPÔT"
+
+#: View/VatAccounts/official_effectif.ctp:299
+#: View/VatAccounts/official_net.ctp:298
+msgid "Taux"
+msgstr "Taux"
+
+#: View/VatAccounts/official_effectif.ctp:301
+msgid "Prestations CHF <br />dès le 01.01.2011"
+msgstr "Prestations CHF <br />dès le 01.01.2011"
+
+#: View/VatAccounts/official_effectif.ctp:302
+msgid "Impôt CHF / ct. <br />dès le 01.01.2011"
+msgstr "Impôt CHF / ct. <br />dès le 01.01.2011"
+
+#: View/VatAccounts/official_effectif.ctp:305
+msgid "Prestations CHF <br />jusqu’au 31.12.2010"
+msgstr "Prestations CHF <br />jusqu’au 31.12.2010"
+
+#: View/VatAccounts/official_effectif.ctp:306
+msgid "Impôt CHF / ct.<br />jusqu’au 31.12.2010"
+msgstr "Impôt CHF / ct.<br />jusqu’au 31.12.2010"
+
+#: View/VatAccounts/official_effectif.ctp:312
+msgid "Normal"
+msgstr "Normal"
+
+#: View/VatAccounts/official_effectif.ctp:335
+msgid "Réduit"
+msgstr "Réduit"
+
+#: View/VatAccounts/official_effectif.ctp:358
+msgid "Spécial pour l'hébergement"
+msgstr "Spécial pour l'hébergement"
+
+#: View/VatAccounts/official_effectif.ctp:381
+#: View/VatAccounts/official_net.ctp:382
+msgid "Impôt sur les acquisitions"
+msgstr "Impôt sur les acquisitions"
+
+#: View/VatAccounts/official_effectif.ctp:405
+#: View/VatAccounts/official_net.ctp:406
+msgid "Total de l'impôt dû"
+msgstr "Total de l'impôt dû"
+
+#: View/VatAccounts/official_effectif.ctp:405
+msgid "(ch. 300 à 381)"
+msgstr "(ch. 300 à 381)"
+
+#: View/VatAccounts/official_effectif.ctp:408
+#: View/VatAccounts/official_net.ctp:305;409
+msgid "Impôt CHF / ct."
+msgstr "Impôt CHF / ct."
+
+#: View/VatAccounts/official_effectif.ctp:421
+msgid ""
+"Impôt préalable grevant les coûts en matériel et en prestations de services"
+msgstr ""
+"Impôt préalable grevant les coûts en matériel et en prestations de services"
+
+#: View/VatAccounts/official_effectif.ctp:432
+msgid ""
+"Impôt préalable grevant les investissements et autres charges d’exploitation"
+msgstr ""
+"Impôt préalable grevant les investissements et autres charges d’exploitation"
+
+#: View/VatAccounts/official_effectif.ctp:443
+msgid ""
+"Dégrèvement ultérieur de l’impôt préalable (art. 32, veuillez, s.v.p., "
+"joindre un relevé détaillé)"
+msgstr ""
+"Dégrèvement ultérieur de l’impôt préalable (art. 32, veuillez, s.v.p., "
+"joindre un relevé détaillé)"
+
+#: View/VatAccounts/official_effectif.ctp:454
+msgid ""
+"Corrections de l’impôt préalable: double affectation (art. 30), prestations "
+"à soi-même (art. 31)"
+msgstr ""
+"Corrections de l’impôt préalable: double affectation (art. 30), prestations "
+"à soi-même (art. 31)"
+
+#: View/VatAccounts/official_effectif.ctp:458
+msgid "Total ch. 400 à 420"
+msgstr "Total ch. 400 à 420"
+
+#: View/VatAccounts/official_effectif.ctp:465
+msgid ""
+"Réductions de la déduction de l’impôt préalable: prestations n’étant pas "
+"considérées comme des contre-prestations, telles subventions, taxes "
+"touristiques (art. 33, al. 2)"
+msgstr ""
+"Réductions de la déduction de l’impôt préalable: prestations n’étant pas "
+"considérées comme des contre-prestations, telles subventions, taxes "
+"touristiques (art. 33, al. 2)"
+
+#: View/VatAccounts/official_effectif.ctp:485
+#: View/VatAccounts/official_net.ctp:484
+msgid "Montant à payer à l’Administration fédérale des contributions"
+msgstr "Montant à payer à l’Administration fédérale des contributions"
+
+#: View/VatAccounts/official_effectif.ctp:499
+#: View/VatAccounts/official_net.ctp:498
+msgid "Solde en faveur de l’assujetti"
+msgstr "Solde en faveur de l’assujetti"
+
+#: View/VatAccounts/official_effectif.ctp:509
+#: View/VatAccounts/official_net.ctp:508
+msgid "AUTRES MOUVEMENTS DE FONDS (art. 18, al. 2)"
+msgstr "AUTRES MOUVEMENTS DE FONDS (art. 18, al. 2)"
+
+#: View/VatAccounts/official_effectif.ctp:519
+#: View/VatAccounts/official_net.ctp:518
+msgid ""
+"Subventions, taxes touristiques encaissées par les offices du tourisme, "
+"contributions versées\n"
+"aux établissements chargés de l’élimination des déchets et de "
+"l’approvisionnement en eau\n"
+"(let. a à c)"
+msgstr ""
+"Subventions, taxes touristiques encaissées par les offices du tourisme, "
+"contributions versées\n"
+"aux établissements chargés de l’élimination des déchets et de "
+"l’approvisionnement en eau\n"
+"(let. a à c)"
+
+#: View/VatAccounts/official_effectif.ctp:532
+#: View/VatAccounts/official_net.ctp:531
+msgid "Les dons, les dividendes, les dédommagements, etc. (let. d à l)"
+msgstr "Les dons, les dividendes, les dédommagements, etc. (let. d à l)"
+
+#: View/VatAccounts/official_effectif.ctp:556
+#: View/VatAccounts/official_net.ctp:555
+msgid "Bookings included in the report"
+msgstr "Ecritures incluses dans le rapport"
+
+#: View/VatAccounts/official_net.ctp:163
+msgid "Période de décompte:"
+msgstr "Période de décompte:"
+
+#: View/VatAccounts/official_net.ctp:300
+msgid "Prestations CHF"
+msgstr "Prestations CHF"
+
+#: View/VatAccounts/official_net.ctp:300;301
+msgid "dès le 01.01.2011"
+msgstr "dès le 01.01.2011"
+
+#: View/VatAccounts/official_net.ctp:301
+msgid "Impôt CHF / ct. "
+msgstr "Impôt CHF / ct. "
+
+#: View/VatAccounts/official_net.ctp:304
+msgid "Prestations CHF "
+msgstr "Prestations CHF "
+
+#: View/VatAccounts/official_net.ctp:304;305
+msgid "jusqu’au 31.12.2010"
+msgstr "jusqu’au 31.12.2010"
+
+#: View/VatAccounts/official_net.ctp:311
+msgid "1<sup>er</sup> taux"
+msgstr "1<sup>er</sup> taux"
+
+#: View/VatAccounts/official_net.ctp:334
+msgid "2<sup>e</sup> taux"
+msgstr "2<sup>e</sup> taux"
+
+#: View/VatAccounts/official_net.ctp:406
+msgid "(ch. 320 à 381)"
+msgstr "(ch. 320 à 381)"
+
+#: View/VatAccounts/official_net.ctp:422
+msgid "Mise en compte de l’impôt selon le formulaire n° 1050"
+msgstr "Mise en compte de l’impôt selon le formulaire n° 1050"
+
+#: View/VatAccounts/official_net.ctp:433
+msgid "Mise en compte de l’impôt selon le formulaire n° 1055"
+msgstr "Mise en compte de l’impôt selon le formulaire n° 1055"
+
+#: View/VatAccounts/official_net.ctp:457
+msgid "Total ch. 470 à 471"
+msgstr "Total ch. 470 à 471"
+
+#: Model/BankAccount.php:validation for field institution
+msgid "Institue missing."
+msgstr "La banque manque."
+
+#: Model/BankAccount.php:validation for field num
+msgid "Bank account missing."
+msgstr "Le compte en banque manque."
+
+#: Model/BankAccount.php:validation for field num
+msgid "Bank account already exists !"
+msgstr "Le compte en banque existe déjà."
+
+#: Model/BankAccount.php:validation for field zip
+msgid "ZIP code missing."
+msgstr "NPA manquant"
+
+#: Model/BankAccount.php:validation for field zip
+msgid "ZIP code has to be a numerical value."
+msgstr "NPA doit être un numéro"
+
+#: Model/BankAccount.php:validation for field city
+msgid "City missing."
+msgstr "Ville manquant"
+
+#: Model/BankAccount.php:validation for field country
+msgid "Country missing."
+msgstr "Pays manquant"
+
+#: Model/Charge.php:validation for field name
+msgid "Other charge name missing."
+msgstr "Le nom des autres charges manque."
+
+#: Model/Charge.php:validation for field code
+msgid "Other charge number missing."
+msgstr "Le numéro de autre charge manque."
+
+#: Model/Charge.php:validation for field code
+msgid "Other charge number has to be a numerical value."
+msgstr "Le numéro de l'autre charge doit est un numéro."
+
+#: Model/Charge.php:validation for field code
+msgid "Other charge number already exists !"
+msgstr "Le numéro de l'autre charge existe déjà."
+
+#: Model/Charge.php:validation for field value
+msgid "Other charge value missing."
+msgstr "Autre charge manquante"
+
+#: Model/Charge.php:validation for field value
+msgid "Other charge has to be a decimal value."
+msgstr "Autre charge doit être une valeur décimale"
+
+#: Model/Condition.php:validation for field label Model/Invoice.php:validation
+#: num
+msgid "alphaNumeric"
+msgstr ""
+
+#: Model/Condition.php:validation for field label
+#: Model/DiscountDay.php:validation days Model/Invoice.php:validation
+#: num;validation date;validation header_content;validation
+#: body_content;validation products_content;validation footer_content
+#: Model/InvoiceProduct.php:validation discount
+#: Model/ModelInvoice.php:validation
+msgid "notEmpty"
+msgstr "pas vide"
+
+#: Model/Contact.php:validation for field email
+msgid "Please fill a valid email address."
+msgstr "Utilisez une adresse email valide."
+
+#: Model/Coupon.php:validation for field valid_from
+msgid "The valid_until is not ok"
+msgstr "Le valid_until n'est pas OK"
+
+#: Model/Coupon.php:validation for field valid_from;validation valid_until
+msgid "The date is not valid"
+msgstr "La date n'est pas valide"
+
+#: Model/Coupon.php:validation for field valid_until
+msgid "The valid_until not before valid_from."
+msgstr "Le valid_until n'est pas avant le valid_from."
+
+#: Model/Coupon.php:validation for field created
+msgid "The number of coupons is required"
+msgstr "Le nombre de bons est obligatoire"
+
+#: Model/Coupon.php:validation for field created
+msgid "The number is not valid"
+msgstr "Le chiffre n'est pas valid"
+
+#: Model/Coupon.php:validation for field type
+msgid "The type is required"
+msgstr "Le type est obligatoire"
+
+#: Model/Coupon.php:validation for field type
+msgid "Type must be percent or sum"
+msgstr "Le type doit être en pourcentage ou en chiffre"
+
+#: Model/Coupon.php:validation for field value
+msgid "The value is required"
+msgstr "Le montant est requis"
+
+#: Model/Coupon.php:validation for field value
+msgid "Value must be positive"
+msgstr "La valeur doit être positive"
+
+#: Model/Coupon.php:validation for field validity
+msgid "The validity is required"
+msgstr "La validité est obligatoire"
+
+#: Model/Coupon.php:validation for field validity
+msgid "Validity must be 'all', '1', '2' or'3'"
+msgstr "La validité doit être 'all', '1', '2' ou'3'"
+
+#: Model/Coupon.php:validation for field description
+msgid "The description is required"
+msgstr "La description est requise"
+
+#: Model/Customer.php:validation for field customer_name
+msgid "Customer name is missing."
+msgstr "Nom du client manquant"
+
+#: Model/Customer.php:validation for field customer_num
+msgid "Customer number is missing."
+msgstr "Numéro du client manquant"
+
+#: Model/Customer.php:validation for field customer_num
+msgid "The customer number has to be a numerical value."
+msgstr "Le numéro de client doit est un chiffre."
+
+#: Model/Customer.php:validation for field customer_num
+msgid "Customer number already exists !"
+msgstr "Le numéro de client existe déjà."
+
+#: Model/Customer.php:validation for field zip
+msgid "ZIP number is missing."
+msgstr "NPA manquant."
+
+#: Model/Customer.php:validation for field zip
+msgid "ZIP number has to be a numerical value."
+msgstr "NPA doit être un chiffre"
+
+#: Model/Customer.php:validation for field city
+msgid "City is missing."
+msgstr "Ville manquante"
+
+#: Model/Customer.php:validation for field country
+msgid "Country is missing."
+msgstr "Pays manquant"
+
+#: Model/Customer.php:validation for field email
+msgid "Email address is missing."
+msgstr "Adresse email manquante."
+
+#: Model/DiscountDay.php:validation for field discount
+msgid "decimal"
+msgstr "décimale"
+
+#: Model/DiscountDay.php:validation for field days
+#: Model/Invoice.php:validation customer_id;validation condition_id;validation
+#: bank_account_id;validation company_id;validation model_invoice_id
+#: Model/InvoiceProduct.php:validation invoice_id;validation
+#: product_id;validation quantity
+msgid "numeric"
+msgstr "numérique"
+
+#: Model/Invoice.php:validation for field date
+msgid "date"
+msgstr "Date"
+
+#: Model/Notification.php:validation for field valid_from
+msgid "You need to provide a valid date."
+msgstr "Il manque une date valide."
+
+#: Model/Product.php:validation for field product_name
+msgid "Product name is missing."
+msgstr "Nom de produit manquant"
+
+#: Model/Product.php:validation for field product_num
+msgid "Product number is missing."
+msgstr "Numéro de produit manquant."
+
+#: Model/Product.php:validation for field product_num
+msgid "The product number has to be a numerical value."
+msgstr "Le numéro de produit doit être un numéro."
+
+#: Model/Product.php:validation for field product_num
+msgid "Product number already exists !"
+msgstr "Le numéro de produit existe déjà."
+
+#: Model/Product.php:validation for field product_unit
+msgid "Product unit is missing."
+msgstr "Unité du Produit manquant."
+
+#: Model/Product.php:validation for field product_quantity
+msgid "Product quantity is missing."
+msgstr "Quantité du produit manquant."
+
+#: Model/Product.php:validation for field product_quantity
+msgid "Product quantity has to be a numerical value."
+msgstr "Quantité du produit doit être un chiffre."
+
+#: Model/Product.php:validation for field product_price_unity
+msgid "Product price per unit is missing."
+msgstr "Prix par unité du produit manquant."
+
+#: Model/Product.php:validation for field product_price_unity
+msgid "The product price per unit has to be a decimal value."
+msgstr "Le prix par unité du produit doit être une valeur décimale."
+
+#~ msgid "Back to imports page"
+#~ msgstr "Retour à la page d'importation"
+
+#~ msgid "All accounts"
+#~ msgstr "Tous les comptes"
+
+#~ msgid "Edit this booking"
+#~ msgstr "Modifier cette écriture"
+
+#~ msgid "Input which currencies are available for bookings."
+#~ msgstr "Insérez les devises que vous voulez utiliser dans les écritures."
+
+#~ msgid "VAT accounts"
+#~ msgstr "Comptes TVA"
+
+#~ msgid "The account number should be between"
+#~ msgstr "Le numéro de compte doit être entre"
+
+#~ msgid "and"
+#~ msgstr "et"
+
+#~ msgid "Ask us for a trustee access"
+#~ msgstr "Recevoir un accès fiduciaire"
+
+#~ msgid "Vous devez CHF %d à %s"
+#~ msgstr "Vous devez CHF %d à %s"
+
+#~ msgid "%s vous doit CHF %d"
+#~ msgstr "%s vous doit CHF %d"
+
+#~ msgid "v"
+#~ msgstr "v"
+
+#~ msgid "<< Prev"
+#~ msgstr "<< Prec"
+
+#~ msgid "By Month"
+#~ msgstr "Par Mois"
+
+#~ msgid "You have no payment that are due soon"
+#~ msgstr "Vous n'avez pas de paiements qui sont dus bientôt"
+
+#~ msgid ""
+#~ "Your customer pays the license for a company and your rights to use "
+#~ "EZYcount are included."
+#~ msgstr ""
+#~ "Votre client paie l'abonnement à EZYcount et vos droits sur sa "
+#~ "comptabilité sont inclus."
+
+#~ msgid ""
+#~ "A system designed so simple that your customers will make less mistakes "
+#~ "during bookings and call you less with problems."
+#~ msgstr ""
+#~ "Un programme si simple que vos clients font moins de fautes et qu'ils "
+#~ "vous appellent moins souvent avec des problèmes techniques."
+
+#~ msgid "Valid_from"
+#~ msgstr "Valide depuis"
+
+#~ msgid "Valid_until"
+#~ msgstr "Valide jusqu'au"
+
+#~ msgid "Calendar"
+#~ msgstr "Calendrier"
+
+#~ msgid "By Year"
+#~ msgstr "Par Année"
+
+#~ msgid "Sales contact"
+#~ msgstr "Contact Vente"
+
+#~ msgid "Accounting support"
+#~ msgstr "Comptabilité"
+
+#~ msgid "Company in¨mation"
+#~ msgstr "Information de l'entreprise"
+
+#~ msgid "SEE MORE"
+#~ msgstr "EN SAVOIR PLUS"
+
+#~ msgid "Rights issue"
+#~ msgstr "Question sur les droits"
+
+#~ msgid "Toggle navigation"
+#~ msgstr "Navigation bascule"
+
+#~ msgid "A view block with the name '%s' is already/still open."
+#~ msgstr " "
+
+#~ msgid "Total Equities"
+#~ msgstr "Somme des fonds propres"
+
+#~ msgid "Total Liabilities and Equities"
+#~ msgstr "Somme des passifs et fonds propres"
+
+#~ msgid "Do you need someone else to have access to your accounting for %s ?"
+#~ msgstr ""
+#~ "Avez-vous besoin de donner accès à quelqu'un sur votre comptabilité pour "
+#~ "%s ?"
+
+#~ msgid "Look/Write/Manage"
+#~ msgstr "Voir/Ecrire/Gérer"
+
+#~ msgid "Step 5 of 6"
+#~ msgstr "Etape 5 de 6"
+
+#~ msgid "Hide textboxes"
+#~ msgstr "Masquer zone de texte"
+
+#~ msgid "ASSETS"
+#~ msgstr "ACTIFS"
+
+#~ msgid "Total current Assets"
+#~ msgstr "Somme des actifs circulants"
+
+#~ msgid "Fixed Assets"
+#~ msgstr "Immobilisations"
+
+#~ msgid "Total fixed Assets"
+#~ msgstr "Somme des immobilisations"
+
+#~ msgid "Total Assets"
+#~ msgstr "Somme des actifs"
+
+#~ msgid "LIABILITIES"
+#~ msgstr "Passif"
+
+#~ msgid "Short-term Liabilities"
+#~ msgstr "Dette à court terme"
+
+#~ msgid "Total Liabilities"
+#~ msgstr "Somme des dettes"
+
+#~ msgid "EQUITIES"
+#~ msgstr "Fonds propres"
+
+#~ msgid ""
+#~ "Then you will be redirected to Postfinance for payment. Currently it is "
+#~ "possible to pay with Postcard and Postfinance e-finance. Mastercard and "
+#~ "Visa will be available from mid-october."
+#~ msgstr ""
+#~ "Ensuite vous serez redirigé vers Postfinance pour le paiement. "
+#~ "Actuellement il est possible de payer avec la Postcard et Postfinance e-"
+#~ "finance. Le payment par carte de crédit Mastercard et Visa sera "
+#~ "disponible mi-octobre."
+
+#~ msgid "You don't have the permission to add bookings in this company."
+#~ msgstr ""
+#~ "Vous n'avez pas les droits pour passer des écritures dans cette "
+#~ "entreprise."
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid ""
+#~ "You can find your <b>company number or UID</b> under www.uid.admin.ch "
+#~ "(ex: CHE-123.456.789)<br /><br />"
+#~ msgstr ""
+#~ "Vous trouvez votre <b>Numéro d'entreprise ou IDE</b> sur www.uid.admin.ch "
+#~ "(ex: CHE-123.456.789)<br /><br />"
+
+#~ msgid ""
+#~ "Your account has not been activated yet.<br /> During the registration "
+#~ "process, we sent you a confirmation email to your email address.<br /"
+#~ ">Please check you inbox and click on the confirmation link to activate "
+#~ "your account."
+#~ msgstr ""
+#~ "Votre compte n'a pas été activé.<br />Lors du processus, nous vous avons "
+#~ "envoyé un email de confirmation à votre adresse email.<br />Merci de "
+#~ "contrôler votre boîte de réception et de cliquer sur le lien pour activer "
+#~ "votre compte."
+
+#~ msgid "Show standard chart"
+#~ msgstr "Montrer le plan comptable standard"
+
+#~ msgid "What do you want to do ?"
+#~ msgstr "Que voulez-vous faire?"
+
+#~ msgid "Both options are <u>free</u> during 30 days !"
+#~ msgstr "Les deux options sont <u>gratuite</u> pour 30 jours !"

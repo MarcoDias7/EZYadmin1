@@ -1,0 +1,184 @@
+;Group Lvl 1;;Group Lvl 2;;;;Group Lvl 3;;Account number;Account name;;;1=yes;1=yes;1=yes;1=yes;1=yes;COMPTES DE TVA;company type;type;;
+;;;;;;;;;;;;;Cash;VAT;Debit green;Mini-version;Show;;;;German;English
+1000;1999;ACTIF;;;;;;;;;;;;;;;1;;;actif;Aktiven;Assets
+;;;1000;1399;Actif circulants;;;;;;;;;;;;1;;;actif;Umlaufvermögen;Current Assets
+;;;;;;1000;1059;Liquidités;;;;;;;;;;;;actif;Flüssige Mittel;Liquid Assets
+;;;;;;;;;1000;Caisse;;;1;0;1;1;;;;actif;Kasse;Cash
+;;;;;;;;;1020;Banque (avoir);;;1;0;1;1;;;;actif;Bankguthaben;Cash at Bank
+;;;;;;1060;1099;Avoirs à court terme côtés en bourse;;;;;;;;;;;;actif;Kurzfristig gehaltene Aktiven mit Börsenkurs;Short-term Assets with Market Price
+;;;;;;;;;1060;Titres;;;0;0;1;0;;;;actif; Wertschriften;Securities
+;;;;;;;;;1069;Ajustement de la valeur des titres;;;0;0;1;0;;;;actif;Wertberichtigungen Wertschriften ;Adjustements on Securities
+;;;;;;1100;1139;Créances résultant de livraison et de prestation;;;;;;;;;;;;actif;Forderungen aus Lieferungen und Leistungen;Accounts Receivable from Deliveries and Services
+;;;;;;;;;1100;Créances provenant de livraison et de prestations (Débiteurs);;;0;0;1;1;;;;actif;Forderungen aus Lieferungen und Leistungen (Debitoren);Accounts Receivable from Deliveries and Services
+;;;;;;;;;1109;Ducroire;;;0;0;0;1;;;;actif;Delkredere ;Provisions for Doubtful Debts
+;;;;;;;;;1110;Créances résultant de livr. et prest. envers les sociétés du groupe;;;0;0;1;0;;;;actif;Forderungen aus Lieferungen und Leistungen gegenüber Tochtergesellschaften;Accounts Receivable from Deliveries and Services against Societies of the Group
+;;;;;;1140;1199;Autres créances à court terme ;;;;;;;;;;;;actif;Übrige kurzfristige Forderungen;Other short-term Accounts Receivable
+;;;;;;;;;1140;Avances et prêts;;;0;0;1;0;;;;actif;Vorschüsse und Darlehen;Advance Payment and Credit
+;;;;;;;;;1149;Ajustement de la valeur des avances et des prêts;;;0;0;0;0;;;;actif;Wertberichtigungen Vorschüsse und Darlehen;Adjustments on Advance Payment and Credit
+;;;;;;;;;1170;Impôt préalable: TVA s/matériel, marchandises, prestations et énergie;;;0;0;1;1;;paye;;actif;Vorsteuer MWST Material, Waren, Dienstleistungen, Energie;Input VAT on Material, Goods, Services and Energy
+;;;;;;;;;1171;Impôt préalable: TVA s/investissements et autres charges d’exploitation;;;0;0;1;0;;;;actif;Vorsteuer MWST Investitionen, übriger Betriebsaufwand;Input VAT on Investments and other Operative Expenses
+;;;;;;;;;1176;Impôt anticipé;;;0;0;1;0;;;;actif;Verrechnungssteuer;Withholding Tax
+;;;;;;;;;1180;Créances envers les assurances sociales et institutions de prévoyance;;;0;0;1;0;;;;actif;Forderungen gegenüber Sozialversicherungen und Vorsorgeeinrichtungen ;Accounts Receivable against Social Security and Pension Plan
+;;;;;;;;;1189;Impôt à la source;;;0;0;1;0;;;;actif;Quellensteuer;Tax at Source
+;;;;;;;;;1190;Autres créances à court terme;;;0;0;1;1;;;;actif;Sonstige kurzfristige Forderungen;Other short-term Accounts Receivables
+;;;;;;;;;1199;Ajustement de la valeur des créances à court terme ;;;0;0;0;0;;;;actif;Wertberichtigungen sonstige kurzfristige Forderungen;Adjustments on other short-term Accounts Receivables
+;;;;;;1200;1299;Stocks et prestations non facturées;;;;;;;;;;;;actif;Vorräte und nicht fakturierte Dienstleistungen;Stock and not billed Services
+;;;;;;;;;1200;Marchandises commerciales;;;0;1;1;0;;;;actif;Handelswaren;Trade Goods
+;;;;;;;;;1210;Matières premières;;;0;1;1;1;;;;actif;Rohstoffe;Raw Materials
+;;;;;;;;;1220;Matières auxiliaires;;;0;1;1;0;;;;actif;Werkstoffe;Advanced Materials
+;;;;;;;;;1230;Matières consommables;;;0;1;1;0;;;;actif;Hilfs- und Verbrauchsmaterial;Consumables
+;;;;;;;;;1250;Marchandises en consignation;;;0;1;1;0;;;;actif;Handelswaren in Konsignation;Trade Goods in Consignment
+;;;;;;;;;1260;Stocks de produits finis;;;0;1;1;1;;;;actif;Fertige Erzeugnisse;Finished Goods
+;;;;;;;;;1280;Travaux en cours ;;;0;1;1;0;;;;actif;Nicht fakturierte Dienstleistungen ;Not billed Services
+;;;;;;1300;1399;Compte de régularisation de l’actif ;;;;;;;;;;;;actif;Aktive Rechnungsabgrenzungen;Accrual and Deferral
+;;;;;;;;;1300;Charges payées d‘avance;;;0;0;1;1;;;;actif;Bezahlter Aufwand des Folgejahres;Deferred Charges
+;;;;;;;;;1301;Produits à recevoir;;;0;0;1;0;;;;actif;Noch nicht erhaltener Ertrag;Accrued Income
+;;;1400;1999;Actifs immobilisés;;;;;;;;;;;;1;;;actif;Anlagevermögen;Fixed Assets
+;;;;;;1400;1479;Immobilisations financières;;;;;;;;;;;;actif;Finanzanlagen;Financial Assets
+;;;;;;;;;1400;Titres à long terme;;;0;0;1;0;;;;actif;Wertschriften;Securities
+;;;;;;;;;1409;Ajustement de la valeur des titres;;;0;0;1;0;;;;actif;Wertberichtigungen Wertschriften;Adjustment on Securities
+;;;;;;;;;1440;Prêts;;;0;0;1;0;;;;actif;Darlehen;Loan
+;;;;;;;;;1441;Hypothèques;;;0;0;1;0;;;;actif;Hypotheken;Mortgage
+;;;;;;;;;1449;Ajustement de la valeur des créances à long terme;;;0;0;0;0;;;;actif;Wertberichtigungen langfristige Forderungen;Adjustment on long-term Financial Assets
+;;;;;;1480;1499;Participations;;;;;;;;;;;;actif;Beteiligungen ;Participations
+;;;;;;;;;1480;Participations;;;0;0;1;0;;;;actif;Beteiligungen ;Participations
+;;;;;;;;;1489;Ajustement de la valeur des participations;;;0;0;0;0;;;;actif;Wertberichtigungen Beteiligungen ;Adjustment on Participations
+;;;;;;1500;1599;Immobilisations corporelles meubles;;;;;;;;;;;;actif;Mobile Sachanlagen;Tangible Assets
+;;;;;;;;;1500;Machines et appareils;;;0;1;1;0;;;;actif;Maschinen und Apparate;Machinery and Appliances
+;;;;;;;;;1509;Ajustement de la valeur des machines et appareils;;;0;0;0;0;;;;actif;Wertberichtigungen Maschinen und Apparate;Adjustements on Machinery and Appliances
+;;;;;;;;;1510;Mobilier et installations;;;0;1;1;1;;;;actif;Mobiliar und Einrichtungen;Furnitures and Dispositions
+;;;;;;;;;1519;Ajustement de la valeur du mobilier et des installations;;;0;0;0;1;;;;actif;Wertberichtigungen Mobiliar und Einrichtungen;Adjustments on Furnitures and Dispositions
+;;;;;;;;;1520;Machines de bureau, informatique, systèmes de communication;;;0;1;1;0;;;;actif;Büromaschinen, Informatik, Kommunikationstechnologie;Office, IT and Communication Technologies
+;;;;;;;;;1529;Ajustement de la valeur des machines de bureau, inf. et syst. comm.;;;0;0;0;0;;;;actif;Wertberichtigungen Büromaschinen, Informatik, Kommunikationstechnologie;Adjustments on Office, IT and Communication Technologies
+;;;;;;;;;1530;Véhicules;;;0;1;1;1;;;;actif;Fahrzeuge;Vehicles
+;;;;;;;;;1539;Ajustement de la valeur des véhicules;;;0;0;0;1;;;;actif;Wertberichtigungen Fahrzeuge;Adjustments on Vehicles
+;;;;;;;;;1540;Outillages et appareils;;;0;1;1;0;;;;actif;Werkzeuge und Geräte;Tools and Equipments
+;;;;;;;;;1549;Ajustement de la valeur des outillages et appareils;;;0;0;0;0;;;;actif;Wertberichtigungen Werkzeuge und Geräte;Adjustments on Tools and Equipments
+;;;;;;1600;1699;Immobilisations corporelles immeubles ;;;;;;;;;;;;actif;Immobile Sachanlagen;Real estate
+;;;;;;;;;1600;Immeubles d’exploitation;;;0;1;1;1;;;;actif;Geschäftsliegenschaften;Commercial Real Estate
+;;;;;;;;;1609;Ajustement de la valeur des immeubles d’exploitation;;;0;0;0;1;;;;actif;Wertberichtigungen Geschäftsliegenschaften;Adjustment on Commercial Real Estate
+;;;;;;1700;1799;Immobilisations incorporelles ;;;;;;;;;;;;actif;Immaterielle Werte;Intangible Assets
+;;;;;;;;;1700;Brevets, know-how, licences, droits, développement;;;0;1;1;0;;;;actif;Patente, Know-how, Lizenzen, Rechte, Entwicklungen;Patent, Know-how, License, Right, Development
+;;;;;;;;;1709;Ajustement de la valeur des brevets, know-how, licences, droits, dév.;;;0;0;0;0;;;;actif;Wertberichtigungen Patente, Know-how, Lizenzen, Rechte, Entwicklungen;Adjustments on Patent, Know-how, License, Right, Development
+;;;;;;;;;1770;Goodwill;;;0;0;1;0;;;;actif;Goodwill;Goodwill
+;;;;;;;;;1779;Ajustement de la valeur des goodwill;;;0;0;0;0;;;;actif;Wertberichtigungen Goodwill;Adjustment on Goodwill
+;;;;;;1800;1999;Capital non versé : capital social, capital de fondation ;;;;;;;;;;;;actif;"Nicht einbezahltes Grund-, Gesellschafter- oder Stiftungskapital";not paid in full original, company or fundation capital
+;;;;;;;;;1850;Capital actions, capital social, droits de participations ou capital de fondation non versés ;;;0;0;1;0;;;;actif;Nicht einbezahltes Aktien-, Stamm-, Anteilschein- oder  Stiftungskapital;not paid in full original, nominal, shared or fundation capital
+2000;2799;PASSIF;;;;;;;;;;;;;;;1;;;passif;Passiven;Passiv
+;;;2000;2399;Dettes à court terme;;;;;;;;;;;;1;;;passif;Kurzfristiges Fremdkapital;Short-term Liabilities
+;;;;;;2000;2099;Dettes à court terme résultant d’achats et de prestations de services;;;;;;;;;;;;passif;Verbindlichkeiten aus Lieferungen und Leistungen;Account Payable from Deliveries and Services
+;;;;;;;;;2000;Dettes résultant d’achats et de prestation de services (créanciers);;;0;0;0;1;;;;passif;Verbindlichkeiten aus Lieferungen und Leistungen (Kreditoren);Account Payable from Deliveries and Services
+;;;;;;;;;2030;Acomptes de clients;;;0;0;0;1;;;;passif;Erhaltene Anzahlungen;Advance Payment
+;;;;;;;;;2050;Dettes résultant d’achats et de prestations de services envers des sociétés du groupe ;;;0;0;0;0;;;;passif;Verbindlichkeiten aus Lieferungen und Leistungen gegenüber Tochtergesellschaften;Account Payable from Deliveries and Services from Societies of the Group
+;;;;;;2100;2199;Dettes à court terme rémunérés;;;;;;;;;;;;passif;Kurzfristige verzinsliche Verbindlichkeiten;Short-term Debt bearing Interest
+;;;;;;;;;2100;Dettes bancaires;;;0;0;0;0;;;;passif;Bankverbindlichkeiten;Liabilities to Bank
+;;;;;;;;;2120;Engagements de financement par leasing;;;0;0;0;0;;;;passif;Verbindlichkeiten aus Finanzierungsleasing;Liabilities from Financial Leasing
+;;;;;;;;;2140;Autres dettes à court terme rémunérées;;;0;0;0;0;;;;passif;Übrige verzinsliche Verbindlichkeiten ;Other Liabilities bearing Interest
+;;;;;;2200;2299;Autres dettes à court terme ;;;;;;;;;;;;passif;Übrige kurzfristige Verbindlichkeiten;Other short-term Liabilities
+;;;;;;;;;2200;TVA due;;;0;0;0;1;;recu;;passif;Geschuldete MWST (Umsatzsteuer);VAT owed (Sales Tax)
+;;;;;;;;;2201;Décompte TVA;;;0;0;0;0;;;;passif;Abrechnungskonto MWST;VAT Settlement Account
+;;;;;;;;;2206;Impôt anticipé dû;;;0;0;0;0;;;;passif;Verrechnungssteuer;Withholding Tax
+;;;;;;;;;2208;Impôts directs;;;0;0;0;0;;;;passif;Direkte Steuern;Direct Tax
+;;;;;;;;;2210;Autres dettes à court terme;;;0;0;0;1;;;;passif;Sonstige kurzfristige Verbindlichkeiten;Other short-term Liabilities
+;;;;;;;;;2261;Dividendes;;;0;0;0;0;;;;passif;Beschlossene Ausschüttungen;Decided Payout
+;;;;;;;;;2270;Assurances sociales et institutions de prévoyance;;;0;0;0;0;;;;passif;Sozialversicherungen und Vorsorgeeinrichtungen;Social Insurance and Pension Plan
+;;;;;;;;;2279;Impôt à la source;;;0;0;0;0;;;;passif;Quellensteuer;Tax at Source
+;;;;;;2300;2399;Passifs de régularisation et provisions à court terme;;;;;;;;;;;;passif;Passive Rechnungsabgrenzungen und kurzfristige Rückstellungen;Accrual and Deferral
+;;;;;;;;;2300;Charges à payer;;;0;0;0;1;;;;passif;Noch nicht bezahlter Aufwand;Accrued Charges
+;;;;;;;;;2301;Produits encaissés d’avance;;;0;0;0;0;;;;passif;Erhaltener Ertrag des Folgejahres;Deferred Incomes
+;;;;;;;;;2330;Provisions à court terme;;;0;0;0;0;;;;passif;Kurzfristige Rückstellungen;Short-term Provisions
+;;;2400;2799;Dettes à long terme;;;;;;;;;;;;1;;;passif;Langfristiges Fremdkapital;Long-term Liabilities
+;;;;;;2400;2499;Dettes à long terme rémunérées;;;;;;;;;;;;passif;Langfristige verzinsliche Verbindlichkeiten;Long-term Liabilities bearing Interest
+;;;;;;;;;2400;Dettes bancaires;;;0;0;0;1;;;;passif;Bankverbindlichkeiten;Bank liabilities
+;;;;;;;;;2420;Engagements de financement par leasing;;;0;0;0;0;;;;passif;Verbindlichkeiten aus Finanzierungsleasing;Liabilities from Financial Leasing
+;;;;;;;;;2430;Emprunts obligataires;;;0;0;0;0;;;;passif;Obligationenanleihen;Bond
+;;;;;;;;;2450;Emprunts;;;0;0;0;0;;;;passif;Darlehen;Loan
+;;;;;;;;;2451;Hypothèques;;;0;0;0;0;;;;passif;Hypotheken;Mortgage
+;;;;;;2500;2599;Autres dettes à long terme;;;;;;;;;;;;passif;Übrige langfristige Verbindlichkeiten;Other long-term Liabilities
+;;;;;;;;;2500;Autres dettes à long terme;;;0;0;0;0;;;;passif;Übrige langfristige Verbindlichkeiten (unverzinslich) ;Other long-term Liabilities (not bearing Interest)
+;;;;;;2600;2799;Provisions à long termes et provisions légales;;;;;;;;;;;;passif;Rückstellungen sowie vom Gesetz vorgesehene ähnliche Positionen;Provisions and legal reserves
+;;;;;;;;;2600;Provisions;;;0;0;0;0;;;;passif;Rückstellungen;Provisions
+2800;2999;FONDS PROPRES;;;;;;;;;;;;;;;1;;;equity;EIGENKAPITAL;EQUITY
+;;;2800;2999;Fonds propres (personnes morales) ;;;;;;;;;;;;;;legal person;equity;Eigenkapital (juristische Personen);Equity (legal Person)
+;;;;;;2800;2898;Capital social ou capital de fondation;;;;;;;;;;;legal person;equity;Grund-, Gesellschafter- oder Stiftungskapital;Initial, Shareholders or Fundation Equity
+;;;;;;;;;2800;Capital-actions, capital social, capital de fondation ;;;0;0;0;1;;;legal person;equity;Aktien-, Stamm-, Anteilschein- oder Stiftungskapital;Shareholder, Nominal or Fundation Equity
+;;;;;;2900;2998;Réserves / bénéfices et pertes;;;;;;;;;;;legal person;equity;Reserven und Jahresgewinn oder Jahresverlust;Reserves and Annual Profit or Loss
+;;;;;;;;;2900;Réserves légales issues du capital;;;0;0;0;0;;;legal person;equity;Gesetzliche Kapitalreserve;Legal Capital Reserves
+;;;;;;;;;2930;Réserves sur participations propres au capital;;;0;0;0;0;;;legal person;equity;Reserve für eigene Kapitalanteile;Reserves for own Shares
+;;;;;;;;;2940;Réserves d‘évaluation;;;0;0;0;0;;;legal person;equity;Aufwertungsreserve;Revaluation Reserves
+;;;;;;;;;2950;Réserves légales issues du bénéfice;;;0;0;0;1;;;legal person;equity;Gesetzliche Gewinnreserve;Legal Reserves from Profit
+;;;;;;;;;2960;Réserves libres;;;0;0;0;0;;;legal person;equity;Freiwillige Gewinnreserven;Voluntary Reserves from Profit
+;;;;;;;;;2970;Bénéfice / perte reporté;;;0;0;0;1;;;legal person;equity;Gewinnvortrag oder Verlustvortrag;Profit/Loss brought Forward
+;;;;;;;;;2979;Bénéfice / perte de l’exercice;;;0;0;0;1;;;legal person;equity;Jahresgewinn oder Jahresverlust;Profit/Loss of the Year
+;;;;;;;;;2980;Propres actions, parts sociales, droits de participations (poste négatif);;;0;0;0;0;;;legal person;equity;Eigene Aktien, Stammanteile oder Anteilscheine (Minusposten);Own Shares (Minus Position)
+;;;2800;2999;Capital propre (raisons individuelles) ;;;;;;;;;;;;;;sole proprietorship;equity;Eigenkapital (Einzelunternehmen);Equity (sole proprietorship)
+;;;;;;2800;2998;Capital, compte privé et bénéfices et pertes;;;;;;;;;;;sole proprietorship;equity;Eigenkapital, Privat, Jahresgewinn oder Jahresverlust;Equity, Personal, Annual Profit or Loss
+;;;;;;;;;2800;Capital propre en début d’exercice;;;0;0;0;1;;;sole proprietorship;equity;Eigenkapital zu Beginn des Geschäftsjahres;Equity at the Start of the Year
+;;;;;;;;;2820;Apports de capital / prélèvements sur capital;;;0;0;0;1;;;sole proprietorship;equity;Kapitaleinlagen und Kapitalrückzüge;Contribution and Return of Equity
+;;;;;;;;;2850;Compte privé;;;0;0;0;1;;;sole proprietorship;equity;Privat;Personal Account
+;;;;;;;;;2891;Bénéfice / perte de l’exercice ;;;0;0;0;1;;;sole proprietorship;equity;Jahresgewinn oder Jahresverlust;Profit/Loss of the Year
+;;;2800;2999;Capital propre (sociétés de personnes) ;;;;;;;;;;;;;;private company;equity;Eigenkapital (Personengesellschaft);Equity (Private Company)
+;;;;;;2800;2998;Capital, compte privé et bénéfices et pertes;;;;;;;;;;;private company;equity;Eigenkapital, Privat, Jahresgewinn oder Jahresverlust;Equity, Personal, Annual Profit or Loss
+;;;;;;;;;2800;Capital, associés A en début d’exercice;;;0;0;0;1;;;private company;equity;Eigenkapital Gesellschafter A zu Beginn des Geschäftsjahres;Equity of Partner A at the Start of the Year
+;;;;;;;;;2810;Apports de capital / prélèvements sur capital, associé A;;;0;0;0;1;;;private company;equity;Kapitaleinlagen und Kapitalrückzüge Gesellschafter A;Contribution and Return of Equity for Partner A
+;;;;;;;;;2820;Compte privé, associé A;;;0;0;0;1;;;private company;equity;Privat Gesellschafter A;Personal Account Partner A
+;;;;;;;;;2831;Bénéfice / perte de l’exercice, associé A;;;0;0;0;1;;;private company;equity;Jahresgewinn oder Jahresverlust Gesellschafter A;Profit/Loss of the Year for Partner A
+;;;;;;;;;2850;Capital, commanditaire A en début d’exercice;;;0;0;0;0;;;private company;equity;Eigenkapital Kommanditär A zu Beginn des Geschäftsjahres;Equity of Limited Partner A at the Start of the Year
+;;;;;;;;;2860;Apport de capital / prélèvements sur capital, commanditaire A;;;0;0;0;0;;;private company;equity;Kapitaleinlagen und Kapitalrückzüge Kommanditär A;Contribution and Return of Equity for Limited Partner A
+;;;;;;;;;2870;Compte privé, commanditaire A;;;0;0;0;0;;;private company;equity;Privat Kommanditär A;Personnal Account Limited Partner A
+;;;;;;;;;2881;Bénéfice / perte de l’exercice, commanditaire A ;;;0;0;0;0;;;private company;equity;Jahresgewinn oder Jahresverlust Kommanditär A;Profit/Loss of the Year for Limited Partner A
+3000;3999;PRODUITS;;;;;;;;;;;;;;;1;;;revenue;EINKOMMEN;REVENUES
+;;;3000;3999;Chiffre d’affaires résultant des ventes et des prestations de services;;;;;;;;;;;;;;;revenue;Betrieblicher Ertrag aus Lieferungen und Leistungen;Operating Income from Deliveries and Services
+;;;;;;;;;3000;Ventes de produits fabriqués;;;0;1;0;0;;;;revenue;Produktionserlöse;Production Revenues
+;;;;;;;;;3200;Ventes de marchandises;;;0;1;0;1;;;;revenue;Handelserlöse;Trade Revenues
+;;;;;;;;;3400;Ventes de prestations;;;0;1;0;1;;;;revenue;Dienstleistungserlöse;Services Revenues
+;;;;;;;;;3600;Autres ventes et prestations de services;;;0;1;0;0;;;;revenue;Übrige Erlöse aus Lieferungen und Leistungen;Other Revenues from Deliveries and Services
+;;;;;;;;;3700;Prestations propres;;;0;1;0;1;;;;revenue;Eigenleistungen;Personal Contribution
+;;;;;;;;;3710;Consommations propres;;;0;1;0;0;;;;revenue;Eigenverbrauch;Own Consumption
+;;;;;;;;;3800;Déductions sur ventes;;;0;1;1;1;;;;revenue;Erlösminderungen;Reduction in Revenues
+;;;;;;;;;3805;Pertes sur clients, variation du ducroire;;;0;1;1;0;;;;revenue;Verluste Forderungen (Debitoren), Veränderung Delkredere;Bad Debt Loss, Adjustment of the Provision for doubtfull Debt
+;;;;;;;;;3901;Variation des stocks de produits finis;;;0;0;1;1;;;;revenue;Bestandesänderungen fertige Erzeugnisse;Inventory Adjustment on Finished Goods
+;;;;;;;;;3940;Variation de la valeur des prestations non facturées;;;0;0;1;1;;;;revenue;Bestandesänderungen nicht fakturierte Dienstleistungen;Adjustment on not billed Services
+4000;6999;CHARGES;;;;;;;;;;;;;;;1;;;charge;AUFWAND;EXPENSES
+;;;4000;4999;Variation de la valeur des prestations non facturées;;;;;;;;;;;;;;;charge;Aufwand für Material, Handelswaren, Dienstleistungen und Energie;Expenses for Materials, Consumables, Services and Energy
+;;;;;;;;;4000;Charges de matériel de l‘atelier;;;0;1;1;0;;;;charge;Materialaufwand Produktion;Cost of Material for Production
+;;;;;;;;;4200;Achats de marchandises destinées à la revente;;;0;1;1;1;;;;charge;Handelswarenaufwand;Cost of Good sold
+;;;;;;;;;4400;Prestations / travaux de tiers;;;0;1;1;1;;;;charge;Aufwand für bezogene Dienstleistungen;Expenses for delivered Services
+;;;;;;;;;4500;Charges d‘énergie pour l‘exploitation;;;0;1;1;0;;;;charge;Energieaufwand zur Leistungserstellung;Energy Expenses for Goods and Services
+;;;;;;;;;4900;Déductions sur les charges;;;0;1;0;1;;;;charge;Aufwandminderungen;Reduction of Expenses
+;;;5000;5999;Charges de personnel ;;;;;;;;;;;;;;;charge;Personalaufwand ;Personnel Expenditures
+;;;;;;;;;5000;Salaires;;;0;0;1;1;;;;charge;Lohnaufwand;Salary
+;;;;;;;;;5700;Charges sociales;;;0;0;1;1;;;;charge;Sozialversicherungsaufwand;Social Security Expenditures
+;;;;;;;;;5800;Autres charges du personnel;;;0;1;1;1;;;;charge;Übriger Personalaufwand;Other Personnel Expenditures
+;;;;;;;;;5900;Charges de personnels temporaires;;;0;0;1;0;;;;charge;Leistungen Dritter;Temporary Staff Expenditures
+;;;6000;6799;Autres charges d‘exploitation;;;;.;;;;;;;;;;;charge;Übriger betrieblicher Aufwand;Other Operating Expenses
+;;;;;;;;;6000;Charges de locaux;;;0;1;1;1;;;;charge;Raumaufwand;Building Expenditures
+;;;;;;;;;6100;Entretien, réparations et remplacement des inst. servant à l’exploitation;;;0;1;1;0;;;;charge;Unterhalt, Reparaturen, Ersatz mobile Sachanlagen;Maintenance, Repair and Replacement of tangible Assets
+;;;;;;;;;6105;Leasing immobilisations corporelles meubles;;;0;1;1;0;;;;charge;Leasingaufwand mobile Sachanlagen;Leasing Expenditures for tangible Assets
+;;;;;;;;;6200;Charges de véhicules et de transport;;;0;1;1;1;;;;charge;Fahrzeug- und Transportaufwand;Vehicles and Transport Expenditures
+;;;;;;;;;6260;Leasing et location de véhicules;;;0;1;1;1;;;;charge;Fahrzeugleasing und -mieten;Leasing Expenditures for Vehicles
+;;;;;;;;;6300;Assurances-choses, droits, taxes, autorisations;;;0;1;1;1;;;;charge;Sachversicherungen, Abgaben, Gebühren, Bewilligungen;Insurance, Fees, Authorisation
+;;;;;;;;;6400;Charges d’énergie et évacuation des déchets;;;0;1;1;1;;;;charge;Energie- und Entsorgungsaufwand;Energy and Disposal Expenditures
+;;;;;;;;;6500;Charges d‘administration;;;0;1;1;1;;;;charge;Verwaltungsaufwand;Administration Expenditures
+;;;;;;;;;6570;Charges et leasing d’informatique;;;0;1;1;1;;;;charge;Informatikaufwand inkl. Leasing;IT Expenditures incl. Leasing
+;;;;;;;;;6600;Publicité;;;0;1;1;0;;;;charge;Werbeaufwand;Marketing
+;;;;;;;;;6700;Autres charges d‘exploitation;;;0;1;1;1;;;;charge;Sonstiger betrieblicher Aufwand;Other Operating Expenditures
+;;;6800;6899;Amortissements et ajustement de valeur;;;;.;;;;;;;;;;;charge;Abschreibungen und  Wertberichtigungen;Depreciation
+;;;;;;;;;6800;Amortissement et ajustement de valeur des postes sur immobilisations corporelles;;;0;0;1;1;;;;charge;Abschreibungen und Wertberichtigungen auf Positionen des  Anlagevermögens;Depreciation and Adjustments on Fixed Assets
+;;;6900;6999;Résultat financier;;;;.;;;;;;;;;;;;Finanzergebnis;Financial Results
+;;;;;;;;;6900;Charges financières;;;0;0;1;1;;;;charge;Finanzaufwand;Financial Expenditures
+;;;;;;;;;6950;Produits financiers;;;0;0;0;1;;;;revenue;Finanzertrag;Financial Revenues
+7000;9999;RESULTAT;;;;;;;;;;;;;;;1;;;;ERGEBNIS;RESULT
+;;;7000;7999;Résultat des activités annexes d‘exploitation ;;;;;;;;;;;;;;;;Betrieblicher Nebenerfolg;Secondary Operating Results
+;;;;;;;;;7000;Produits accessoires;;;0;1;0;0;;;;revenue;Ertrag Nebenbetrieb;Secondary Revenues
+;;;;;;;;;7010;Charges accessoires;;;0;1;1;0;;;;charge;Aufwand Nebenbetrieb;Secondary Expenditures
+;;;;;;;;;7500;Produits des immeubles d‘exploitation;;;0;1;0;0;;;;revenue;Ertrag betriebliche Liegenschaft;Real estate Operating Revenues
+;;;;;;;;;7510;Charges des immeubles d‘exploitation;;;0;1;1;0;;;;charge;Aufwand betriebliche Liegenschaft;Real estate Operating Expenditures
+;;;8000;8999;Résultats extraordinaires et hors exploitation ;;;;;;;;;;;;;;;;Betriebsfremder, ausserordentlicher, einmaliger oder perioden- fremder Aufwand und Ertrag;Non-Operating Revenues and Expenditures
+;;;;;;;;;8000;Charges hors exploitation;;;0;1;1;0;;;;charge;Betriebsfremder Aufwand;Non-Operating Expenditures
+;;;;;;;;;8100;Produits hors exploitation;;;0;1;0;0;;;;revenue;Betriebsfremder Ertrag;Non-Operating Revenues
+;;;;;;;;;8500;Charges extraordinaires, exceptionnelles ou hors période;;;0;1;1;1;;;;charge;Ausserordentlicher, einmaliger oder periodenfremder Aufwand;Exceptional Expenditures
+;;;;;;;;;8510;Produits extraordinaires, exceptionnels ou hors période;;;0;1;0;1;;;;revenue;Ausserordentlicher, einmaliger oder periodenfremder Ertrag;Exceptional Revenues
+;;;;;;;;;8900;Impôts directs;;;0;0;1;1;;;;charge;Direkte Steuern;Direct Tax
+;;;9000;9999;Clôture;;;;;;;;;;;;;;;;Abschluss;Closing
+;;;;;;;;;9200;Bénéfice / perte de l’exercice ;;;0;0;1;1;;;;charge;Jahresgewinn oder Jahresverlust;Profit/Loss of the Year

@@ -1,0 +1,22 @@
+.container {
+    width: 1170px;
+}
+.header .bikes_image {
+    background-image: url("images/bikes_ie.png");
+    background-size: cover;
+
+}
+.header .lady_image {
+    background-size: cover;
+    background-image: url("images/lady_2.jpg");
+}
+.centered .or_tip .sol_tip {
+    height: 130px;
+    width: 160px;
+}
+.centered .or_tip .sol_tip .text_tip {
+    top: 0;
+    padding-left: 10px;
+    padding-top: 0;
+    font-family: 'archer';
+}

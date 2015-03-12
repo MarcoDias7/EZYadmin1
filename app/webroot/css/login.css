@@ -1,0 +1,192 @@
+html {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
+body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: #EBEBEB;
+  font-family: 'rams', Arial, sans-serif;
+}
+@font-face {
+  font-family: 'rams';
+  src: url('../fontkit/rams-webfont.eot');
+  src: url('../fontkit/rams-webfont.eot?#iefix') format('embedded-opentype'), url('../fontkit/rams-webfont.woff') format('woff'), url('../fontkit/rams-webfont.ttf') format('truetype'), url('../fontkit/rams-webfont.svg#rams') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'rams_b';
+  src: url('../fontkit/rams_bold-webfont.eot');
+  src: url('../fontkit/rams_bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fontkit/rams_bold-webfont.woff') format('woff'), url('../fontkit/rams_bold-webfont.ttf') format('truetype'), url('../fontkit/rams_bold-webfont.svg#rams_b') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'rams_l';
+  src: url('../fontkit/ramslt-webfont.eot');
+  src: url('../fontkit/ramslt-webfont.eot?#iefix') format('embedded-opentype'), url('../fontkit/ramslt-webfont.woff') format('woff'), url('../fontkit/ramslt-webfont.ttf') format('truetype'), url('../fontkit/ramslt-webfont.svg#rams_l') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'archerbookregular';
+  src: url('../fontkit/archerbookregular.eot');
+  src: url('../fontkit/archerbookregular.eot?#iefix') format('embedded-opentype'), url('../fontkit/archerbookregular.woff') format('woff'), url('../fontkit/archerbookregular.ttf') format('truetype'), url('../fontkit/archerbookregular.svg#archerbookregular') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'archer_sb';
+  src: url('../fontkit/archer_sb.eot');
+  src: url('../fontkit/archer_sb.eot?#iefix') format('embedded-opentype'), url('../fontkit/archer_sb.woff') format('woff'), url('../fontkit/archer_sb.ttf') format('truetype'), url('../fontkit/archer_sb.svg#archer_sb') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'archer_bi';
+  src: url('../fontkit/archer_bi.eot');
+  src: url('../fontkit/archer_bi.eot?#iefix') format('embedded-opentype'), url('../fontkit/archer_bi.woff') format('woff'), url('../fontkit/archer_bi.ttf') format('truetype'), url('../fontkit/archer_bi.svg#archer_bi') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+.footer {
+  background-color: #a89d94;
+  color: #ffffff;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  /*margin-top: 50px;*/
+}
+.footer .footer_block {
+  min-height: 90px;
+  padding-left: 25px;
+}
+.footer .footer_block:not(:last-child) {
+  border-right: 2px solid rgba(255, 255, 255, 0.61);
+}
+@media screen and (min-width: 997px) and (max-width: 1200px) {
+  .footer .footer_block {
+    min-height: 150px;
+  }
+}
+@media screen and (max-width: 766px) {
+  .footer .footer_block:not(:first-child) {
+    border-right: none;
+  }
+}
+.footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+.footer ul li a {
+  color: #ffffff;
+  font-family: 'rams_l', Arial, sans-serif;
+}
+.footer .copyright {
+  font-size: 7pt;
+  margin-top: 15%;
+  font-family: 'rams_l', Arial, sans-serif;
+}
+.footer .social a {
+  margin-right: 5px;
+}
+.footer .social a img {
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+#login-box {
+  padding: 20px;
+  padding-top: 100px;
+  background-color: white;
+  border-bottom: 2px solid #FAAC25;
+}
+
+#logo {
+  margin-bottom: 50px;
+}
+
+
+.btn-primary {
+  background-image: none;
+  background-color: #FAAC25;
+  border: 1px solid #FAAC25;
+  border-radius: 10px 10px 10px 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-primary:hover, .btn-primary.active {
+  background-image: none;
+  background-color: white;
+  color: #FAAC25;
+  border: 1px solid #FAAC25;
+}
+
+.btn-success {
+  background-image: none;
+  background-color: #54473F;
+  border: 1px solid #54473F;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-success:hover, .btn-success.active {
+  background-image: none;
+  background-color: white;
+  color: #54473F;
+  border: 1px solid #54473F;
+}
+
+.btn-default {
+  background-image: none;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-default:hover, .btn-default.active {
+  background-image: none;
+  background-color: white;
+  color: #54473F;
+  border: 1px solid #54473F;
+}
+
+.btn-danger {
+  background-image: none;
+  background-color: #F85400;
+  border: 1px solid #F85400;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-danger:hover, .btn-danger.active {
+  background-image: none;
+  background-color: white;
+  color: #F85400;
+  border: 1px solid #F85400;
+}
+
+
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -180px;
+}
+
+.to-bottom {
+  height: 90px;
+}
+
+.alert {
+  margin-top: 20px;
+  text-align: center;
+}
