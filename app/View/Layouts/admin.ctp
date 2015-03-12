@@ -58,10 +58,11 @@
                     <span class="icon-bar"></span>
                 </a>
                 <div class="navbar-right">
-                    <ul class="nav navbar-nav">
-
-     
-                    </ul>
+                    <ul class="menubar_lang nav navbar-nav navbar-right">
+                <li><?php echo $this->Html->link(__('EN'), '/users/language/en'); ?></li>
+                <li><?php echo $this->Html->link(__('FR'), '/users/language/fr'); ?></li>
+                <li><?php echo $this->Html->link(__('DE'), '/users/language/de'); ?></li>
+            </ul>
                 </div>
             </nav>
         </header>
@@ -111,6 +112,7 @@
                                 <li><?php echo $this->Html->link('<i class="fa fa-angle-double-right"></i>' . __('Add'), '/admin/coupon_create', array('class' => 'treeview', 'escape' => false)); ?>
                                 </li>
                             </ul>
+                            
                         </li>
                         
                     </ul>
