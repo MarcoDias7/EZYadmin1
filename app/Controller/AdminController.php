@@ -1,6 +1,6 @@
 <?php
 class AdminController extends AppController {
-
+//test
 
 	public $components = array('Paginator');
 
